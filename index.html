@@ -1,0 +1,2401 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golearn - Learning Platform</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                        },
+                        duo: {
+                            green: '#58CC02',
+                            greenDark: '#46A302',
+                            blue: '#1CB0F6',
+                            blueDark: '#1899D6',
+                            purple: '#CE82FF',
+                            purpleDark: '#A552E6',
+                            orange: '#FF9600',
+                            yellow: '#FFC800',
+                            red: '#FF4B4B',
+                        },
+                        darkbg: '#0F172A',
+                        darkcard: '#1E293B',
+                        darkborder: '#334155'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- KaTeX CSS & JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <!-- React & ReactDOM CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* 3D Card Flip Mechanics */
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+
+        .backface-hidden {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 9999px;
+        }
+
+        /* Gamified 3D push down buttons */
+        .btn-3d {
+            transition: all 0.1s ease;
+            box-shadow: 0px 4px 0px var(--tw-shadow-color);
+        }
+
+        .btn-3d:active {
+            transform: translateY(4px);
+            box-shadow: 0px 0px 0px var(--tw-shadow-color);
+        }
+
+        /* Pulse glow animation */
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 15px rgba(88, 204, 2, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 25px rgba(88, 204, 2, 0.7);
+            }
+        }
+
+        .glow-active {
+            animation: pulse-glow 2s infinite;
+        }
+
+
+        /* =========================================================
+           Golearn visual system - Apple HIG-inspired presentation
+           Visual-only layer: preserves existing component structure.
+           ========================================================= */
+        :root {
+            --wl-blue: #007aff;
+            --wl-blue-pressed: #006ee6;
+            --wl-green: #34c759;
+            --wl-red: #ff3b30;
+            --wl-orange: #ff9500;
+            --wl-yellow: #ffcc00;
+            --wl-light-bg: #f2f2f7;
+            --wl-light-surface: rgba(255, 255, 255, 0.96);
+            --wl-light-grouped: rgba(255, 255, 255, 0.72);
+            --wl-light-separator: rgba(60, 60, 67, 0.18);
+            --wl-light-label: #1d1d1f;
+            --wl-light-secondary: #6e6e73;
+            --wl-dark-bg: #000000;
+            --wl-dark-surface: rgba(28, 28, 30, 0.96);
+            --wl-dark-grouped: rgba(44, 44, 46, 0.86);
+            --wl-dark-separator: rgba(84, 84, 88, 0.55);
+            --wl-dark-label: #f5f5f7;
+            --wl-dark-secondary: #a1a1a6;
+            --wl-radius-card: 16px;
+            --wl-radius-control: 12px;
+            --wl-radius-small: 10px;
+        }
+
+        html {
+            background: var(--wl-light-bg);
+        }
+
+        html.dark {
+            background: var(--wl-dark-bg);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif !important;
+            background: var(--wl-light-bg) !important;
+            color: var(--wl-light-label) !important;
+            letter-spacing: -0.01em;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        html.dark body {
+            background: var(--wl-dark-bg) !important;
+            color: var(--wl-dark-label) !important;
+        }
+
+        /* Remove the old playful 3D/glow treatment. */
+        .btn-3d,
+        .btn-3d:active,
+        .glow-active {
+            transform: none !important;
+            animation: none !important;
+            box-shadow: none !important;
+        }
+
+        .btn-3d {
+            transition: background-color .16s ease, border-color .16s ease, color .16s ease, opacity .16s ease, transform .16s ease !important;
+        }
+
+        .btn-3d:active {
+            transform: scale(.985) !important;
+        }
+
+        /* Apple-like type hierarchy: calmer weights and tighter rhythm. */
+        [class~="font-black"] {
+            font-weight: 700 !important;
+        }
+
+        [class~="font-extrabold"] {
+            font-weight: 600 !important;
+        }
+
+        [class~="font-bold"] {
+            font-weight: 600 !important;
+        }
+
+        [class~="uppercase"] {
+            letter-spacing: .02em !important;
+        }
+
+        /* Native-feeling surfaces and radii. */
+        [class~="rounded-3xl"],
+        [class~="rounded-2xl"] {
+            border-radius: var(--wl-radius-card) !important;
+        }
+
+        [class~="rounded-xl"] {
+            border-radius: var(--wl-radius-control) !important;
+        }
+
+        [class~="rounded-lg"] {
+            border-radius: var(--wl-radius-small) !important;
+        }
+
+        [class~="shadow-xl"],
+        [class~="shadow-2xl"],
+        [class~="shadow-lg"],
+        [class~="shadow-md"],
+        [class~="shadow-sm"] {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 8px 24px rgba(0, 0, 0, .045) !important;
+        }
+
+        html.dark [class~="shadow-xl"],
+        html.dark [class~="shadow-2xl"],
+        html.dark [class~="shadow-lg"],
+        html.dark [class~="shadow-md"],
+        html.dark [class~="shadow-sm"] {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px rgba(0, 0, 0, .22) !important;
+        }
+
+        /* Header / toolbar. */
+        header.sticky {
+            background: rgba(255, 255, 255, .86) !important;
+            border-bottom-color: var(--wl-light-separator) !important;
+            backdrop-filter: saturate(180%) blur(20px) !important;
+            -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+        }
+
+        html.dark header.sticky {
+            background: rgba(0, 0, 0, .78) !important;
+            border-bottom-color: var(--wl-dark-separator) !important;
+        }
+
+        /* Desktop segmented navigation stays in place; make it quieter and native-looking. */
+        header nav {
+            background: rgba(118, 118, 128, .12) !important;
+            border: 0 !important;
+            border-radius: 10px !important;
+            padding: 2px !important;
+        }
+
+        header nav button {
+            min-height: 36px;
+            border-radius: 8px !important;
+            color: #6e6e73 !important;
+            box-shadow: none !important;
+            font-size: 13px !important;
+            font-weight: 500 !important;
+        }
+
+        header nav button:hover {
+            background: rgba(118, 118, 128, .09) !important;
+        }
+
+        header nav button[class*="bg-white"],
+        header nav button[class*="dark:bg-slate-700"] {
+            background: rgba(255, 255, 255, .94) !important;
+            color: var(--wl-blue) !important;
+            border: 0 !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .10) !important;
+        }
+
+        html.dark header nav button[class*="bg-white"],
+        html.dark header nav button[class*="dark:bg-slate-700"] {
+            background: rgba(99, 99, 102, .38) !important;
+            color: #f5f5f7 !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .35) !important;
+        }
+
+        /* Appearance control. */
+        header button[title="Toggle Dark Mode"] {
+            min-width: 36px;
+            min-height: 36px;
+            border-radius: 10px !important;
+            background: rgba(118, 118, 128, .12) !important;
+            color: #3a3a3c !important;
+            border: 0 !important;
+        }
+
+        html.dark header button[title="Toggle Dark Mode"] {
+            background: rgba(118, 118, 128, .20) !important;
+            color: #f5f5f7 !important;
+        }
+
+        /* Bottom tab bar on smaller screens. */
+        @media (max-width: 767px) {
+
+            .mobile-bottom-nav,
+            header .md\:hidden {
+                background: rgba(249, 249, 251, .92) !important;
+                border-top-color: var(--wl-light-separator) !important;
+                padding-bottom: max(8px, env(safe-area-inset-bottom)) !important;
+                backdrop-filter: saturate(180%) blur(20px) !important;
+                -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+            }
+
+            html.dark .mobile-bottom-nav,
+            html.dark header .md\:hidden {
+                background: rgba(28, 28, 30, .92) !important;
+                border-top-color: var(--wl-dark-separator) !important;
+            }
+
+            .mobile-bottom-nav button,
+            header .md\:hidden button {
+                min-width: 44px;
+                min-height: 44px;
+                border-radius: 10px !important;
+                font-weight: 500 !important;
+            }
+
+            .mobile-bottom-nav button[class*="bg-emerald-50"],
+            header .md\:hidden button[class*="bg-emerald-50"] {
+                background: rgba(0, 122, 255, .10) !important;
+                color: var(--wl-blue) !important;
+            }
+        }
+
+        /* Content layer: neutral surfaces and one restrained accent. */
+        [class~="bg-slate-50"] {
+            background: var(--wl-light-bg) !important;
+        }
+
+        [class~="dark:bg-\[#0B0F17\]"] {
+            background: var(--wl-dark-bg) !important;
+        }
+
+        [class~="bg-white"] {
+            background: var(--wl-light-surface) !important;
+        }
+
+        [class~="dark:bg-slate-900"] {
+            background: var(--wl-dark-surface) !important;
+        }
+
+        [class~="dark:bg-slate-950"] {
+            background: #000000 !important;
+        }
+
+        [class~="bg-slate-100"] {
+            background: rgba(118, 118, 128, .10) !important;
+        }
+
+        [class~="dark:bg-slate-800"] {
+            background: rgba(118, 118, 128, .18) !important;
+        }
+
+        [class~="bg-slate-50"] {
+            border-color: var(--wl-light-separator);
+        }
+
+        /* Borders become separators instead of decorative outlines. */
+        [class*="border-slate-200"],
+        [class*="border-slate-100"] {
+            border-color: var(--wl-light-separator) !important;
+        }
+
+        html.dark [class*="border-slate-800"],
+        html.dark [class*="border-slate-700"] {
+            border-color: var(--wl-dark-separator) !important;
+        }
+
+        /* Neutralize the rainbow of old brand utilities. */
+        [class~="bg-duo-green"],
+        [class~="bg-duo-green"]:hover {
+            background: var(--wl-blue) !important;
+        }
+
+        [class~="bg-duo-blue"] {
+            background: var(--wl-blue) !important;
+        }
+
+        [class~="text-duo-green"],
+        [class~="text-emerald-600"],
+        [class~="text-emerald-500"] {
+            color: var(--wl-blue) !important;
+        }
+
+        [class~="text-duo-blue"] {
+            color: var(--wl-blue) !important;
+        }
+
+        [class~="border-duo-green"],
+        [class~="border-emerald-500"] {
+            border-color: var(--wl-blue) !important;
+        }
+
+        [class~="bg-emerald-50"] {
+            background: rgba(0, 122, 255, .08) !important;
+        }
+
+        [class~="bg-emerald-100"] {
+            background: rgba(0, 122, 255, .10) !important;
+        }
+
+        [class~="dark:bg-emerald-950\/20"],
+        [class~="dark:bg-emerald-950\/40"] {
+            background: rgba(10, 132, 255, .14) !important;
+        }
+
+        [class~="bg-duo-green\/10"],
+        [class~="bg-duo-blue\/10"] {
+            background: rgba(0, 122, 255, .10) !important;
+        }
+
+        [class~="bg-duo-green\/20"],
+        [class~="bg-duo-blue\/20"] {
+            background: rgba(0, 122, 255, .14) !important;
+        }
+
+        /* Primary actions: one clear accent, no fake depth. */
+        button[class*="bg-duo-green"],
+        button[class*="bg-duo-blue"],
+        button[class*="bg-emerald-500"],
+        button[class*="bg-sky-"] {
+            background: var(--wl-blue) !important;
+            color: #fff !important;
+            border: 0 !important;
+            box-shadow: none !important;
+        }
+
+        button[class*="bg-duo-green"]:hover,
+        button[class*="bg-duo-blue"]:hover,
+        button[class*="bg-emerald-500"]:hover,
+        button[class*="bg-sky-"]:hover {
+            background: var(--wl-blue-pressed) !important;
+        }
+
+        button[class*="bg-slate-900"] {
+            background: #1d1d1f !important;
+            border: 0 !important;
+            box-shadow: none !important;
+        }
+
+        html.dark button[class*="bg-slate-900"] {
+            background: #f5f5f7 !important;
+            color: #1d1d1f !important;
+        }
+
+        /* Cards: flatter, quieter, content-first. */
+        [class*="rounded-3xl"][class*="border"],
+        [class*="rounded-2xl"][class*="border"] {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .03) !important;
+        }
+
+        [class*="scale-\[1\.02\]"] {
+            transform: none !important;
+        }
+
+        [class*="hover:shadow"]:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, .08) !important;
+        }
+
+        [class*="group-hover:translate-x-1"] {
+            transform: none !important;
+        }
+
+        /* Form controls. */
+        input,
+        textarea,
+        select {
+            font-family: inherit !important;
+            border-radius: 12px !important;
+            border-color: var(--wl-light-separator) !important;
+            background: rgba(118, 118, 128, .08) !important;
+            box-shadow: none !important;
+        }
+
+        html.dark input,
+        html.dark textarea,
+        html.dark select {
+            border-color: var(--wl-dark-separator) !important;
+            background: rgba(118, 118, 128, .16) !important;
+            color: var(--wl-dark-label) !important;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none !important;
+            border-color: rgba(0, 122, 255, .7) !important;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, .16) !important;
+        }
+
+        /* Modal presentation. */
+        [class*="fixed"][class*="bg-slate-900\/"].backdrop-blur-sm {
+            background: rgba(0, 0, 0, .42) !important;
+            backdrop-filter: blur(8px) saturate(120%) !important;
+            -webkit-backdrop-filter: blur(8px) saturate(120%) !important;
+        }
+
+        html.dark [class*="fixed"][class*="bg-slate-900\/"].backdrop-blur-sm {
+            background: rgba(0, 0, 0, .58) !important;
+        }
+
+        /* Progress / status indicators. */
+        [class~="bg-duo-green"] {
+            background: var(--wl-blue) !important;
+        }
+
+        [class~="bg-emerald-500"] {
+            background: var(--wl-green) !important;
+        }
+
+        [class~="text-red-500"],
+        [class~="text-red-400"] {
+            color: var(--wl-red) !important;
+        }
+
+        [class~="text-amber-500"],
+        [class~="text-amber-400"] {
+            color: var(--wl-orange) !important;
+        }
+
+        [class~="bg-red-500\/10"] {
+            background: rgba(255, 59, 48, .10) !important;
+        }
+
+        [class~="bg-amber-500\/10"] {
+            background: rgba(255, 149, 0, .10) !important;
+        }
+
+        /* Keep touch targets comfortable without changing component structure. */
+        button {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        @media (pointer: coarse) {
+            button {
+                min-height: 44px;
+            }
+        }
+
+        /* =========================================================
+           Deployment theme normalization
+           One coherent surface/label system in both appearances.
+           This overrides legacy Tailwind slate tokens without changing structure.
+           ========================================================= */
+        :root {
+            color-scheme: light;
+            --wl-light-bg: #f2f2f7;
+            --wl-light-surface: #ffffff;
+            --wl-light-elevated: #ffffff;
+            --wl-light-subtle: #f2f2f7;
+            --wl-light-control: #f2f2f7;
+            --wl-light-border: rgba(60, 60, 67, .16);
+            --wl-light-label: #1d1d1f;
+            --wl-light-secondary: #6e6e73;
+            --wl-light-tertiary: #8e8e93;
+            --wl-dark-bg: #000000;
+            --wl-dark-surface: #1c1c1e;
+            --wl-dark-elevated: #2c2c2e;
+            --wl-dark-subtle: #1c1c1e;
+            --wl-dark-control: rgba(118, 118, 128, .18);
+            --wl-dark-border: rgba(84, 84, 88, .55);
+            --wl-dark-label: #f5f5f7;
+            --wl-dark-secondary: #a1a1a6;
+            --wl-dark-tertiary: #8e8e93;
+        }
+
+        html:not(.dark),
+        html:not(.dark) body,
+        html:not(.dark) #root {
+            background: var(--wl-light-bg) !important;
+            color: var(--wl-light-label) !important;
+        }
+
+        html.dark {
+            color-scheme: dark;
+            background: var(--wl-dark-bg) !important;
+        }
+
+        html.dark body,
+        html.dark #root {
+            background: var(--wl-dark-bg) !important;
+            color: var(--wl-dark-label) !important;
+        }
+
+        /* Neutral surface tokens - light. */
+        html:not(.dark) [class~="bg-white"],
+        html:not(.dark) [class*="bg-white/"] {
+            background-color: var(--wl-light-surface) !important;
+        }
+
+        html:not(.dark) [class~="bg-slate-50"],
+        html:not(.dark) [class~="bg-slate-100"] {
+            background-color: var(--wl-light-subtle) !important;
+        }
+
+        html:not(.dark) [class~="bg-slate-200"] {
+            background-color: #e5e5ea !important;
+        }
+
+        /* Neutral surface tokens - dark. */
+        html.dark [class~="bg-white"],
+        html.dark [class*="bg-white/"] {
+            background-color: var(--wl-dark-surface) !important;
+        }
+
+        html.dark [class~="bg-slate-50"],
+        html.dark [class~="bg-slate-100"] {
+            background-color: var(--wl-dark-subtle) !important;
+        }
+
+        html.dark [class~="bg-slate-200"] {
+            background-color: var(--wl-dark-control) !important;
+        }
+
+        html.dark [class~="bg-slate-700"],
+        html.dark [class*="bg-slate-700/"] {
+            background-color: var(--wl-dark-elevated) !important;
+        }
+
+        html.dark [class~="bg-slate-800"],
+        html.dark [class*="bg-slate-800/"] {
+            background-color: var(--wl-dark-control) !important;
+        }
+
+        html.dark [class~="bg-slate-900"],
+        html.dark [class*="bg-slate-900/"] {
+            background-color: var(--wl-dark-surface) !important;
+        }
+
+        html.dark [class~="bg-slate-950"],
+        html.dark [class*="bg-slate-950/"] {
+            background-color: var(--wl-dark-bg) !important;
+        }
+
+        html.dark [class~="dark:bg-emerald-950/20"],
+        html.dark [class~="dark:bg-emerald-950/40"],
+        html.dark [class~="dark:bg-emerald-950/60"] {
+            background-color: rgba(10, 132, 255, .14) !important;
+        }
+
+        /* Text hierarchy - light. */
+        html:not(.dark) [class~="text-slate-900"],
+        html:not(.dark) [class~="text-slate-800"],
+        html:not(.dark) [class~="text-slate-700"] {
+            color: var(--wl-light-label) !important;
+        }
+
+        html:not(.dark) [class~="text-slate-600"],
+        html:not(.dark) [class~="text-slate-500"] {
+            color: var(--wl-light-secondary) !important;
+        }
+
+        html:not(.dark) [class~="text-slate-400"],
+        html:not(.dark) [class~="text-slate-300"] {
+            color: var(--wl-light-tertiary) !important;
+        }
+
+        /* Text hierarchy - dark. */
+        html.dark [class~="text-slate-900"],
+        html.dark [class~="text-slate-800"],
+        html.dark [class~="text-slate-700"] {
+            color: var(--wl-dark-label) !important;
+        }
+
+        html.dark [class~="text-slate-600"],
+        html.dark [class~="text-slate-500"] {
+            color: var(--wl-dark-secondary) !important;
+        }
+
+        html.dark [class~="text-slate-400"],
+        html.dark [class~="text-slate-300"] {
+            color: var(--wl-dark-tertiary) !important;
+        }
+
+        html.dark [class~="text-white"] {
+            color: var(--wl-dark-label) !important;
+        }
+
+        /* Borders / separators - light. */
+        html:not(.dark) [class*="border-slate-100"],
+        html:not(.dark) [class*="border-slate-200"],
+        html:not(.dark) [class*="border-slate-300"] {
+            border-color: var(--wl-light-border) !important;
+        }
+
+        /* Borders / separators - dark. */
+        html.dark [class*="border-slate-100"],
+        html.dark [class*="border-slate-200"],
+        html.dark [class*="border-slate-300"],
+        html.dark [class*="border-slate-700"],
+        html.dark [class*="border-slate-800"] {
+            border-color: var(--wl-dark-border) !important;
+        }
+
+        /* Header and mobile bar must use the same surface family as the page. */
+        html:not(.dark) header.sticky {
+            background: rgba(255, 255, 255, .82) !important;
+            border-bottom-color: var(--wl-light-border) !important;
+        }
+
+        html.dark header.sticky {
+            background: rgba(28, 28, 30, .82) !important;
+            border-bottom-color: var(--wl-dark-border) !important;
+        }
+
+        html:not(.dark) .mobile-bottom-nav,
+        html:not(.dark) header .md\:hidden {
+            background: rgba(255, 255, 255, .92) !important;
+            border-top-color: var(--wl-light-border) !important;
+        }
+
+        html.dark .mobile-bottom-nav,
+        html.dark header .md\:hidden {
+            background: rgba(28, 28, 30, .92) !important;
+            border-top-color: var(--wl-dark-border) !important;
+        }
+
+        /* Inputs, textareas and selects follow the same theme as their surroundings. */
+        html:not(.dark) input,
+        html:not(.dark) textarea,
+        html:not(.dark) select {
+            background: #f2f2f7 !important;
+            color: var(--wl-light-label) !important;
+            border-color: var(--wl-light-border) !important;
+        }
+
+        html.dark input,
+        html.dark textarea,
+        html.dark select {
+            background: rgba(118, 118, 128, .16) !important;
+            color: var(--wl-dark-label) !important;
+            border-color: var(--wl-dark-border) !important;
+        }
+
+        html:not(.dark) input::placeholder,
+        html:not(.dark) textarea::placeholder {
+            color: var(--wl-light-tertiary) !important;
+        }
+
+        html.dark input::placeholder,
+        html.dark textarea::placeholder {
+            color: var(--wl-dark-tertiary) !important;
+        }
+
+        /* Remove lingering dark-looking utility backgrounds in light mode. */
+        html:not(.dark) [class~="bg-slate-900"] {
+            background-color: var(--wl-light-label) !important;
+            color: #ffffff !important;
+
+        }
+
+        /* Keep muted controls truly muted in both themes. */
+        html:not(.dark) [class*="bg-slate-100"],
+        html:not(.dark) [class*="bg-slate-50/"] {
+            background-color: var(--wl-light-subtle) !important;
+        }
+
+        html.dark [class*="bg-slate-50/"],
+        html.dark [class*="bg-slate-100/"] {
+            background-color: rgba(118, 118, 128, .14) !important;
+        }
+
+        /* Reduce ornamental motion. */
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body
+    class="bg-slate-50 dark:bg-[#0B0F17] text-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-300">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef, useMemo } = React;
+
+        // Web Audio API Synthesizer for lag-free gamified sound effects
+        class AudioFX {
+            constructor() {
+                this.ctx = null;
+                this.muted = false;
+            }
+            init() {
+                if (!this.ctx) {
+                    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+                }
+            }
+            playCorrect() {
+                if (this.muted) return;
+                this.init();
+                const now = this.ctx.currentTime;
+                const osc1 = this.ctx.createOscillator();
+                const osc2 = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+
+                osc1.type = 'triangle';
+                osc2.type = 'sine';
+
+                osc1.frequency.setValueAtTime(523.25, now); // C5
+                osc1.frequency.exponentialRampToValueAtTime(659.25, now + 0.1); // E5
+                osc1.frequency.exponentialRampToValueAtTime(783.99, now + 0.2); // G5
+
+                osc2.frequency.setValueAtTime(1046.50, now + 0.2); // C6
+
+                gain.gain.setValueAtTime(0.15, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.4);
+
+                osc1.connect(gain);
+                osc2.connect(gain);
+                gain.connect(this.ctx.destination);
+
+                osc1.start(now);
+                osc2.start(now + 0.2);
+                osc1.stop(now + 0.4);
+                osc2.stop(now + 0.4);
+            }
+            playIncorrect() {
+                if (this.muted) return;
+                this.init();
+                const now = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(220, now);
+                osc.frequency.exponentialRampToValueAtTime(130, now + 0.25);
+
+                gain.gain.setValueAtTime(0.15, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.3);
+
+                osc.connect(gain);
+                gain.connect(this.ctx.destination);
+
+                osc.start(now);
+                osc.stop(now + 0.3);
+            }
+            playFlip() {
+                if (this.muted) return;
+                this.init();
+                const now = this.ctx.currentTime;
+                const osc = this.ctx.createOscillator();
+                const gain = this.ctx.createGain();
+
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(400, now);
+                osc.frequency.exponentialRampToValueAtTime(800, now + 0.08);
+
+                gain.gain.setValueAtTime(0.08, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.08);
+
+                osc.connect(gain);
+                gain.connect(this.ctx.destination);
+
+                osc.start(now);
+                osc.stop(now + 0.08);
+            }
+            playLevelUp() {
+                if (this.muted) return;
+                try {
+                    confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
+                } catch (e) { }
+            }
+        }
+
+        const sound = new AudioFX();
+
+
+        function FormattedText({ content }) {
+            const containerRef = useRef(null);
+
+            useEffect(() => {
+                if (!containerRef.current || !content) return;
+
+                // Clean extra spaced strong tags or html artifacts
+                let cleanHtml = content
+                    .replace(/<strong>/g, '')
+                    .replace(/<\/strong>/g, '')
+                    .replace(/&nbsp;/g, ' ');
+
+                // Convert <span class="math">...</span> or LaTeX formula tags
+                containerRef.current.innerHTML = cleanHtml;
+
+                // Render KaTeX for elements with .math class or LaTeX math syntax
+                if (window.katex) {
+                    const mathSpans = containerRef.current.querySelectorAll('.math');
+                    mathSpans.forEach(span => {
+                        let latex = span.textContent || span.innerText;
+                        // Clean LaTeX brackets like {f\left( x \right)...}
+                        latex = latex.trim();
+                        try {
+                            window.katex.render(latex, span, { throwOnError: false, displayMode: false });
+                        } catch (e) {
+                            console.error("KaTeX Error:", e);
+                        }
+                    });
+                }
+            }, [content]);
+
+            return <span ref={containerRef} class="inline-block leading-relaxed" />;
+        }
+
+        function Navbar({ activeTab, setActiveTab, activeSubject, setActiveSubject, subjects, darkMode, setDarkMode }) {
+            const navItems = [
+                { id: 'dashboard', label: 'Explore', icon: 'compass' },
+                { id: 'flashcard', label: 'Cards', icon: 'layers', fullLabel: 'Flashcards' },
+                { id: 'tryout', label: 'Test', icon: 'file-text', fullLabel: 'Real Test' },
+                { id: 'speedrun', label: 'Speed', icon: 'zap', fullLabel: 'Speed Run' }
+            ];
+
+            return (
+                <>
+                    <header className="sticky top-0 z-40 bg-white/80 dark:bg-[#0F172A]/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                            <div className="flex items-center justify-between h-16">
+
+                                {/* Brand */}
+                                <div className="flex items-center min-w-0">
+                                    <span className="text-xl font-semibold tracking-tight text-slate-900 dark:text-white">
+                                        Golearn
+                                    </span>
+                                </div>
+
+                                {/* View Mode Navigation Tabs (Desktop) */}
+                                <nav className="hidden md:flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800/80 p-1.5 rounded-2xl border border-slate-200/60 dark:border-slate-700/50">
+                                    {navItems.map(tab => (
+                                        <button
+                                            key={tab.id}
+                                            onClick={() => { setActiveTab(tab.id); sound.playFlip(); }}
+                                            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${activeTab === tab.id
+                                                ? 'bg-white dark:bg-slate-700 text-duo-green dark:text-white shadow-sm border border-slate-200/50 dark:border-slate-600'
+                                                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/50 dark:hover:bg-slate-700/30'
+                                                }`}
+                                        >
+                                            <i data-lucide={tab.icon} className="w-4 h-4"></i>
+                                            {tab.fullLabel || tab.label}
+                                        </button>
+                                    ))}
+                                </nav>
+
+                                {/* Appearance Controls */}
+                                <div className="flex items-center gap-2">
+                                    {/* Dark Mode Switcher */}
+                                    <button
+                                        onClick={() => setDarkMode(!darkMode)}
+                                        className="p-2 rounded-2xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition"
+                                        title="Toggle Dark Mode"
+                                    >
+                                        <i data-lucide={darkMode ? 'sun' : 'moon'} className="w-4 h-4"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </header>
+
+                    {/* Mobile Bottom Navigation Bar (Sticky / Fixed to bottom) */}
+                    <nav
+                        className="mobile-bottom-nav md:hidden fixed bottom-0 left-0 right-0 z-50 flex items-center justify-around bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 px-1 pt-2 pb-[env(safe-area-inset-bottom)] shadow-lg transition-colors"
+                        aria-label="Mobile Navigation"
+                    >
+                        {navItems.map(item => {
+                            const isActive = activeTab === item.id;
+                            return (
+                                <button
+                                    key={item.id}
+                                    onClick={() => { setActiveTab(item.id); sound.playFlip(); }}
+                                    className={`flex flex-col items-center justify-center flex-1 py-1 px-2 rounded-xl text-[10px] font-bold transition-all ${isActive
+                                        ? 'text-duo-green dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40'
+                                        : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                                        }`}
+                                    aria-current={isActive ? 'page' : undefined}
+                                >
+                                    <i data-lucide={item.icon} className="w-5 h-5 mb-0.5"></i>
+                                    <span>{item.label}</span>
+                                </button>
+                            );
+                        })}
+                    </nav>
+                </>
+            );
+        }
+
+        function DashboardView({ subjects, activeSubject, setActiveSubject, onUploadJson, questions, datasets, subjectsLoading }) {
+            const currentSub = subjects.find(s => s.id === activeSubject) || subjects[0];
+            const [jsonInput, setJsonInput] = useState('');
+            const [showJsonModal, setShowJsonModal] = useState(false);
+            const [jsonStatus, setJsonStatus] = useState(null);
+
+            const handleLoadJsonText = () => {
+                try {
+                    const parsed = JSON.parse(jsonInput);
+                    if (Array.isArray(parsed)) {
+                        onUploadJson(parsed);
+                        setJsonStatus({ type: 'success', msg: 'Successfully loaded custom question JSON!' });
+                        setTimeout(() => {
+                            setShowJsonModal(false);
+                            setJsonInput('');
+                            setJsonStatus(null);
+                        }, 1200);
+                    } else {
+                        setJsonStatus({ type: 'error', msg: 'JSON must be an array of question objects!' });
+                    }
+                } catch (e) {
+                    setJsonStatus({ type: 'error', msg: 'Invalid JSON format. Please verify your string.' });
+                }
+            };
+
+            useEffect(() => {
+                if (window.lucide) {
+                    window.lucide.createIcons();
+                }
+            }, [subjects, activeSubject, subjectsLoading]);
+
+            return (
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+                    {/* Welcome Banner */}
+                    <div className="relative overflow-hidden rounded-3xl bg-duo-green p-6 sm:p-10 text-white shadow-xl shadow-duo-green/10">
+                        <div className="relative z-10 max-w-2xl space-y-3">
+                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/20 backdrop-blur-md text-black dark:text-white">
+                                Focused learning
+                            </span>
+                            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                                Level up your knowledge, effortlessly.
+                            </h1>
+                            <p className="text-white/90 text-sm sm:text-base font-medium leading-relaxed">
+                                Modular card grids, spaced repetition flashcards, and real test tryouts engineered for maximum retention.
+                            </p>
+                        </div>
+                        {/* Decorative background shapes */}
+                    </div>
+
+                    {/* Subject Grid Header */}
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div>
+                            <h2 className="text-2xl font-black text-slate-900 dark:text-white">
+                                Learning Subjects
+                            </h2>
+                            <p className="text-slate-500 dark:text-slate-400 text-xs sm:text-sm">
+                                Select a topic loaded from <code className="bg-slate-200 dark:bg-slate-800 px-1.5 py-0.5 rounded text-emerald-600 dark:text-emerald-400 font-mono">/questions/*.json</code>
+                            </p>
+                        </div>
+
+                        {/*}
+                        <button
+                            onClick={() => setShowJsonModal(true)}
+                            className="inline-flex items-center gap-2 px-4 py-2.5 bg-slate-900 dark:bg-slate-800 hover:bg-slate-800 dark:hover:bg-slate-700 text-white text-xs font-bold rounded-2xl shadow-md transition btn-3d"
+                        >
+                            <i data-lucide="file-json" className="w-4 h-4 text-emerald-400"></i>
+                            Import / Paste JSON
+                        </button>
+                        */}
+                    </div>
+
+                    {/* Subject Selection Cards Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {subjectsLoading
+                            ? /* Skeleton cards while fetching */[0, 1, 2].map(i => (
+                                <div key={i} className="p-6 rounded-3xl border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 animate-pulse">
+                                    <div className="flex items-start justify-between mb-4">
+                                        <div className="w-12 h-12 rounded-2xl bg-slate-200 dark:bg-slate-700" />
+                                    </div>
+                                    <div className="h-4 w-3/4 rounded bg-slate-200 dark:bg-slate-700 mb-2" />
+                                    <div className="h-3 w-full rounded bg-slate-100 dark:bg-slate-800 mb-1" />
+                                    <div className="h-3 w-2/3 rounded bg-slate-100 dark:bg-slate-800 mb-4" />
+                                    <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+                                        <div className="h-3 w-24 rounded bg-slate-200 dark:bg-slate-700" />
+                                        <div className="h-3 w-16 rounded bg-slate-200 dark:bg-slate-700" />
+                                    </div>
+                                </div>
+                            ))
+                            : subjects.map(sub => {
+                                const isSelected = sub.id === activeSubject;
+                                return (
+                                    <div
+                                        key={sub.id}
+                                        onClick={() => { setActiveSubject(sub.id); sound.playFlip(); }}
+                                        className={`group relative p-6 rounded-3xl border-2 cursor-pointer transition-all duration-200 ${isSelected
+                                            ? 'border-duo-green bg-emerald-50/50 dark:bg-emerald-950/20 shadow-xl shadow-duo-green/10 scale-[1.02]'
+                                            : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-300 dark:hover:border-slate-700 hover:shadow-lg'
+                                            }`}
+                                    >
+                                        <div className="flex items-start justify-between mb-4">
+                                            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center ${sub.bgColor} shadow-sm`}>
+                                                <i data-lucide={sub.icon} className={`w-6 h-6 ${sub.iconColor || 'text-slate-600 dark:text-slate-300'}`}></i>
+                                            </div>
+                                            {isSelected && (
+                                                <span className="flex items-center gap-1 text-xs font-bold text-duo-green dark:text-emerald-400 bg-duo-green/10 px-2.5 py-1 rounded-full border border-duo-green/20">
+                                                    <i data-lucide="check-circle-2" className="w-3.5 h-3.5"></i> Active
+                                                </span>
+                                            )}
+                                        </div>
+
+                                        <h3 className="text-lg font-extrabold text-slate-900 dark:text-white mb-1">
+                                            {sub.title}
+                                        </h3>
+                                        <p className="text-xs text-slate-500 dark:text-slate-400 mb-4 line-clamp-2">
+                                            {sub.description}
+                                        </p>
+
+                                        <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800/80 text-xs font-bold text-slate-600 dark:text-slate-400">
+                                            <span className="flex items-center gap-1.5">
+                                                <i data-lucide="help-circle" className="w-4 h-4 text-duo-blue"></i>
+                                                {datasets[sub.id] ? datasets[sub.id].length : sub.count} Questions
+                                            </span>
+                                            <span className="text-duo-green font-extrabold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                                Practice <i data-lucide="arrow-right" className="w-3.5 h-3.5"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                );
+                            })
+                        }
+                    </div>
+
+                    {/* JSON Import Modal */}
+                    {showJsonModal && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in">
+                            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl space-y-4">
+                                <div className="flex items-center justify-between">
+                                    <h3 className="text-xl font-black text-slate-900 dark:text-white flex items-center gap-2">
+                                        <i data-lucide="code" className="w-5 h-5 text-duo-green"></i>
+                                        Load Question Data (/questions/*.json)
+                                    </h3>
+                                    <button onClick={() => setShowJsonModal(false)} className="text-slate-400 hover:text-slate-600 dark:hover:text-white">
+                                        <i data-lucide="x" className="w-5 h-5"></i>
+                                    </button>
+                                </div>
+
+                                <p className="text-xs text-slate-500 dark:text-slate-400">
+                                    Paste a raw JSON string structured like <code className="text-emerald-500">[{"{id_soal: 1, teks_soal: '...', options: [...]}"}]</code>.
+                                </p>
+
+                                {jsonStatus && (
+                                    <div className={`p-3 rounded-2xl text-xs font-bold border ${jsonStatus.type === 'success'
+                                        ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
+                                        : 'bg-red-500/10 border-red-500/30 text-red-500'
+                                        }`}>
+                                        {jsonStatus.msg}
+                                    </div>
+                                )}
+
+                                <textarea
+                                    value={jsonInput}
+                                    onChange={(e) => setJsonInput(e.target.value)}
+                                    placeholder='Paste JSON here... e.g. [{"id_soal":1, "teks_soal":"1+1=?", "options":[]}]'
+                                    className="w-full h-48 p-4 text-xs font-mono bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl focus:ring-2 focus:ring-duo-green focus:outline-none dark:text-slate-200"
+                                />
+
+                                <div className="flex justify-end gap-3 pt-2">
+                                    <button
+                                        onClick={() => setShowJsonModal(false)}
+                                        className="px-4 py-2 text-xs font-bold text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl"
+                                    >
+                                        Cancel
+                                    </button>
+                                    <button
+                                        onClick={handleLoadJsonText}
+                                        className="px-5 py-2.5 bg-duo-green text-white text-xs font-bold rounded-xl shadow-md btn-3d shadow-duo-green/20"
+                                    >
+                                        Import JSON
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                </div>
+            );
+        }
+
+        function FlashcardView({ questions, onCompleteCard }) {
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [isFlipped, setIsFlipped] = useState(false);
+            const [confidenceCount, setConfidenceCount] = useState({ easy: 0, medium: 0, hard: 0 });
+            const [cardHistory, setCardHistory] = useState([]);
+            const [showResultsModal, setShowResultsModal] = useState(false);
+
+            const currentQ = questions[currentIndex];
+
+            if (!currentQ || currentIndex >= questions.length) {
+                const totalReviewed = cardHistory.length || questions.length;
+                const masteredCount = confidenceCount.easy;
+                const reviewNeeded = confidenceCount.medium + confidenceCount.hard;
+                const accuracyRate = totalReviewed > 0 ? Math.round((masteredCount / totalReviewed) * 100) : 0;
+
+                return (
+                    <div className="max-w-2xl mx-auto my-12 p-6 sm:p-8 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xl space-y-6 text-center">
+                        <div className="w-20 h-20 bg-emerald-100 dark:bg-emerald-950/60 rounded-3xl flex items-center justify-center mx-auto text-duo-green text-4xl shadow-md">
+                            <i data-lucide="party-popper" className="w-9 h-9"></i>
+                        </div>
+                        <div className="space-y-2">
+                            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
+                                Flashcard Deck Completed!
+                            </h2>
+                            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
+                                Excellent job reviewing all cards! Here is your retention analysis.
+                            </p>
+                        </div>
+
+                        {/* Summary Stats Grid */}
+                        <div className="grid grid-cols-3 gap-3">
+                            <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400">
+                                <div className="text-2xl font-black">{masteredCount}</div>
+                                <div className="text-[11px] font-bold uppercase tracking-wider">Mastered</div>
+                            </div>
+                            <div className="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-400">
+                                <div className="text-2xl font-black">{reviewNeeded}</div>
+                                <div className="text-[11px] font-bold uppercase tracking-wider">Needs Review</div>
+                            </div>
+                            <div className="p-4 rounded-2xl bg-duo-blue/10 border border-duo-blue/20 text-duo-blue">
+                                <div className="text-2xl font-black">{accuracyRate}%</div>
+                                <div className="text-[11px] font-bold uppercase tracking-wider">Mastery Rate</div>
+                            </div>
+                        </div>
+
+                        {/* Action Buttons */}
+                        <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                            <button
+                                onClick={() => setShowResultsModal(true)}
+                                className="flex-1 py-3 px-4 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-extrabold text-xs rounded-2xl transition flex items-center justify-center gap-2"
+                            >
+                                <i data-lucide="eye" className="w-4 h-4 text-duo-blue"></i>
+                                See Results & Card Breakdown
+                            </button>
+                            <button
+                                onClick={() => { setCurrentIndex(0); setIsFlipped(false); setCardHistory([]); setConfidenceCount({ easy: 0, medium: 0, hard: 0 }); }}
+                                className="flex-1 py-3 px-4 bg-duo-green text-white font-extrabold text-xs rounded-2xl btn-3d shadow-lg shadow-duo-green/20"
+                            >
+                                Restart Deck <i data-lucide="rotate-cw" className="inline-block w-4 h-4 align-middle ml-1"></i>
+                            </button>
+                        </div>
+
+                        {/* Detailed Card Results Modal */}
+                        {showResultsModal && (
+                            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm text-left">
+                                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl space-y-4">
+                                    <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
+                                        <h3 className="text-xl font-black text-slate-900 dark:text-white flex items-center gap-2">
+                                            <i data-lucide="layers" className="w-5 h-5 text-duo-green"></i>
+                                            Flashcard Deck Results Breakdown
+                                        </h3>
+                                        <button onClick={() => setShowResultsModal(false)} className="text-slate-400 hover:text-slate-600 dark:hover:text-white p-1">
+                                            <i data-lucide="x" className="w-5 h-5"></i>
+                                        </button>
+                                    </div>
+
+                                    <div className="overflow-y-auto flex-1 space-y-4 pr-1">
+                                        {cardHistory.map((item, idx) => {
+                                            const correctOpt = item.question.options?.find(o => o.is_jawaban_benar === 1);
+                                            let badgeStyle = "bg-emerald-500/10 text-emerald-500 border-emerald-500/20";
+                                            let badgeLabel = (<span className="inline-flex items-center gap-1"><i data-lucide="zap" className="w-3 h-3"></i> Easy / Mastered</span>);
+                                            if (item.rating === 'medium') {
+                                                badgeStyle = "bg-amber-500/10 text-amber-500 border-amber-500/20";
+                                                badgeLabel = (<span className="inline-flex items-center gap-1"><i data-lucide="brain" className="w-3 h-3"></i> Good / Unsure</span>);
+                                            } else if (item.rating === 'hard') {
+                                                badgeStyle = "bg-red-500/10 text-red-500 border-red-500/20";
+                                                badgeLabel = (<span className="inline-flex items-center gap-1"><i data-lucide="frown" className="w-3 h-3"></i> Hard / Forgot</span>);
+                                            }
+
+                                            return (
+                                                <div key={idx} className="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/60 space-y-3">
+                                                    <div className="flex items-center justify-between">
+                                                        <span className="text-xs font-bold text-slate-400">Card #{idx + 1}</span>
+                                                        <span className={`px-2.5 py-0.5 rounded-full text-[11px] font-extrabold border ${badgeStyle}`}>
+                                                            {badgeLabel}
+                                                        </span>
+                                                    </div>
+                                                    <div className="text-sm font-bold text-slate-800 dark:text-slate-200">
+                                                        <FormattedText content={item.question.teks_soal} />
+                                                    </div>
+                                                    <div className="pt-2 border-t border-slate-200/60 dark:border-slate-800/80 text-xs text-emerald-600 dark:text-emerald-400 font-semibold">
+                                                        <span className="font-extrabold text-slate-400 block mb-1">Key Answer:</span>
+                                                        {correctOpt ? (
+                                                            <span><strong>{correctOpt.label_opsi}.</strong> <FormattedText content={correctOpt.teks_opsi} /></span>
+                                                        ) : (
+                                                            <FormattedText content={item.question.kunci_jawaban || 'Refer to solution key.'} />
+                                                        )}
+                                                    </div>
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+                                    <div className="pt-2 flex justify-end border-t border-slate-100 dark:border-slate-800">
+                                        <button
+                                            onClick={() => setShowResultsModal(false)}
+                                            className="px-5 py-2.5 bg-slate-900 dark:bg-slate-800 text-white font-bold text-xs rounded-xl"
+                                        >
+                                            Close Review
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                );
+            }
+
+            const correctOption = currentQ.options?.find(o => o.is_jawaban_benar === 1);
+
+            const handleNext = (level) => {
+                sound.playCorrect();
+                setConfidenceCount(prev => ({ ...prev, [level]: prev[level] + 1 }));
+                setCardHistory(prev => [...prev, { question: currentQ, rating: level }]);
+                setIsFlipped(false);
+                setTimeout(() => {
+                    setCurrentIndex(prev => prev + 1);
+                }, 150);
+            };
+
+            return (
+                <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
+
+                    {/* Header Progress */}
+                    <div className="flex items-center justify-between text-xs font-extrabold text-slate-500 dark:text-slate-400">
+                        <span>CARD {currentIndex + 1} OF {questions.length}</span>
+                        <div className="w-1/2 bg-slate-200 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+                            <div
+                                className="bg-duo-green h-full transition-all duration-300"
+                                style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
+                            ></div>
+                        </div>
+                        <span>{Math.round(((currentIndex + 1) / questions.length) * 100)}%</span>
+                    </div>
+
+                    {/* 3D Flip Card Container */}
+                    <div
+                        onClick={() => { setIsFlipped(!isFlipped); sound.playFlip(); }}
+                        className="perspective-1000 w-full min-h-[380px] cursor-pointer"
+                    >
+                        <div className={`relative w-full h-full min-h-[380px] duration-500 transform-style-3d transition-transform ${isFlipped ? 'rotate-y-180' : ''}`}>
+
+                            {/* Card Front (Question) */}
+                            <div className="absolute inset-0 w-full h-full backface-hidden bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-800 rounded-3xl p-8 flex flex-col justify-between shadow-xl">
+                                <div className="space-y-4">
+                                    <div className="flex items-center justify-between">
+                                        <span className="px-3 py-1 bg-duo-blue/10 text-duo-blue rounded-full text-xs font-extrabold">
+                                            {currentQ.tipe_soal || 'QUESTION'}
+                                        </span>
+                                        <span className="text-xs text-slate-400 font-bold flex items-center gap-1">
+                                            <i data-lucide="rotate-cw" className="w-3.5 h-3.5"></i> Tap to flip
+                                        </span>
+                                    </div>
+
+                                    <div className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">
+                                        <FormattedText content={currentQ.teks_soal} />
+                                    </div>
+
+                                    {currentQ.gambar_soal && (
+                                        <img src={currentQ.gambar_soal} alt="Question Diagram" className="max-h-48 rounded-2xl mx-auto object-contain border border-slate-200 dark:border-slate-800" />
+                                    )}
+                                </div>
+
+                                <div className="text-center text-xs font-extrabold text-slate-400 uppercase tracking-wider pt-4 border-t border-slate-100 dark:border-slate-800">
+                                    Click or Tap Card to reveal answer
+                                </div>
+                            </div>
+
+                            {/* Card Back (Answer & Explanation) */}
+                            <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-slate-900 dark:bg-slate-950 border-2 border-emerald-500/40 rounded-3xl p-8 flex flex-col justify-between shadow-2xl text-white">
+                                <div className="space-y-4">
+                                    <div className="flex items-center justify-between">
+                                        <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 rounded-full text-xs font-extrabold">
+                                            ANSWER REVEALED
+                                        </span>
+                                        <span className="text-xs text-slate-400 font-bold">Weight: {currentQ.bobot_nilai || '2.5'} pts</span>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="text-xs font-extrabold uppercase text-slate-400 mb-1">Correct Answer:</h4>
+                                        <div className="text-lg font-black text-emerald-400">
+                                            {correctOption ? (
+                                                <div className="flex items-center gap-2">
+                                                    <span className="w-7 h-7 bg-emerald-500 text-slate-950 rounded-full flex items-center justify-center font-bold text-sm">
+                                                        {correctOption.label_opsi}
+                                                    </span>
+                                                    <FormattedText content={correctOption.teks_opsi} />
+                                                </div>
+                                            ) : (
+                                                <FormattedText content={currentQ.kunci_jawaban || "Refer to teacher solution key."} />
+                                            )}
+                                        </div>
+                                    </div>
+
+                                    {correctOption?.gambar_opsi && (
+                                        <img src={correctOption.gambar_opsi} alt="Option Diagram" className="max-h-40 rounded-xl border border-slate-700 mx-auto" />
+                                    )}
+                                </div>
+
+                                <div className="text-xs text-slate-400 pt-4 border-t border-slate-800">
+                                    Assess your recall accuracy below to advance:
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    {/* Self Assessment Rating Buttons */}
+                    {isFlipped && (
+                        <div className="grid grid-cols-3 gap-3 animate-fade-in pt-2">
+                            <button
+                                onClick={() => handleNext('hard')}
+                                className="py-3 bg-red-500/10 hover:bg-red-500/20 text-red-500 border border-red-500/30 font-extrabold text-xs rounded-2xl transition btn-3d"
+                            >
+                                <i data-lucide="frown" className="inline-block w-4 h-4 align-middle mr-1"></i> Hard / Forgot
+                            </button>
+                            <button
+                                onClick={() => handleNext('medium')}
+                                className="py-3 bg-amber-500/10 hover:bg-amber-500/20 text-amber-500 border border-amber-500/30 font-extrabold text-xs rounded-2xl transition btn-3d"
+                            >
+                                <i data-lucide="brain" className="inline-block w-4 h-4 align-middle mr-1"></i> Good / Unsure
+                            </button>
+                            <button
+                                onClick={() => handleNext('easy')}
+                                className="py-3 bg-duo-green hover:bg-emerald-600 text-white font-extrabold text-xs rounded-2xl transition btn-3d shadow-lg shadow-duo-green/20"
+                            >
+                                <i data-lucide="zap" className="inline-block w-4 h-4 align-middle"></i> Easy / Mastered
+                            </button>
+                        </div>
+                    )}
+
+                </div>
+            );
+        }
+
+        function TryoutView({ questions, onFinishTryout }) {
+            const [answers, setAnswers] = useState({});
+            const [essayAnswers, setEssayAnswers] = useState({});
+            const [currentQIndex, setCurrentQIndex] = useState(0);
+            const [timeLeft, setTimeLeft] = useState(1200); // 20 mins
+            const [isSubmitted, setIsSubmitted] = useState(false);
+            const [showSubmitConfirmModal, setShowSubmitConfirmModal] = useState(false);
+            const [showResultsModal, setShowResultsModal] = useState(false);
+            const [filterResult, setFilterResult] = useState('all'); // 'all', 'correct', 'incorrect'
+
+            useEffect(() => {
+                if (isSubmitted || timeLeft <= 0) return;
+                const timer = setInterval(() => setTimeLeft(prev => prev - 1), 1000);
+                return () => clearInterval(timer);
+            }, [timeLeft, isSubmitted]);
+
+            const currentQ = questions[currentQIndex];
+
+            const handleSelectOption = (qId, optionId) => {
+                if (isSubmitted) return;
+                sound.playFlip();
+                setAnswers(prev => ({ ...prev, [qId]: optionId }));
+            };
+
+            const formatTime = (secs) => {
+                const m = Math.floor(secs / 60);
+                const s = secs % 60;
+                return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+            };
+
+            const calculateScore = () => {
+                let totalEarned = 0;
+                let maxPossible = 0;
+                let correctCount = 0;
+                let incorrectCount = 0;
+                let unansweredCount = 0;
+
+                questions.forEach(q => {
+                    const weight = parseFloat(q.bobot_nilai || 2.5);
+                    maxPossible += weight;
+
+                    if (q.tipe_soal === 'PILGAN') {
+                        const selected = answers[q.id_soal];
+                        const correctOpt = q.options?.find(o => o.is_jawaban_benar === 1);
+                        if (selected === undefined) {
+                            unansweredCount++;
+                        } else if (selected === correctOpt?.id_opsi) {
+                            totalEarned += weight;
+                            correctCount++;
+                        } else {
+                            incorrectCount++;
+                        }
+                    } else if (q.tipe_soal === 'ESSAY') {
+                        const text = essayAnswers[q.id_soal];
+                        if (!text || text.trim() === '') {
+                            unansweredCount++;
+                        } else {
+                            totalEarned += weight;
+                            correctCount++;
+                        }
+                    }
+                });
+
+                return {
+                    earned: totalEarned.toFixed(1),
+                    max: maxPossible.toFixed(1),
+                    percentage: Math.round((totalEarned / (maxPossible || 1)) * 100),
+                    correctCount,
+                    incorrectCount,
+                    unansweredCount,
+                    totalQuestions: questions.length
+                };
+            };
+
+            const score = isSubmitted ? calculateScore() : null;
+
+            const answeredCount = Object.keys(answers).length + Object.keys(essayAnswers).filter(k => essayAnswers[k]?.trim()).length;
+            const unansweredCount = questions.length - answeredCount;
+
+            return (
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+                    {/* Top Bar with Timer */}
+                    <div className="flex flex-col sm:flex-row items-center justify-between bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-3xl mb-6 shadow-sm gap-4">
+                        <div>
+                            <h2 className="text-xl font-black text-slate-900 dark:text-white">
+                                Real Test Tryout Simulation
+                            </h2>
+                            <p className="text-xs text-slate-500">Standardized School Exam Mode</p>
+                        </div>
+
+                        <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-2xl font-mono text-sm font-extrabold text-duo-blue">
+                                <i data-lucide="clock" className="w-4 h-4"></i>
+                                {formatTime(timeLeft)}
+                            </div>
+
+                            {!isSubmitted ? (
+                                <button
+                                    onClick={() => setShowSubmitConfirmModal(true)}
+                                    className="px-5 py-2.5 bg-duo-green hover:bg-emerald-600 text-white font-extrabold text-xs rounded-2xl shadow-md btn-3d flex items-center gap-2"
+                                >
+                                    <i data-lucide="check-circle-2" className="w-4 h-4"></i>
+                                    Finish & Submit ({answeredCount}/{questions.length})
+                                </button>
+                            ) : (
+                                <div className="px-4 py-2 bg-emerald-500/10 text-emerald-400 font-black text-xs rounded-2xl flex items-center gap-2 border border-emerald-500/20">
+                                    <i data-lucide="check-check" className="w-4 h-4"></i>
+                                    EXAM SUBMITTED
+                                </div>
+                            )}
+                        </div>
+                    </div>
+
+                    {/* Test Results Banner (If Submitted) */}
+                    {isSubmitted && (
+                        <div className="mb-8 p-6 sm:p-8 border border-emerald-500/40 rounded-3xl text-white shadow-2xl space-y-6">
+                            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b border-slate-800 pb-6">
+                                <div className="space-y-1">
+                                    <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest flex items-center gap-1.5">
+                                        <i data-lucide="award" className="w-4 h-4"></i> Final Score Report
+                                    </span>
+                                    <h3 className="text-3xl sm:text-4xl font-black">{score.percentage}% Overall Score</h3>
+                                    <p className="text-xs text-slate-300">Earned {score.earned} out of {score.max} weighted points.</p>
+                                </div>
+
+                                <div className="flex items-center gap-3 w-full md:w-auto">
+                                    <button
+                                        onClick={() => setShowResultsModal(true)}
+                                        className="flex-1 md:flex-initial px-6 py-3 bg-duo-green hover:bg-emerald-600 text-white font-extrabold text-xs rounded-2xl btn-3d shadow-lg shadow-duo-green/30 flex items-center justify-center gap-2"
+                                    >
+                                        <i data-lucide="eye" className="w-4 h-4"></i>
+                                        See Results & Answer Key
+                                    </button>
+                                    <button
+                                        onClick={() => { setIsSubmitted(false); setAnswers({}); setEssayAnswers({}); }}
+                                        className="px-5 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-extrabold text-xs rounded-2xl transition"
+                                    >
+                                        Retake Exam
+                                    </button>
+                                </div>
+                            </div>
+
+                            {/* Stat Badges */}
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                                <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-center">
+                                    <div className="text-2xl font-black text-emerald-400">{score.correctCount}</div>
+                                    <div className="text-[11px] text-slate-400 font-bold uppercase">Correct Answers</div>
+                                </div>
+                                <div className="p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-center">
+                                    <div className="text-2xl font-black text-red-400">{score.incorrectCount}</div>
+                                    <div className="text-[11px] text-slate-400 font-bold uppercase">Incorrect Answers</div>
+                                </div>
+                                <div className="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-center">
+                                    <div className="text-2xl font-black text-amber-400">{score.unansweredCount}</div>
+                                    <div className="text-[11px] text-slate-400 font-bold uppercase">Unanswered</div>
+                                </div>
+                                <div className="p-4 rounded-2xl bg-duo-blue/10 border border-duo-blue/20 text-center">
+                                    <div className="text-2xl font-black text-duo-blue">{score.totalQuestions}</div>
+                                    <div className="text-[11px] text-slate-400 font-bold uppercase">Total Questions</div>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Submit Confirmation Modal */}
+                    {showSubmitConfirmModal && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm animate-fade-in">
+                            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl space-y-5">
+                                <div className="w-14 h-14 bg-amber-500/10 text-amber-500 rounded-2xl flex items-center justify-center mx-auto text-2xl font-black">
+                                    <i data-lucide="clipboard-list" className="w-8 h-8"></i>
+                                </div>
+                                <div className="text-center space-y-2">
+                                    <h3 className="text-xl font-black text-slate-900 dark:text-white">
+                                        Submit Exam Now?
+                                    </h3>
+                                    <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                                        You have filled <span className="font-extrabold text-duo-blue">{answeredCount}</span> out of <span className="font-extrabold">{questions.length}</span> questions.
+                                        {unansweredCount > 0 && (
+                                            <span className="block mt-1 text-amber-500 font-semibold">
+                                                <i data-lucide="alert-triangle" className="inline-block w-4 h-4 align-middle mr-1"></i> {unansweredCount} question(s) are still unanswered!
+                                            </span>
+                                        )}
+                                    </p>
+                                </div>
+
+                                <div className="flex gap-3 pt-2">
+                                    <button
+                                        onClick={() => setShowSubmitConfirmModal(false)}
+                                        className="flex-1 py-3 text-xs font-bold text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl"
+                                    >
+                                        Keep Testing
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setShowSubmitConfirmModal(false);
+                                            setIsSubmitted(true);
+                                            sound.playLevelUp();
+                                        }}
+                                        className="flex-1 py-3 bg-duo-green text-white text-xs font-extrabold rounded-xl shadow-md btn-3d shadow-duo-green/20"
+                                    >
+                                        Confirm & Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Detailed Answer Key & Results Modal for Tryout */}
+                    {showResultsModal && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm">
+                            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 max-w-4xl w-full max-h-[88vh] flex flex-col shadow-2xl space-y-4">
+
+                                <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
+                                    <div>
+                                        <h3 className="text-xl font-black text-slate-900 dark:text-white flex items-center gap-2">
+                                            <i data-lucide="file-check-2" className="w-5 h-5 text-duo-green"></i>
+                                            Exam Detailed Answer Key & Review
+                                        </h3>
+                                        <p className="text-xs text-slate-500 dark:text-slate-400">Review every answer, explanations and weight points.</p>
+                                    </div>
+                                    <button onClick={() => setShowResultsModal(false)} className="text-slate-400 hover:text-slate-600 dark:hover:text-white p-1">
+                                        <i data-lucide="x" className="w-5 h-5"></i>
+                                    </button>
+                                </div>
+
+                                {/* Filter Tabs */}
+                                <div className="flex gap-2 text-xs font-bold">
+                                    {[
+                                        { id: 'all', label: `All (${questions.length})` },
+                                        { id: 'correct', label: `Correct (${score?.correctCount || 0})` },
+                                        { id: 'incorrect', label: `Incorrect / Skipped (${(score?.incorrectCount || 0) + (score?.unansweredCount || 0)})` }
+                                    ].map(tab => (
+                                        <button
+                                            key={tab.id}
+                                            onClick={() => setFilterResult(tab.id)}
+                                            className={`px-3 py-1.5 rounded-xl transition ${filterResult === tab.id
+                                                ? 'bg-duo-blue text-white shadow-sm'
+                                                : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
+                                                }`}
+                                        >
+                                            {tab.label}
+                                        </button>
+                                    ))}
+                                </div>
+
+                                {/* Scrollable Question Breakdown List */}
+                                <div className="overflow-y-auto flex-1 space-y-4 pr-1">
+                                    {questions.filter((q) => {
+                                        if (q.tipe_soal !== 'PILGAN') return filterResult === 'all';
+                                        const selected = answers[q.id_soal];
+                                        const correctOpt = q.options?.find(o => o.is_jawaban_benar === 1);
+                                        const isCorrect = selected === correctOpt?.id_opsi;
+                                        if (filterResult === 'correct') return isCorrect;
+                                        if (filterResult === 'incorrect') return !isCorrect;
+                                        return true;
+                                    }).map((q) => {
+                                        const selectedId = answers[q.id_soal];
+                                        const userOpt = q.options?.find(o => o.id_opsi === selectedId);
+                                        const correctOpt = q.options?.find(o => o.is_jawaban_benar === 1);
+                                        const isCorrect = selectedId === correctOpt?.id_opsi;
+                                        const isUnanswered = selectedId === undefined && (!essayAnswers[q.id_soal] || !essayAnswers[q.id_soal].trim());
+
+                                        let statusBadge = (
+                                            <span className="px-2.5 py-1 rounded-full text-xs font-black bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 flex items-center gap-1">
+                                                <i data-lucide="check-circle-2" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> Correct (+{q.bobot_nilai || '2.5'} pts)
+                                            </span>
+                                        );
+
+                                        if (isUnanswered) {
+                                            statusBadge = (
+                                                <span className="px-2.5 py-1 rounded-full text-xs font-black bg-amber-500/10 text-amber-500 border border-amber-500/20 flex items-center gap-1">
+                                                    <i data-lucide="alert-triangle" className="inline-block w-4 h-4 align-middle mr-1"></i> Unanswered (0 pts)
+                                                </span>
+                                            );
+                                        } else if (!isCorrect && q.tipe_soal === 'PILGAN') {
+                                            statusBadge = (
+                                                <span className="px-2.5 py-1 rounded-full text-xs font-black bg-red-500/10 text-red-500 border border-red-500/20 flex items-center gap-1">
+                                                    <i data-lucide="x-circle" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> Incorrect (0 pts)
+                                                </span>
+                                            );
+                                        }
+
+                                        return (
+                                            <div key={q.id_soal} className="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/60 space-y-4">
+                                                <div className="flex items-center justify-between">
+                                                    <span className="text-xs font-extrabold text-slate-400">Question #{questions.indexOf(q) + 1}</span>
+                                                    {statusBadge}
+                                                </div>
+
+                                                <div className="text-sm font-bold text-slate-900 dark:text-slate-100">
+                                                    <FormattedText content={q.teks_soal} />
+                                                </div>
+
+                                                {q.gambar_soal && (
+                                                    <img src={q.gambar_soal} alt="Question Visual" className="max-h-40 rounded-xl border border-slate-200 dark:border-slate-800" />
+                                                )}
+
+                                                {q.tipe_soal === 'PILGAN' ? (
+                                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
+                                                        <div className={`p-3 rounded-xl border ${isCorrect
+                                                            ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
+                                                            : 'bg-red-500/10 border-red-500/30 text-red-600 dark:text-red-400'
+                                                            }`}>
+                                                            <span className="font-extrabold block text-[10px] uppercase mb-0.5 opacity-80">Your Choice:</span>
+                                                            {userOpt ? (
+                                                                <span><strong>{userOpt.label_opsi}.</strong> <FormattedText content={userOpt.teks_opsi} /></span>
+                                                            ) : (
+                                                                <span className="italic">No option selected</span>
+                                                            )}
+                                                        </div>
+
+                                                        <div className="p-3 rounded-xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400">
+                                                            <span className="font-extrabold block text-[10px] uppercase mb-0.5 opacity-80">Correct Answer:</span>
+                                                            {correctOpt ? (
+                                                                <span><strong>{correctOpt.label_opsi}.</strong> <FormattedText content={correctOpt.teks_opsi} /></span>
+                                                            ) : (
+                                                                <span>-</span>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                ) : (
+                                                    <div className="space-y-2 text-xs pt-1">
+                                                        <div className="p-3 bg-slate-100 dark:bg-slate-800 rounded-xl">
+                                                            <span className="font-extrabold block text-[10px] uppercase text-slate-400 mb-1">Your Written Answer:</span>
+                                                            <p className="font-mono text-slate-700 dark:text-slate-300">{essayAnswers[q.id_soal] || 'Left blank'}</p>
+                                                        </div>
+                                                        <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-emerald-600 dark:text-emerald-400">
+                                                            <span className="font-extrabold block text-[10px] uppercase mb-1">Official Solution Key:</span>
+                                                            <p className="font-mono">{q.kunci_jawaban || 'Refer to teacher commentary.'}</p>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+
+                                <div className="pt-2 flex justify-end border-t border-slate-100 dark:border-slate-800">
+                                    <button
+                                        onClick={() => setShowResultsModal(false)}
+                                        className="px-5 py-2.5 bg-slate-900 dark:bg-slate-800 text-white font-bold text-xs rounded-xl"
+                                    >
+                                        Close Answer Key
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Main Test Layout Grid */}
+                    <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+
+                        {/* Question View Column */}
+                        <div className="lg:col-span-3 space-y-6">
+                            <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
+
+                                <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
+                                    <span className="text-xs font-extrabold text-duo-blue bg-duo-blue/10 px-3 py-1 rounded-full">
+                                        QUESTION {currentQIndex + 1}
+                                    </span>
+                                    <span className="text-xs text-slate-400 font-bold">
+                                        Type: {currentQ.tipe_soal} | Weight: {currentQ.bobot_nilai || '2.5'}
+                                    </span>
+                                </div>
+
+                                <div className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 leading-relaxed">
+                                    <FormattedText content={currentQ.teks_soal} />
+                                </div>
+
+                                {currentQ.gambar_soal && (
+                                    <img src={currentQ.gambar_soal} alt="Question Visual" className="max-h-60 rounded-2xl border border-slate-200 dark:border-slate-800 mx-auto" />
+                                )}
+
+                                {/* Multiple Choice Options */}
+                                {currentQ.tipe_soal === 'PILGAN' && currentQ.options && (
+                                    <div className="space-y-3 pt-2">
+                                        {currentQ.options.map(opt => {
+                                            const isSelected = answers[currentQ.id_soal] === opt.id_opsi;
+                                            const isCorrect = opt.is_jawaban_benar === 1;
+
+                                            let btnStyle = "border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-slate-50/50 dark:bg-slate-800/40";
+                                            if (isSelected) {
+                                                btnStyle = "border-duo-blue bg-duo-blue/10 text-duo-blue font-bold";
+                                            }
+
+                                            if (isSubmitted) {
+                                                if (isCorrect) {
+                                                    btnStyle = "border-emerald-500 bg-emerald-500/20 text-emerald-400 font-bold";
+                                                } else if (isSelected && !isCorrect) {
+                                                    btnStyle = "border-red-500 bg-red-500/20 text-red-400 font-bold";
+                                                }
+                                            }
+
+                                            return (
+                                                <button
+                                                    key={opt.id_opsi}
+                                                    onClick={() => handleSelectOption(currentQ.id_soal, opt.id_opsi)}
+                                                    className={`w-full p-4 rounded-2xl border text-left transition flex items-center gap-4 ${btnStyle}`}
+                                                >
+                                                    <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-black shrink-0 ${isSelected ? 'bg-duo-blue text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+                                                        }`}>
+                                                        {opt.label_opsi}
+                                                    </span>
+
+                                                    <div className="text-sm font-medium">
+                                                        <FormattedText content={opt.teks_opsi} />
+                                                        {opt.gambar_opsi && (
+                                                            <img src={opt.gambar_opsi} alt="Option Visual" className="max-h-32 mt-2 rounded-xl" />
+                                                        )}
+                                                    </div>
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+
+                                {/* Essay Input Field */}
+                                {currentQ.tipe_soal === 'ESSAY' && (
+                                    <div className="space-y-3 pt-2">
+                                        <label className="text-xs font-bold text-slate-500">Your Answer / Calculation steps:</label>
+                                        <textarea
+                                            disabled={isSubmitted}
+                                            value={essayAnswers[currentQ.id_soal] || ''}
+                                            onChange={(e) => setEssayAnswers({ ...essayAnswers, [currentQ.id_soal]: e.target.value })}
+                                            placeholder="Write your explanation or solution here..."
+                                            className="w-full h-32 p-4 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl focus:ring-2 focus:ring-duo-blue focus:outline-none dark:text-white"
+                                        />
+                                        {isSubmitted && currentQ.kunci_jawaban && (
+                                            <div className="p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl text-xs space-y-1">
+                                                <span className="font-extrabold text-emerald-400">Sample Solution:</span>
+                                                <p className="text-slate-300 font-mono">{currentQ.kunci_jawaban}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+
+                            </div>
+
+                            {/* Pagination Buttons */}
+                            <div className="flex items-center justify-between">
+                                <button
+                                    disabled={currentQIndex === 0}
+                                    onClick={() => setCurrentQIndex(prev => prev - 1)}
+                                    className="px-5 py-2.5 bg-slate-200 dark:bg-slate-800 disabled:opacity-40 text-xs font-extrabold rounded-2xl text-slate-700 dark:text-slate-300"
+                                >
+                                    <i data-lucide="arrow-left" className="inline-block w-4 h-4 align-middle mr-1"></i> Previous
+                                </button>
+                                <button
+                                    disabled={currentQIndex === questions.length - 1}
+                                    onClick={() => setCurrentQIndex(prev => prev + 1)}
+                                    className="px-5 py-2.5 bg-duo-blue text-white text-xs font-extrabold rounded-2xl shadow-md btn-3d"
+                                >
+                                    Next Question <i data-lucide="arrow-right" className="inline-block w-4 h-4 align-middle ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        {/* Question Palette Grid Sidebar */}
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 h-fit space-y-4">
+                            <h3 className="text-sm font-extrabold text-slate-900 dark:text-white">
+                                Question Navigation Palette
+                            </h3>
+                            <div className="grid grid-cols-5 gap-2">
+                                {questions.map((q, idx) => {
+                                    const isAnswered = answers[q.id_soal] !== undefined || essayAnswers[q.id_soal];
+                                    const isCurrent = idx === currentQIndex;
+
+                                    let bg = "bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400";
+                                    if (isAnswered) bg = "bg-duo-blue text-white";
+                                    if (isCurrent) bg = "ring-2 ring-duo-green bg-emerald-500 text-white font-bold";
+
+                                    return (
+                                        <button
+                                            key={q.id_soal}
+                                            onClick={() => setCurrentQIndex(idx)}
+                                            className={`h-10 rounded-xl text-xs font-extrabold flex items-center justify-center transition ${bg}`}
+                                        >
+                                            {idx + 1}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+
+                            <div className="pt-4 border-t border-slate-100 dark:border-slate-800 space-y-2 text-[11px] font-medium text-slate-500">
+                                <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-duo-blue"></span> Answered
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-emerald-500"></span> Current
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-800"></span> Unanswered
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            );
+        }
+
+        function SpeedRunView({ questions, onAddXP }) {
+            const validQuestions = useMemo(() => {
+                return questions.filter(q => q.tipe_soal === 'PILGAN' && q.options && q.options.length > 0);
+            }, [questions]);
+
+            const [gameState, setGameState] = useState('idle'); // idle, playing, over
+            const [qIndex, setQIndex] = useState(0);
+            const [timer, setTimer] = useState(15);
+            const [combo, setCombo] = useState(0);
+            const [maxCombo, setMaxCombo] = useState(0);
+            const [scoreXP, setScoreXP] = useState(0);
+            const [runHistory, setRunHistory] = useState([]);
+            const [showResultsModal, setShowResultsModal] = useState(false);
+
+            const currentQ = validQuestions[qIndex];
+
+            useEffect(() => {
+                if (gameState !== 'playing') return;
+                if (timer <= 0) {
+                    handleAnswer(null);
+                    return;
+                }
+                const interval = setInterval(() => setTimer(prev => prev - 1), 1000);
+                return () => clearInterval(interval);
+            }, [gameState, timer]);
+
+            const startGame = () => {
+                setGameState('playing');
+                setQIndex(0);
+                setTimer(15);
+                setCombo(0);
+                setMaxCombo(0);
+                setScoreXP(0);
+                setRunHistory([]);
+            };
+
+            const handleAnswer = (option) => {
+                const correctOpt = currentQ?.options?.find(o => o.is_jawaban_benar === 1);
+                const isCorrect = option && option.id_opsi === correctOpt?.id_opsi;
+
+                setRunHistory(prev => [...prev, {
+                    question: currentQ,
+                    selectedOption: option,
+                    correctOption: correctOpt,
+                    isCorrect: !!isCorrect
+                }]);
+
+                if (isCorrect) {
+                    sound.playCorrect();
+                    const nextCombo = combo + 1;
+                    setCombo(nextCombo);
+                    if (nextCombo > maxCombo) setMaxCombo(nextCombo);
+                    const gained = 20 * nextCombo;
+                    setScoreXP(prev => prev + gained);
+                    onAddXP(gained);
+                } else {
+                    sound.playIncorrect();
+                    setCombo(0);
+                }
+
+                if (qIndex + 1 < validQuestions.length) {
+                    setQIndex(prev => prev + 1);
+                    setTimer(15);
+                } else {
+                    setGameState('over');
+                    sound.playLevelUp();
+                }
+            };
+
+            if (validQuestions.length === 0) {
+                return (
+                    <div className="max-w-xl mx-auto px-4 py-12 text-center space-y-6">
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl space-y-4">
+                            <div><i data-lucide="alert-triangle" className="w-9 h-9"></i></div>
+                            <h2 className="text-xl font-black text-slate-900 dark:text-white">No Multiple Choice Questions</h2>
+                            <p className="text-xs text-slate-500">Speed Run mode requires multiple choice (PILGAN) questions to play.</p>
+                        </div>
+                    </div>
+                );
+            }
+
+            return (
+                <div className="max-w-xl mx-auto px-4 py-12 text-center space-y-6">
+
+                    {gameState === 'idle' && (
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl space-y-6">
+                            <div className="w-20 h-20 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto text-4xl text-amber-500 animate-pulse">
+                                <i data-lucide="flame" className="w-10 h-10"></i>
+                            </div>
+                            <div className="space-y-2">
+                                <h2 className="text-3xl font-black text-slate-900 dark:text-white">Speed Run</h2>
+                                <p className="text-xs text-slate-500">15 seconds per question. Focus on quick recall and accuracy.</p>
+                            </div>
+                            <button
+                                onClick={startGame}
+                                className="w-full py-4 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-sm rounded-2xl shadow-lg btn-3d"
+                            >
+                                START BRAIN BOOST
+                            </button>
+                        </div>
+                    )}
+
+                    {gameState === 'playing' && currentQ && (
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl space-y-6 text-left relative">
+
+                            {/* HUD Header */}
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-2 text-amber-500 font-extrabold text-xs">
+                                    <span className="inline-flex items-center gap-1"><i data-lucide="flame" className="w-3.5 h-3.5"></i> COMBO {combo}x</span>
+                                </div>
+                                <div className="px-3 py-1 bg-red-500/10 text-red-500 rounded-full font-mono font-black text-xs">
+                                    <i data-lucide="timer" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> {timer}s
+                                </div>
+                            </div>
+
+                            <div className="text-base font-bold text-slate-900 dark:text-slate-100">
+                                <FormattedText content={currentQ.teks_soal} />
+                            </div>
+
+                            <div className="grid grid-cols-1 gap-3 pt-2">
+                                {currentQ.options?.map(opt => (
+                                    <button
+                                        key={opt.id_opsi}
+                                        onClick={() => handleAnswer(opt)}
+                                        className="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-amber-500 text-left font-medium text-xs dark:text-slate-200 hover:bg-amber-500/10 transition"
+                                    >
+                                        <span className="font-extrabold mr-2">{opt.label_opsi}.</span>
+                                        <FormattedText content={opt.teks_opsi} />
+                                    </button>
+                                ))}
+                            </div>
+
+                        </div>
+                    )}
+
+                    {gameState === 'over' && (
+                        <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl space-y-6">
+                            <div className="w-20 h-20 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto text-5xl">
+                                <i data-lucide="trophy" className="w-10 h-10"></i>
+                            </div>
+                            <div className="space-y-1">
+                                <h2 className="text-2xl font-black text-slate-900 dark:text-white">Speed Run Complete!</h2>
+                                <p className="text-xs text-slate-500">Here is your speed run accuracy report</p>
+                            </div>
+
+                            <div className="grid grid-cols-3 gap-3">
+                                <div className="p-3 bg-slate-100 dark:bg-slate-800 rounded-2xl">
+                                    <div className="text-xl font-black text-duo-blue">{runHistory.length}</div>
+                                    <div className="text-[10px] text-slate-400 font-bold uppercase">Answered</div>
+                                </div>
+                                <div className="p-3 bg-slate-100 dark:bg-slate-800 rounded-2xl">
+                                    <div className="text-xl font-black text-duo-green">{runHistory.filter(h => h.isCorrect).length} / {runHistory.length}</div>
+                                    <div className="text-[10px] text-slate-400 font-bold uppercase">Accuracy</div>
+                                </div>
+                                <div className="p-3 bg-slate-100 dark:bg-slate-800 rounded-2xl">
+                                    <div className="text-xl font-black text-duo-blue">{maxCombo}x</div>
+                                    <div className="text-[10px] text-slate-400 font-bold uppercase">Max Combo</div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                                <button
+                                    onClick={() => setShowResultsModal(true)}
+                                    className="flex-1 py-3 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-extrabold text-xs rounded-2xl transition flex items-center justify-center gap-2"
+                                >
+                                    <i data-lucide="eye" className="w-4 h-4 text-duo-blue"></i>
+                                    See Results & Breakdown
+                                </button>
+                                <button
+                                    onClick={startGame}
+                                    className="flex-1 py-3 bg-duo-green text-white font-extrabold text-xs rounded-2xl btn-3d shadow-lg shadow-duo-green/20"
+                                >
+                                    Play Again <i data-lucide="zap" className="inline-block w-4 h-4 align-middle"></i>
+                                </button>
+                            </div>
+
+                            {/* Detailed Results Modal for Speed Run */}
+                            {showResultsModal && (
+                                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm text-left">
+                                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl space-y-4">
+
+                                        <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
+                                            <h3 className="text-xl font-black text-slate-900 dark:text-white flex items-center gap-2">
+                                                <i data-lucide="zap" className="w-5 h-5 text-amber-500"></i>
+                                                Speed Run Question Breakdown
+                                            </h3>
+                                            <button onClick={() => setShowResultsModal(false)} className="text-slate-400 hover:text-slate-600 dark:hover:text-white p-1">
+                                                <i data-lucide="x" className="w-5 h-5"></i>
+                                            </button>
+                                        </div>
+
+                                        <div className="overflow-y-auto flex-1 space-y-3 pr-1">
+                                            {runHistory.map((item, idx) => (
+                                                <div key={idx} className="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950/60 space-y-3">
+                                                    <div className="flex items-center justify-between">
+                                                        <span className="text-xs font-bold text-slate-400">Q#{idx + 1}</span>
+                                                        {item.isCorrect ? (
+                                                            <span className="px-2.5 py-0.5 bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 text-[11px] font-black rounded-full">
+                                                                <i data-lucide="check-circle-2" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> Correct
+                                                            </span>
+                                                        ) : (
+                                                            <span className="px-2.5 py-0.5 bg-red-500/10 text-red-500 border border-red-500/20 text-[11px] font-black rounded-full">
+                                                                <i data-lucide="x-circle" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> Incorrect / Timeout
+                                                            </span>
+                                                        )}
+                                                    </div>
+
+                                                    <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
+                                                        <FormattedText content={item.question.teks_soal} />
+                                                    </div>
+
+                                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                                                        <div className={`p-2.5 rounded-xl border ${item.isCorrect ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400' : 'bg-red-500/10 border-red-500/30 text-red-600 dark:text-red-400'}`}>
+                                                            <span className="text-[10px] font-bold uppercase opacity-75 block">Your Choice:</span>
+                                                            {item.selectedOption ? (
+                                                                <span><strong>{item.selectedOption.label_opsi}.</strong> <FormattedText content={item.selectedOption.teks_opsi} /></span>
+                                                            ) : (
+                                                                <span className="italic">Time Expired</span>
+                                                            )}
+                                                        </div>
+
+                                                        <div className="p-2.5 rounded-xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400">
+                                                            <span className="text-[10px] font-bold uppercase opacity-75 block">Correct Answer:</span>
+                                                            {item.correctOption ? (
+                                                                <span><strong>{item.correctOption.label_opsi}.</strong> <FormattedText content={item.correctOption.teks_opsi} /></span>
+                                                            ) : (
+                                                                <span>-</span>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+
+                                        <div className="pt-2 flex justify-end border-t border-slate-100 dark:border-slate-800">
+                                            <button
+                                                onClick={() => setShowResultsModal(false)}
+                                                className="px-5 py-2.5 bg-slate-900 dark:bg-slate-800 text-white font-bold text-xs rounded-xl"
+                                            >
+                                                Close Breakdown
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    )}
+
+                </div>
+            );
+        }
+
+        function App() {
+            const [darkMode, setDarkMode] = useState(true);
+            const [streak, setStreak] = useState(5);
+            const [xp, setXp] = useState(120);
+            const [activeTab, setActiveTab] = useState('dashboard');
+            const [activeSubject, setActiveSubject] = useState(null);
+            const [datasets, setDatasets] = useState({});
+            const [subjects, setSubjects] = useState([]);
+            const [subjectsLoading, setSubjectsLoading] = useState(true);
+
+            // Icon / color palette — assigned round-robin by index (static fallback only)
+            const getSubjectMeta = (id, index) => {
+                const lower = id.toLowerCase();
+                if (lower.includes('w-12 h-12 rounded-2xl flex items-center justify-center bg-emerald-100 dark:bg-emerald-950/80 shadow-smw-12 h-12 rounded-2xl flex items-center justify-center bg-emerald-100 dark:bg-emerald-950/80 shadow-sm') || lower.includes('calc') || lower.includes('algeb') || lower.includes('geom'))
+                    return { icon: 'calculator', bgColor: 'bg-emerald-100 dark:bg-emerald-950/80', iconColor: 'text-emerald-600 dark:text-emerald-400' };
+                if (lower.includes('mach') || lower.includes('ai') || lower.includes('tech') || lower.includes('robot') || lower.includes('eng'))
+                    return { icon: 'cpu', bgColor: 'bg-amber-100 dark:bg-amber-950/80', iconColor: 'text-amber-600 dark:text-amber-400' };
+                if (lower.includes('code') || lower.includes('prog') || lower.includes('dev') || lower.includes('comp'))
+                    return { icon: 'code-2', bgColor: 'bg-sky-100 dark:bg-sky-950/80', iconColor: 'text-sky-600 dark:text-sky-400' };
+                if (lower.includes('phys') || lower.includes('sci'))
+                    return { icon: 'atom', bgColor: 'bg-purple-100 dark:bg-purple-950/80', iconColor: 'text-purple-600 dark:text-purple-400' };
+                if (lower.includes('bio') || lower.includes('chem'))
+                    return { icon: 'flask-conical', bgColor: 'bg-rose-100 dark:bg-rose-950/80', iconColor: 'text-rose-600 dark:text-rose-400' };
+                const PALETTE = [
+                    { icon: 'book-open', bgColor: 'bg-teal-100 dark:bg-teal-950/80', iconColor: 'text-teal-600 dark:text-teal-400' },
+                    { icon: 'layers', bgColor: 'bg-indigo-100 dark:bg-indigo-950/80', iconColor: 'text-indigo-600 dark:text-indigo-400' },
+                    { icon: 'globe', bgColor: 'bg-blue-100 dark:bg-blue-950/80', iconColor: 'text-blue-600 dark:text-blue-400' },
+                    { icon: 'sparkles', bgColor: 'bg-violet-100 dark:bg-violet-950/80', iconColor: 'text-violet-600 dark:text-violet-400' },
+                ];
+                return PALETTE[index % PALETTE.length];
+            };
+
+            // Convert a filename slug to a readable title
+            // e.g. "math" -> "Math", "machine_learning" -> "Machine Learning"
+            const slugToTitle = (slug) =>
+                slug
+                    .replace(/[-_]/g, ' ')
+                    .replace(/\b\w/g, c => c.toUpperCase());
+
+            // Fetch a single JSON file directly (static file fallback)
+            const fetchSubjectFile = async (filename) => {
+                const id = filename.replace(/\.json$/i, '');
+                try {
+                    const res = await fetch(`questions/${filename}`);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    const data = await res.json();
+                    return [id, Array.isArray(data) ? data : []];
+                } catch (e) {
+                    console.warn(`[Golearn] Could not load questions/${filename}:`, e.message);
+                    return [id, []];
+                }
+            };
+
+            // Boot: Try Express /api/subjects first, fall back to static file scanning
+            useEffect(() => {
+                let cancelled = false;
+
+                const loadSubjects = async () => {
+                    setSubjectsLoading(true);
+
+                    // 1. Try Express API
+                    try {
+                        const apiRes = await fetch('/api/subjects');
+                        if (apiRes.ok) {
+                            const apiData = await apiRes.json();
+                            if (apiData && Array.isArray(apiData.subjects) && apiData.subjects.length > 0) {
+                                if (cancelled) return;
+                                const newDatasets = {};
+                                apiData.subjects.forEach(s => {
+                                    newDatasets[s.id] = s.questions || [];
+                                });
+                                setDatasets(newDatasets);
+                                setSubjects(apiData.subjects);
+                                setActiveSubject(prev => prev && newDatasets[prev] ? prev : apiData.subjects[0].id);
+                                setSubjectsLoading(false);
+                                return;
+                            }
+                        }
+                    } catch (_) {
+                        // Express API not available (e.g. running as purely static file)
+                    }
+
+                    // 2. Static fallback: manifest.json or default files
+                    const FALLBACK_FILES = ['math.json', 'machine.json'];
+                    let fileList = FALLBACK_FILES;
+                    try {
+                        const mRes = await fetch('questions/manifest.json');
+                        if (mRes.ok) {
+                            const mData = await mRes.json();
+                            if (Array.isArray(mData) && mData.length > 0) fileList = mData;
+                        }
+                    } catch (_) { /* use fallback */ }
+
+                    const results = await Promise.all(fileList.map(f => fetchSubjectFile(f)));
+                    if (cancelled) return;
+
+                    const newDatasets = {};
+                    const newSubjects = [];
+                    results.forEach(([id, questions], idx) => {
+                        newDatasets[id] = questions;
+                        newSubjects.push({
+                            id,
+                            title: slugToTitle(id),
+                            description: `${questions.filter(q => q.tipe_soal === 'PILGAN').length} multiple choice · ${questions.filter(q => q.tipe_soal === 'ESSAY').length} essay`,
+                            count: questions.length,
+                            ...getSubjectMeta(id, idx),
+                        });
+                    });
+
+                    setDatasets(newDatasets);
+                    setSubjects(newSubjects);
+                    setActiveSubject(prev => prev && newDatasets[prev] ? prev : (newSubjects[0]?.id ?? null));
+                    setSubjectsLoading(false);
+                };
+
+                loadSubjects();
+                return () => { cancelled = true; };
+            }, []);
+
+            // Derive current questions dynamically based on the selected subject
+            const currentQuestions = datasets[activeSubject] || [];
+
+            const handleUploadJson = (newQuestions) => {
+                setDatasets(prev => ({
+                    ...prev,
+                    [activeSubject]: newQuestions
+                }));
+                // Also refresh count on the subjects list
+                setSubjects(prev => prev.map(s =>
+                    s.id === activeSubject
+                        ? { ...s, count: newQuestions.length, description: `${newQuestions.filter(q => q.tipe_soal === 'PILGAN').length} multiple choice · ${newQuestions.filter(q => q.tipe_soal === 'ESSAY').length} essay` }
+                        : s
+                ));
+            };
+
+            useEffect(() => {
+                if (darkMode) {
+                    document.documentElement.classList.add('dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                }
+            }, [darkMode]);
+
+            useEffect(() => {
+                if (window.lucide) {
+                    window.lucide.createIcons();
+                }
+            });
+
+            return (
+                <div className="min-h-screen bg-slate-50 dark:bg-[#0B0F17] text-slate-900 dark:text-slate-100">
+                    <Navbar
+                        activeTab={activeTab}
+                        setActiveTab={setActiveTab}
+                        activeSubject={activeSubject}
+                        setActiveSubject={setActiveSubject}
+                        subjects={subjects}
+                        darkMode={darkMode}
+                        setDarkMode={setDarkMode}
+                    />
+
+                    <main className="pb-24 md:pb-16">
+                        {activeTab === 'dashboard' && (
+                            <DashboardView
+                                subjects={subjects}
+                                activeSubject={activeSubject}
+                                setActiveSubject={setActiveSubject}
+                                onUploadJson={handleUploadJson}
+                                questions={currentQuestions}
+                                datasets={datasets}
+                                subjectsLoading={subjectsLoading}
+                            />
+                        )}
+
+                        {activeTab === 'flashcard' && (
+                            <FlashcardView questions={currentQuestions} />
+                        )}
+
+                        {activeTab === 'tryout' && (
+                            <TryoutView questions={currentQuestions} />
+                        )}
+
+                        {activeTab === 'speedrun' && (
+                            <SpeedRunView questions={currentQuestions} onAddXP={(added) => setXp(prev => prev + added)} />
+                        )}
+                    </main>
+                </div>
+            );
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+</body>
+
+</html>

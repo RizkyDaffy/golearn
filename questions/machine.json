@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 975,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dengan tujuan supaya pembaca mudah untuk memahami isi gambar. Dengan demikian, dalam gambar teknik diperlukan etiket gambar teknik yang memuat identitas sebagai informasi gambar. Berikut adalah beberapa keterangan yang terdapat dalam etiket gambar,kecuali….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3243,
+                "label_opsi": "A",
+                "teks_opsi": "Skala",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3244,
+                "label_opsi": "B",
+                "teks_opsi": "Satuan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3245,
+                "label_opsi": "C",
+                "teks_opsi": "Tanggal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3246,
+                "label_opsi": "D",
+                "teks_opsi": "Nama Gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3247,
+                "label_opsi": "E",
+                "teks_opsi": "Ukuran Hurup",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 976,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Banyak jenis Jenis garis untuk mengambar. Garis apakah berupa garis putus-putus dengan ketebalan ½ tebal garis biasa disebut….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3248,
+                "label_opsi": "A",
+                "teks_opsi": "Garis Bayangan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3249,
+                "label_opsi": "B",
+                "teks_opsi": "Garis Gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3250,
+                "label_opsi": "C",
+                "teks_opsi": "Garis Hati",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3251,
+                "label_opsi": "D",
+                "teks_opsi": "Garis Potong",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3252,
+                "label_opsi": "E",
+                "teks_opsi": "Garis Ukur",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 977,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Ada 2 proyeksi eropa dan amerika Pada gambar proyeksi amerika tersebut dengan bertanda P.A  maksudnya adalah…",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3253,
+                "label_opsi": "A",
+                "teks_opsi": "Pandangan Atas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3254,
+                "label_opsi": "B",
+                "teks_opsi": "pandangan kiri terletak di kanan pandangan  depan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3255,
+                "label_opsi": "C",
+                "teks_opsi": "Pandangan Kanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3256,
+                "label_opsi": "D",
+                "teks_opsi": "Pandangan Bawah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3257,
+                "label_opsi": "E",
+                "teks_opsi": "Pandangan Belakang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 978,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Apabila anda mendapat suatu pesanan untuk menyampaikan maksud untuk membuat suatu komponen dalam bentuk ilustrasi ke seorang teknisi bengkel yang berbeda bahasa percakapannya dengan anda, dalam bentuk apakah ilustrasi yang paling tepat anda buat?",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3258,
+                "label_opsi": "A",
+                "teks_opsi": "Diagram",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3259,
+                "label_opsi": "B",
+                "teks_opsi": "Isyarat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3260,
+                "label_opsi": "C",
+                "teks_opsi": "Ilustrasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3261,
+                "label_opsi": "D",
+                "teks_opsi": "Rencana kerja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3262,
+                "label_opsi": "E",
+                "teks_opsi": "Gambar teknik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 979,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam mengambar teknik ada standar yang harus di ikuti. Pembuatan gambar Otomotif, harus memiliki Etiket gambar yang berada di sisi...",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3263,
+                "label_opsi": "A",
+                "teks_opsi": "Kanan atas kertas gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3264,
+                "label_opsi": "B",
+                "teks_opsi": "Tengah kertas gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3265,
+                "label_opsi": "C",
+                "teks_opsi": "kiri atas Kertas gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3266,
+                "label_opsi": "D",
+                "teks_opsi": "Kiri bawah kertas gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3267,
+                "label_opsi": "E",
+                "teks_opsi": "Kanan bawah kertas gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 980,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Lambang simbol yang dijelaskan dengan awalnya lingkaran dan samping kanannya kotak disebut juga dengan simbol…",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3268,
+                "label_opsi": "A",
+                "teks_opsi": "Eropa",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3269,
+                "label_opsi": "B",
+                "teks_opsi": "Amerika",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3270,
+                "label_opsi": "C",
+                "teks_opsi": "Indonesia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3271,
+                "label_opsi": "D",
+                "teks_opsi": "China",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3272,
+                "label_opsi": "E",
+                "teks_opsi": "Inggris",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 981,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pentingnya penggunaan penggaris dalam penulisan simbol gambar teknik dikarenakan.....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3273,
+                "label_opsi": "A",
+                "teks_opsi": "Penggaris digunakan sebagai alas untuk bergesernya mal huruf",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3274,
+                "label_opsi": "B",
+                "teks_opsi": "Penggaris digunakan untuk membuat garis",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3275,
+                "label_opsi": "C",
+                "teks_opsi": "Penggaris digunakan untuk membentuk huruf dan angka",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3276,
+                "label_opsi": "D",
+                "teks_opsi": "Penggaris digunakan untuk mengukur ketinggian huruf dan angka yang dibuat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3277,
+                "label_opsi": "E",
+                "teks_opsi": "Penggaris digunakan untuk membuat huruf atau angka miring",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 982,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam suatu pengukuran benda berbentuk balok didapatkan ukuran panjang, lebar dan tinggi berturut- turut adalah 45 X 30 X 24 cm. Apabila anda membuat gambar balok tersebut dengan skala 1 : 3, berapakah ukuran panjang, lebar dan tinggi yang anda gambar …",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3278,
+                "label_opsi": "A",
+                "teks_opsi": "90 X 60 X 48 cm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3279,
+                "label_opsi": "B",
+                "teks_opsi": "135 X 90 X 72 cm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3280,
+                "label_opsi": "C",
+                "teks_opsi": "15 X 10 X 8 cm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3281,
+                "label_opsi": "D",
+                "teks_opsi": "12 X 8 X 6 cm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3282,
+                "label_opsi": "E",
+                "teks_opsi": "22,5 X 15 X 12 cm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 983,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Apabila diketahui ukuran pokok dari kertas gambar adalah ukuranAO dengan panjang 1.189 mm dan lebarnya 841 mm, maka ukuran untuk kertas A4 adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3283,
+                "label_opsi": "A",
+                "teks_opsi": "594 x 841 mm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3284,
+                "label_opsi": "B",
+                "teks_opsi": "20 x 594 mm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3285,
+                "label_opsi": "C",
+                "teks_opsi": "297 x 420 mm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3286,
+                "label_opsi": "D",
+                "teks_opsi": "210 x 297 mm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3287,
+                "label_opsi": "E",
+                "teks_opsi": "105 x 148 mm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 984,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Kertas gambar A0 mempunyai ukuran …",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3288,
+                "label_opsi": "A",
+                "teks_opsi": "210 x 297",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3289,
+                "label_opsi": "B",
+                "teks_opsi": "297 x 420",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3290,
+                "label_opsi": "C",
+                "teks_opsi": "420 x 594",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3291,
+                "label_opsi": "D",
+                "teks_opsi": "594 x 841",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3292,
+                "label_opsi": "E",
+                "teks_opsi": "841 x 1189",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 985,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Untuk membuat benda kerja dibuatlah rancangan berbentuk gambar Jenis gambar yang mengilustrasikan tentang teknik disebut….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3293,
+                "label_opsi": "A",
+                "teks_opsi": "Isyarat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3294,
+                "label_opsi": "B",
+                "teks_opsi": "Ilustrasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3295,
+                "label_opsi": "C",
+                "teks_opsi": "Gambar teknik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3296,
+                "label_opsi": "D",
+                "teks_opsi": "Rencana kerja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3297,
+                "label_opsi": "E",
+                "teks_opsi": "Diagram",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 986,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Aturan dan ketentuan gambar sesuai dengan ISO. Apakah Kepanjangan dari ISO adalah....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3298,
+                "label_opsi": "A",
+                "teks_opsi": "Intermediat organization for standardization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3299,
+                "label_opsi": "B",
+                "teks_opsi": "International organization for standardization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3300,
+                "label_opsi": "C",
+                "teks_opsi": "Interpretasi organization for standardization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3301,
+                "label_opsi": "D",
+                "teks_opsi": "Intuisi organization for standardization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3302,
+                "label_opsi": "E",
+                "teks_opsi": "Imobilizer organization for standardization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 987,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Kertas yang dipakai untuk menyempurnakan gambar dengan menggunakan tinta adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3303,
+                "label_opsi": "A",
+                "teks_opsi": "Kertas A4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3304,
+                "label_opsi": "B",
+                "teks_opsi": "Kertas buram",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3305,
+                "label_opsi": "C",
+                "teks_opsi": "Kertas HVS",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3306,
+                "label_opsi": "D",
+                "teks_opsi": "Kertas kalkir",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3307,
+                "label_opsi": "E",
+                "teks_opsi": "Kertas karton",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 988,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pernyataan pernyataan dibawah ini merupakan fungsi atau kegunaan sepasang mistar segitiga, kecuali….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3308,
+                "label_opsi": "A",
+                "teks_opsi": "Membuat garis garis sejajar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3309,
+                "label_opsi": "B",
+                "teks_opsi": "Membuat garis garis saling tegak lurus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3310,
+                "label_opsi": "C",
+                "teks_opsi": "Menarik garis gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3311,
+                "label_opsi": "D",
+                "teks_opsi": "Membuat garis dengan sudut sudut tertentu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3312,
+                "label_opsi": "E",
+                "teks_opsi": "Membuat garis lengkung parabola",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 989,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam menggambar menggunakan dua buah pengaris segitiga. Berikut merupakan sudut-sudut yang terdapat pada penggaris segitiga, kecuali…",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3313,
+                "label_opsi": "A",
+                "teks_opsi": "30°",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3314,
+                "label_opsi": "B",
+                "teks_opsi": "45°",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3315,
+                "label_opsi": "C",
+                "teks_opsi": "60°",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3316,
+                "label_opsi": "D",
+                "teks_opsi": "90°",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3317,
+                "label_opsi": "E",
+                "teks_opsi": "95",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 990,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "untuk menggambar lingkaran dengan cepat dan benar digunakan mall. Mal lingkaran digunakan untuk….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3318,
+                "label_opsi": "A",
+                "teks_opsi": "Membuat lingkaran",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3319,
+                "label_opsi": "B",
+                "teks_opsi": "Membuat bentuk elips",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3320,
+                "label_opsi": "C",
+                "teks_opsi": "Membuat Segitiga",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3321,
+                "label_opsi": "D",
+                "teks_opsi": "Membuat huruf",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3322,
+                "label_opsi": "E",
+                "teks_opsi": "Membuat angka",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 991,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Secara umum, pensil yang digunakan dalam gambar teknik ada 2 yaitu pensil biasa dan pensil mekanik. Perbedaan dari penggunaan pensil biasa dan pensil mekanik kecuali....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3323,
+                "label_opsi": "A",
+                "teks_opsi": "Pensil biasa lebih boros waktu sedangkan pensil mekanik lebih efisien waktu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3324,
+                "label_opsi": "B",
+                "teks_opsi": "Pensil biasa berbalut kayu sedangkan pensil mekanik lebih modern",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3325,
+                "label_opsi": "C",
+                "teks_opsi": "Pensil biasa memiliki jenis kriteria pensil yang tertera di badan pensil sedangkan pensil mekanik tidak memiliki jenis kriteria pensil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3326,
+                "label_opsi": "D",
+                "teks_opsi": "Pensil biasa tidak memiliki ukuran sedangkan pensil mekanik memiliki ukuran",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3327,
+                "label_opsi": "E",
+                "teks_opsi": "Pensil biasa dan pensil mekanik sama-sama memiliki tingkat kekerasan pensil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 992,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pensil gambar buatan pabrik yang telah banyak dijual di pasar terdiri dari bermacam-macam bentuk dan mempunyai tingkat kekasaran yang berbeda-beda dan biasanya dilambangkan dengan huruf besar yang disertai dengan angka contoh 2B, 3B, 4B dan sebagainya. Maksud dari huruf B pada tulisan yang terdapat pada pensil tersebut adalah…",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3328,
+                "label_opsi": "A",
+                "teks_opsi": "Bold",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3329,
+                "label_opsi": "B",
+                "teks_opsi": "Black",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3330,
+                "label_opsi": "C",
+                "teks_opsi": "Back",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3331,
+                "label_opsi": "D",
+                "teks_opsi": "balance",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3332,
+                "label_opsi": "E",
+                "teks_opsi": "ball",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 993,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam penulisan keterangan gambar, perlu memperhatikan tata cara penulisan keterangan gambar kecuali....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3333,
+                "label_opsi": "A",
+                "teks_opsi": "Jenis huruf yang digunakan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3334,
+                "label_opsi": "B",
+                "teks_opsi": "Ukuran ketinggian huruf yang digunakan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3335,
+                "label_opsi": "C",
+                "teks_opsi": "Jarak antara huruf dan jarak antar kata",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3336,
+                "label_opsi": "D",
+                "teks_opsi": "Kesejajaran dan kerataan huruf terhadap garis horizontal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3337,
+                "label_opsi": "E",
+                "teks_opsi": "Semua salah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 994,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dibawah ini adalah alat dan perlengkapan dalam mengambar teknik dalam suatu perencanaan, kecuali....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3338,
+                "label_opsi": "A",
+                "teks_opsi": "Mesin gambar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3339,
+                "label_opsi": "B",
+                "teks_opsi": "Lentra film",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3340,
+                "label_opsi": "C",
+                "teks_opsi": "Karet kertas penghapus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3341,
+                "label_opsi": "D",
+                "teks_opsi": "Tipex",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3342,
+                "label_opsi": "E",
+                "teks_opsi": "Jangka",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 995,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Dalam menggambar kita harus menampilkan garis tepi dan etiket gambar. Apakah fungsi dari etiket gambar….....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 996,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Menggambar menggunakan kertas gambar, Berapakah ukuran kertas gambar Ao, A1, A2, dan A3",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 997,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Gambarkanlah etiket gambar yang kamu ketahui",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 998,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Pealatan gambar sangat banyak kita gunakan dalam menggambar, Apakag fungsi dari alat gambar Jangka dan mal gambar",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 999,
+        "id_ujian": 32,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Langkah langkah apa saja yang harus disiapkan dalam menggambar",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-01T09:12:12.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]

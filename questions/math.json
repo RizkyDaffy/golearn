@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 1275,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003ETranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esuatu\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekonsep\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ematematis\u003C/strong\u003E\u003Cstrong\u003E yang \u003C/strong\u003E\u003Cstrong\u003Emelibatkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eperpindahan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eseluruh\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Egrafik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Earah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etertentu\u003C/strong\u003E\u003Cstrong\u003E pada \u003C/strong\u003E\u003Cstrong\u003Esistem\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekoordinat\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etanpa\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emengubah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebentuk\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatau\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekemiringan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Egrafik\u003C/strong\u003E\u003Cstrong\u003E. \u003C/strong\u003E\u003Cstrong\u003ESeperti\u003C/strong\u003E\u003Cstrong\u003E yang \u003C/strong\u003E\u003Cstrong\u003Esudah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekamu\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epelajari\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebahwa\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etitik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emerupakan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebagian\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edari\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Egrafik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emeliputi\u003C/strong\u003E\u003Cstrong\u003E....\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4408,
+                "label_opsi": "A",
+                "teks_opsi": "Kanan dan Kiri",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4409,
+                "label_opsi": "B",
+                "teks_opsi": "Atas dan Bawah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4410,
+                "label_opsi": "C",
+                "teks_opsi": "Positive dan Negative",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4411,
+                "label_opsi": "D",
+                "teks_opsi": "Vertikal dan Horizontal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4412,
+                "label_opsi": "E",
+                "teks_opsi": "Bayangan dan Pencerminan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1276,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EPada \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E Nilai a \u003C/strong\u003E\u003Cstrong\u003Emenunjukkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epergeseran\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esearah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E X, \u003C/strong\u003E\u003Cstrong\u003Esedangkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Enilai\u003C/strong\u003E\u003Cstrong\u003E b \u003C/strong\u003E\u003Cstrong\u003Emenunjukkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epergeseran\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esearah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E Y. Jika \u003C/strong\u003E\u003Cstrong\u003Epergeseran\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilakukan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emakan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebernilai\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epositif\u003C/strong\u003E\u003Cstrong\u003E, dan \u003C/strong\u003E\u003Cstrong\u003Ejika\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epergeseran\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilakukan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E kiri dan \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebernilai\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Enegatif\u003C/strong\u003E\u003Cstrong\u003E. \u003C/strong\u003E\u003Cstrong\u003EContoh\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterdapat\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esebuah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etitik\u003C/strong\u003E\u003Cstrong\u003E yang \u003C/strong\u003E\u003Cstrong\u003Edigeser\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esejauh\u003C/strong\u003E\u003Cstrong\u003E 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ematriks\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasinya\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E...\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4413,
+                "label_opsi": "A",
+                "teks_opsi": "a = 2 dan b = 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4414,
+                "label_opsi": "B",
+                "teks_opsi": "a = -2 dan b = -3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4415,
+                "label_opsi": "C",
+                "teks_opsi": "a = -3 dan b = 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4416,
+                "label_opsi": "D",
+                "teks_opsi": "a = 3 dan b = 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4417,
+                "label_opsi": "E",
+                "teks_opsi": "a = -3 dan b = -2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1277,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EFungsi\u003C/strong\u003E\u003Cstrong\u003E g(x) = x² + 2x + 1 \u003C/strong\u003E\u003Cstrong\u003Edigeser\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etersebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4418,
+                "label_opsi": "A",
+                "teks_opsi": "g(x) = x² + 2x + 1",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4419,
+                "label_opsi": "B",
+                "teks_opsi": "g(x) = x² - 2x + 1",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4420,
+                "label_opsi": "C",
+                "teks_opsi": "g(x) = x² + 2x - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4421,
+                "label_opsi": "D",
+                "teks_opsi": "g(x) = x² - 4x + 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4422,
+                "label_opsi": "E",
+                "teks_opsi": "g(x) = x² + 2x - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1278,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EJika \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eeksponensial\u003C/strong\u003E\u003Cstrong\u003E f(x) = 4x \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4423,
+                "label_opsi": "A",
+                "teks_opsi": "f(x) = 4x – 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4424,
+                "label_opsi": "B",
+                "teks_opsi": "f(x) = 4x + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4425,
+                "label_opsi": "C",
+                "teks_opsi": "f(x) = -4x - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4426,
+                "label_opsi": "D",
+                "teks_opsi": "f(x) = -4x + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4427,
+                "label_opsi": "E",
+                "teks_opsi": "f(x) = 4x – 12",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1279,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EJika \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eeksponensial\u003C/strong\u003E\u003Cstrong\u003E f(x) = 4x \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4428,
+                "label_opsi": "A",
+                "teks_opsi": "f(x) = 4x – 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4429,
+                "label_opsi": "B",
+                "teks_opsi": "f(x) = 4x + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4430,
+                "label_opsi": "C",
+                "teks_opsi": "f(x) = -4x - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4431,
+                "label_opsi": "D",
+                "teks_opsi": "f(x) = -4x + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4432,
+                "label_opsi": "E",
+                "teks_opsi": "f(x) = 4x – 12",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1280,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EDiberikan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Egrafik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eawal\u003C/strong\u003E\u003Cstrong\u003E f(x) = x². \u003C/strong\u003E\u003Cstrong\u003ESeorang\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esiswa\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emelakukan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esatu\u003C/strong\u003E\u003Cstrong\u003E kali \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Egrafik\u003C/strong\u003E\u003Cstrong\u003E f(x) \u003C/strong\u003E\u003Cstrong\u003Editranslasikan\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E, \u003C/strong\u003E\u003Cstrong\u003Esehingga\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ediperoleh\u003C/strong\u003E\u003Cstrong\u003E g(x) = ……\u003C/strong\u003E\u003Cstrong\u003E…..\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4433,
+                "label_opsi": "A",
+                "teks_opsi": "g(x) = (x - 2)² + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4434,
+                "label_opsi": "B",
+                "teks_opsi": "g(x) = (x - 3)² + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4435,
+                "label_opsi": "C",
+                "teks_opsi": "g(x) = (x + 3)² - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4436,
+                "label_opsi": "D",
+                "teks_opsi": "g(x) = (x + 3)² + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4437,
+                "label_opsi": "E",
+                "teks_opsi": "g(x) = (x - 2)² - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1281,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EFungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekuadrat\u003C/strong\u003E\u003Cstrong\u003E f(x) = -x² + 2x + 5 \u003C/strong\u003E\u003Cstrong\u003Eakan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E 1 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilanjutkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Erefleksi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E X. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esetelah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekedua\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4438,
+                "label_opsi": "A",
+                "teks_opsi": "f(x) = x² + 2x - 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4439,
+                "label_opsi": "B",
+                "teks_opsi": "f(x) = x² + 2x + 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4440,
+                "label_opsi": "C",
+                "teks_opsi": "f(x) = x² + 2x + 6",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4441,
+                "label_opsi": "D",
+                "teks_opsi": "f(x) = -x² - 2x + 6",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4442,
+                "label_opsi": "E",
+                "teks_opsi": "f(x) = -x² - 2x + 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1282,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EHasil \u003C/strong\u003E\u003Cstrong\u003Epencerminan\u003C/strong\u003E\u003Cstrong\u003E p(x) = x² - 9x \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E Y \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E q(x). Maka \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epencerminan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebayangan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etersebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4443,
+                "label_opsi": "A",
+                "teks_opsi": "(-x)² - 9x",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4444,
+                "label_opsi": "B",
+                "teks_opsi": "(-x)² + 9x",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4445,
+                "label_opsi": "C",
+                "teks_opsi": "x² - 9x",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4446,
+                "label_opsi": "D",
+                "teks_opsi": "x² + 9x",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4447,
+                "label_opsi": "E",
+                "teks_opsi": "x² + 9",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1283,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EHasil \u003C/strong\u003E\u003Cstrong\u003Epencerminan\u003C/strong\u003E\u003Cstrong\u003E m(x) = 3x + 1 \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E garis y = 2 \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E n(x). Maka \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epencerminan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebayangan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etersebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4448,
+                "label_opsi": "A",
+                "teks_opsi": "(-3x - 3)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4449,
+                "label_opsi": "B",
+                "teks_opsi": "(-3x - 1)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4450,
+                "label_opsi": "C",
+                "teks_opsi": "(-3x + 1)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4451,
+                "label_opsi": "D",
+                "teks_opsi": "(-3x + 2)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4452,
+                "label_opsi": "E",
+                "teks_opsi": "(-3x + 3)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1284,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E g(x) = x² + 1 \u003C/strong\u003E\u003Cstrong\u003Edigeser\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esejauh\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekemudian\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edicerminkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E X \u003C/strong\u003E\u003Cstrong\u003Esehingga\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emenghasilkan\u003C/strong\u003E\u003Cstrong\u003E h(x), \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E h(x) \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4453,
+                "label_opsi": "A",
+                "teks_opsi": "x² - 6x + 8",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4454,
+                "label_opsi": "B",
+                "teks_opsi": "x² + 6x + 8",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4455,
+                "label_opsi": "C",
+                "teks_opsi": "x² + 6x + 12",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4456,
+                "label_opsi": "D",
+                "teks_opsi": "(-x² + 6x - 8)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4457,
+                "label_opsi": "E",
+                "teks_opsi": "(-x² + 6x - 12)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1285,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E g(x) = x² + 1 \u003C/strong\u003E\u003Cstrong\u003Edigeser\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esejauh\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebawah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekemudian\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edicerminkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E X \u003C/strong\u003E\u003Cstrong\u003Esehingga\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emenghasilkan\u003C/strong\u003E\u003Cstrong\u003E h(x), \u003C/strong\u003E\u003Cstrong\u003Emaka\u003C/strong\u003E\u003Cstrong\u003E h(x) \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4458,
+                "label_opsi": "A",
+                "teks_opsi": "x² - 6x + 8",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4459,
+                "label_opsi": "B",
+                "teks_opsi": "x² + 6x + 8",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4460,
+                "label_opsi": "C",
+                "teks_opsi": "x² + 6x + 12",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4461,
+                "label_opsi": "D",
+                "teks_opsi": "(-x² + 6x - 8)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4462,
+                "label_opsi": "E",
+                "teks_opsi": "(-x² + 6x - 12)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1286,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EFungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekuadrat\u003C/strong\u003E\u003Cstrong\u003E f(x) = -2x² + 4x - 3 \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilanjutkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Erefleksi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esumbu\u003C/strong\u003E\u003Cstrong\u003E Y. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4463,
+                "label_opsi": "A",
+                "teks_opsi": "f(x) = -2(-x - 2)² + 4(-x - 2) - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4464,
+                "label_opsi": "B",
+                "teks_opsi": "f(x) = 2(-x - 2)² - 4(-x - 2) + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4465,
+                "label_opsi": "C",
+                "teks_opsi": "f(x) = -2(x - 2)² + 4(x - 2) - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4466,
+                "label_opsi": "D",
+                "teks_opsi": "f(x) = 2(x + 2)² - 4(x + 2) + 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4467,
+                "label_opsi": "E",
+                "teks_opsi": "f(x) = -2(x + 2)² - 4(x + 2) - 3",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1287,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EPerhatikan\u003C/strong\u003E\u003Cstrong\u003E garis \u003C/strong\u003E\u003Cstrong\u003Eberikut\u003C/strong\u003E\u003Cstrong\u003E! Garis \u003C/strong\u003E\u003Cstrong\u003Etersebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edigeser\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E. Gambar \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E yang \u003C/strong\u003E\u003Cstrong\u003Ebenar\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4468,
+                "label_opsi": "A",
+                "teks_opsi": "",
+                "gambar_opsi": "https://storage.gelorabekasi.sch.id/soal-gambar-ujian-smp-smk-gelora/soal-1790998190330-571330515.jpg",
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4469,
+                "label_opsi": "B",
+                "teks_opsi": "",
+                "gambar_opsi": "https://storage.gelorabekasi.sch.id/soal-gambar-ujian-smp-smk-gelora/soal-1790998190405-969930158.jpg",
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4470,
+                "label_opsi": "C",
+                "teks_opsi": "",
+                "gambar_opsi": "https://storage.gelorabekasi.sch.id/soal-gambar-ujian-smp-smk-gelora/soal-1790998190422-306066411.jpg",
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4471,
+                "label_opsi": "D",
+                "teks_opsi": "",
+                "gambar_opsi": "https://storage.gelorabekasi.sch.id/soal-gambar-ujian-smp-smk-gelora/soal-1790998190437-521356130.jpg",
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4472,
+                "label_opsi": "E",
+                "teks_opsi": "",
+                "gambar_opsi": "https://storage.gelorabekasi.sch.id/soal-gambar-ujian-smp-smk-gelora/soal-1790998190451-142844669.jpg",
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1288,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E r(x) = 3x + 2 \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E kiri 4 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilanjutkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Erefleksi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003ESumbu\u003C/strong\u003E\u003Cstrong\u003E X. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esetelah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekedua\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4473,
+                "label_opsi": "A",
+                "teks_opsi": "r(x) = -3(x + 4) - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4474,
+                "label_opsi": "B",
+                "teks_opsi": "r(x) = 3(x – 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4475,
+                "label_opsi": "C",
+                "teks_opsi": "r(x) = -3(x – 4) - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4476,
+                "label_opsi": "D",
+                "teks_opsi": "r(x) = 3(x + 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4477,
+                "label_opsi": "E",
+                "teks_opsi": "r(x) = -3(x + 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1289,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E r(x) = 3x + 2 \u003C/strong\u003E\u003Cstrong\u003Emengalami\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E kiri 4 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilanjutkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Erefleksi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003ESumbu\u003C/strong\u003E\u003Cstrong\u003E X. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esetelah\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekedua\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etransformasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4478,
+                "label_opsi": "A",
+                "teks_opsi": "r(x) = -3(x + 4) - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4479,
+                "label_opsi": "B",
+                "teks_opsi": "r(x) = 3(x – 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4480,
+                "label_opsi": "C",
+                "teks_opsi": "r(x) = -3(x – 4) - 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4481,
+                "label_opsi": "D",
+                "teks_opsi": "r(x) = 3(x + 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4482,
+                "label_opsi": "E",
+                "teks_opsi": "r(x) = -3(x + 4) + 2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1290,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EGaris 2x – y = 5 \u003C/strong\u003E\u003Cstrong\u003Edirotasikan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esebesar\u003C/strong\u003E\u003Cstrong\u003E 180\u003C/strong\u003E\u003Cstrong\u003E° \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etitik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epusat\u003C/strong\u003E\u003Cstrong\u003E (0,0). Hasil \u003C/strong\u003E\u003Cstrong\u003Erotasi\u003C/strong\u003E\u003Cstrong\u003E garis \u003C/strong\u003E\u003Cstrong\u003Etersebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4483,
+                "label_opsi": "A",
+                "teks_opsi": "2x – y = 5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4484,
+                "label_opsi": "B",
+                "teks_opsi": "-2x + y = 5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4485,
+                "label_opsi": "C",
+                "teks_opsi": "2x + y = 5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4486,
+                "label_opsi": "D",
+                "teks_opsi": "-2x – y = 5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4487,
+                "label_opsi": "E",
+                "teks_opsi": "2x – y = -5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1291,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EHasil \u003C/strong\u003E\u003Cstrong\u003Edari\u003C/strong\u003E\u003Cstrong\u003E (-21\u003C/strong\u003E\u003Cstrong\u003E) :\u003C/strong\u003E\u003Cstrong\u003E (7 – 10) + (-4) x 2 = ….\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4488,
+                "label_opsi": "A",
+                "teks_opsi": "-15",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4489,
+                "label_opsi": "B",
+                "teks_opsi": "-1",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4490,
+                "label_opsi": "C",
+                "teks_opsi": "1",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4491,
+                "label_opsi": "D",
+                "teks_opsi": "15",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4492,
+                "label_opsi": "E",
+                "teks_opsi": "5",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1292,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003ETransformasi\u003C/strong\u003E\u003Cstrong\u003E yang \u003C/strong\u003E\u003Cstrong\u003Ememindahkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eobjek\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Emenurut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebentuk\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ebayangan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edisebut\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edengan\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4493,
+                "label_opsi": "A",
+                "teks_opsi": "Translasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4494,
+                "label_opsi": "B",
+                "teks_opsi": "Refleksi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4495,
+                "label_opsi": "C",
+                "teks_opsi": "Rotasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4496,
+                "label_opsi": "D",
+                "teks_opsi": "Dilatasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4497,
+                "label_opsi": "E",
+                "teks_opsi": "Trandformasi Geometri",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1293,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E garis y = 2x + 4 \u003C/strong\u003E\u003Cstrong\u003Edirotasikan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Esebesar\u003C/strong\u003E\u003Cstrong\u003E 90\u003C/strong\u003E\u003Cstrong\u003E°\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eterhadap\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etitik\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epusat\u003C/strong\u003E\u003Cstrong\u003E (0,0). \u003C/strong\u003E\u003Cstrong\u003ETentukan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Epersamaan\u003C/strong\u003E\u003Cstrong\u003E garis \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Erotasi\u003C/strong\u003E\u003Cstrong\u003E!\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4498,
+                "label_opsi": "A",
+                "teks_opsi": "-2y - 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4499,
+                "label_opsi": "B",
+                "teks_opsi": "2y + 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4500,
+                "label_opsi": "C",
+                "teks_opsi": "2y - 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4501,
+                "label_opsi": "D",
+                "teks_opsi": "2(-y)-4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4502,
+                "label_opsi": "E",
+                "teks_opsi": "-2y + 4",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1294,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "\u003Cstrong\u003ETentukan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E f(x) = x\u003C/strong\u003E\u003Cstrong\u003E²\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Edilanjutkan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E 3 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E!\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 4503,
+                "label_opsi": "A",
+                "teks_opsi": "–(x – 3)\u003Cstrong\u003E²\u003C/strong\u003E\u003Cstrong\u003E + \u003C/strong\u003E2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4504,
+                "label_opsi": "B",
+                "teks_opsi": "(x – 3\u003Cstrong\u003E)²\u003C/strong\u003E\u003Cstrong\u003E + \u003C/strong\u003E2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 4505,
+                "label_opsi": "C",
+                "teks_opsi": "(x + 3\u003Cstrong\u003E)²\u003C/strong\u003E\u003Cstrong\u003E + \u003C/strong\u003E2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4506,
+                "label_opsi": "D",
+                "teks_opsi": "(x – 3\u003Cstrong\u003E)²\u003C/strong\u003E\u003Cstrong\u003E - \u003C/strong\u003E2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 4507,
+                "label_opsi": "E",
+                "teks_opsi": "(x + 3\u003Cstrong\u003E)²\u003C/strong\u003E\u003Cstrong\u003E + \u003C/strong\u003E2",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1295,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E h(x) = 5x + 2 \u003C/strong\u003E\u003Cstrong\u003Editranslasikan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1296,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cspan class=\"math\"\u003E{f\\left( x \\right)=2x}^{2}+3x-5\u003C/span\u003E\u003Cstrong\u003E digeser sebanyak 1 satuan ke kanan. Persamaan fungsi hasil pergeserannya adalah…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1297,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E f(x) = 6 – 3x \u003C/strong\u003E\u003Cstrong\u003Editranslasikan\u003C/strong\u003E\u003Cstrong\u003E 2 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ekanan\u003C/strong\u003E\u003Cstrong\u003E dan 1 \u003C/strong\u003E\u003Cstrong\u003Esatuan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eke\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eatas\u003C/strong\u003E\u003Cstrong\u003E. \u003C/strong\u003E\u003Cstrong\u003EPersamaan\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Efungsi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Ehasil\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Etranslasi\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cstrong\u003Eadalah\u003C/strong\u003E\u003Cstrong\u003E…\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1298,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "\u003Cstrong\u003EDiketahui\u003C/strong\u003E\u003Cstrong\u003E \u003C/strong\u003E\u003Cspan class=\"math\"\u003E{g\\left( x \\right)=x}^{2}+1\u003C/span\u003E\u003Cstrong\u003E digeser sejauh 3 satuan ke kanan dan 2 satuan ke bawah kemudian dicerminkan terhadap Sumbu X sehingga menghasilkan g(x\u003C/strong\u003E\u003Cstrong\u003E) .\u003C/strong\u003E\u003Cstrong\u003E Maka g(x) = ….\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1299,
+        "id_ujian": 188,
+        "id_guru_pembuat": 73,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "\u003Cstrong\u003EJika f(x) = \u003C/strong\u003E\u003Cspan class=\"math\"\u003E{x}^{2}\u003C/span\u003E\u003Cstrong\u003E digeser 2 satuan ke kanan dan 3 satuan ke bawah, kemudian direfleksikan terhadap sumbu X, hasilnya adalah….\u003C/strong\u003E",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-03T03:29:50.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]
