@@ -1978,6 +1978,16 @@
                 return () => clearInterval(interval);
             }, [gameState, timer]);
 
+            // Lucide replaces <i data-lucide> with <svg> after render. This view's
+            // internal state changes (gameState/timer/combo) don't bubble up to App,
+            // so App's global createIcons effect won't fire — re-run it here so the
+            // flame/clock/eye icons actually render on every Speed Run state change.
+            useEffect(() => {
+                if (window.lucide) {
+                    window.lucide.createIcons();
+                }
+            });
+
             const startGame = () => {
                 setGameState('playing');
                 setQIndex(0);
@@ -2063,7 +2073,7 @@
                                     <span className="inline-flex items-center gap-1"><i data-lucide="flame" className="w-3.5 h-3.5"></i> COMBO {combo}x</span>
                                 </div>
                                 <div className="px-3 py-1 bg-red-500/10 text-red-500 rounded-full font-mono font-black text-xs">
-                                    <i data-lucide="timer" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> {timer}s
+                                    <i data-lucide="clock" className="inline-block w-3.5 h-3.5 align-middle mr-1"></i> {timer}s
                                 </div>
                             </div>
 
@@ -2089,8 +2099,8 @@
 
                     {gameState === 'over' && (
                         <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-xl space-y-6">
-                            <div className="w-20 h-20 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto text-5xl">
-                                <i data-lucide="trophy" className="w-10 h-10 text-amber-500"></i>
+                            <div className="w-20 h-20 bg-amber-500/10 text-amber-500 rounded-full flex items-center justify-center mx-auto text-5xl">
+                                <i data-lucide="flame" className="w-10 h-10"></i>
                             </div>
                             <div className="space-y-1">
                                 <h2 className="text-2xl font-black text-slate-900 dark:text-white">Speed Run Complete!</h2>
