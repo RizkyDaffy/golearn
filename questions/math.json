@@ -701,467 +701,468 @@
             }
         ]
     },
-    {
-        "id_soal": 6123,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> r(x) = 3x + 2 </strong><strong>mengalami</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>ke</strong><strong> kiri 4 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>refleksi</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>Sumbu</strong><strong> X. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>setelah</strong><strong> </strong><strong>kedua</strong><strong> </strong><strong>transformasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24065,
-                "label_opsi": "A",
-                "teks_opsi": "r(x) = -3(x + 4) - 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24066,
-                "label_opsi": "B",
-                "teks_opsi": "r(x) = 3(x – 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24067,
-                "label_opsi": "C",
-                "teks_opsi": "r(x) = -3(x – 4) - 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24068,
-                "label_opsi": "D",
-                "teks_opsi": "r(x) = 3(x + 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24069,
-                "label_opsi": "E",
-                "teks_opsi": "r(x) = -3(x + 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6124,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> r(x) = 3x + 2 </strong><strong>mengalami</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>ke</strong><strong> kiri 4 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>refleksi</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>Sumbu</strong><strong> X. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>setelah</strong><strong> </strong><strong>kedua</strong><strong> </strong><strong>transformasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24070,
-                "label_opsi": "A",
-                "teks_opsi": "r(x) = -3(x + 4) - 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24071,
-                "label_opsi": "B",
-                "teks_opsi": "r(x) = 3(x – 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24072,
-                "label_opsi": "C",
-                "teks_opsi": "r(x) = -3(x – 4) - 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24073,
-                "label_opsi": "D",
-                "teks_opsi": "r(x) = 3(x + 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24074,
-                "label_opsi": "E",
-                "teks_opsi": "r(x) = -3(x + 4) + 2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6125,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Garis 2x – y = 5 </strong><strong>dirotasikan</strong><strong> </strong><strong>sebesar</strong><strong> 180</strong><strong>° </strong><strong>terhadap</strong><strong> </strong><strong>titik</strong><strong> </strong><strong>pusat</strong><strong> (0,0). Hasil </strong><strong>rotasi</strong><strong> garis </strong><strong>tersebut</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24075,
-                "label_opsi": "A",
-                "teks_opsi": "2x – y = 5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24076,
-                "label_opsi": "B",
-                "teks_opsi": "-2x + y = 5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24077,
-                "label_opsi": "C",
-                "teks_opsi": "2x + y = 5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24078,
-                "label_opsi": "D",
-                "teks_opsi": "-2x – y = 5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24079,
-                "label_opsi": "E",
-                "teks_opsi": "2x – y = -5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            }
-        ]
-    },
-    {
-        "id_soal": 6126,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Hasil </strong><strong>dari</strong><strong> (-21</strong><strong>) :</strong><strong> (7 – 10) + (-4) x 2 = ….</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24080,
-                "label_opsi": "A",
-                "teks_opsi": "-15",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24081,
-                "label_opsi": "B",
-                "teks_opsi": "-1",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24082,
-                "label_opsi": "C",
-                "teks_opsi": "1",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24083,
-                "label_opsi": "D",
-                "teks_opsi": "15",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24084,
-                "label_opsi": "E",
-                "teks_opsi": "5",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6127,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Transformasi</strong><strong> yang </strong><strong>memindahkan</strong><strong> </strong><strong>objek</strong><strong> </strong><strong>menurut</strong><strong> </strong><strong>bentuk</strong><strong> </strong><strong>bayangan</strong><strong> </strong><strong>disebut</strong><strong> </strong><strong>dengan</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24085,
-                "label_opsi": "A",
-                "teks_opsi": "Translasi",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24086,
-                "label_opsi": "B",
-                "teks_opsi": "Refleksi",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24087,
-                "label_opsi": "C",
-                "teks_opsi": "Rotasi",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24088,
-                "label_opsi": "D",
-                "teks_opsi": "Dilatasi",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24089,
-                "label_opsi": "E",
-                "teks_opsi": "Trandformasi Geometri",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6128,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Persamaan</strong><strong> garis y = 2x + 4 </strong><strong>dirotasikan</strong><strong> </strong><strong>sebesar</strong><strong> 90</strong><strong>°</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>titik</strong><strong> </strong><strong>pusat</strong><strong> (0,0). </strong><strong>Tentukan</strong><strong> </strong><strong>persamaan</strong><strong> garis </strong><strong>hasil</strong><strong> </strong><strong>rotasi</strong><strong>!</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24090,
-                "label_opsi": "A",
-                "teks_opsi": "-2y - 4",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24091,
-                "label_opsi": "B",
-                "teks_opsi": "2y + 4",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24092,
-                "label_opsi": "C",
-                "teks_opsi": "2y - 4",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24093,
-                "label_opsi": "D",
-                "teks_opsi": "2(-y)-4",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24094,
-                "label_opsi": "E",
-                "teks_opsi": "-2y + 4",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6129,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "PILGAN",
-        "teks_soal": "<strong>Tentukan</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> f(x) = x</strong><strong>²</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> 3 </strong><strong>satuan</strong><strong>!</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "2.50",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null,
-        "options": [
-            {
-                "id_opsi": 24095,
-                "label_opsi": "A",
-                "teks_opsi": "–(x – 3)<strong>²</strong><strong> + </strong>2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24096,
-                "label_opsi": "B",
-                "teks_opsi": "(x – 3<strong>)²</strong><strong> + </strong>2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 1
-            },
-            {
-                "id_opsi": 24097,
-                "label_opsi": "C",
-                "teks_opsi": "(x + 3<strong>)²</strong><strong> + </strong>2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24098,
-                "label_opsi": "D",
-                "teks_opsi": "(x – 3<strong>)²</strong><strong> - </strong>2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            },
-            {
-                "id_opsi": 24099,
-                "label_opsi": "E",
-                "teks_opsi": "(x + 3<strong>)²</strong><strong> + </strong>2",
-                "gambar_opsi": null,
-                "is_jawaban_benar": 0
-            }
-        ]
-    },
-    {
-        "id_soal": 6130,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "ESSAY",
-        "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> h(x) = 5x + 2 </strong><strong>ditranslasikan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong> 2 </strong><strong>satuan</strong><strong>. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "10.00",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null
-    },
-    {
-        "id_soal": 6131,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "ESSAY",
-        "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> </strong><span class=\"math\">{f\\left( x \\right)=2x}^{2}+3x-5</span><strong> digeser sebanyak 1 satuan ke kanan. Persamaan fungsi hasil pergeserannya adalah…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "10.00",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null
-    },
-    {
-        "id_soal": 6132,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "ESSAY",
-        "teks_soal": "<strong>Diketahui</strong><strong> f(x) = 6 – 3x </strong><strong>ditranslasikan</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> dan 1 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong>. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "10.00",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null
-    },
-    {
-        "id_soal": 6133,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "ESSAY",
-        "teks_soal": "<strong>Diketahui</strong><strong> </strong><span class=\"math\">{g\\left( x \\right)=x}^{2}+1</span><strong> digeser sejauh 3 satuan ke kanan dan 2 satuan ke bawah kemudian dicerminkan terhadap Sumbu X sehingga menghasilkan g(x</strong><strong>) .</strong><strong> Maka g(x) = ….</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "10.00",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null
-    },
-    {
-        "id_soal": 6134,
-        "id_ujian": 391,
-        "id_guru_pembuat": 73,
-        "tipe_soal": "ESSAY",
-        "teks_soal": "<strong>Jika f(x) = </strong><span class=\"math\">{x}^{2}</span><strong> </strong><strong>digeser</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> dan 3 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>bawah</strong><strong>, </strong><strong>kemudian</strong><strong> </strong><strong>direfleksikan</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>sumbu</strong><strong> X, </strong><strong>hasilnya</strong><strong> </strong><strong>adalah</strong><strong>….</strong>",
-        "gambar_soal": null,
-        "audio_soal": null,
-        "bobot_nilai": "10.00",
-        "created_at": "2026-10-07T04:28:47.000Z",
-        "id_grup": null,
-        "urutan_dalam_grup": null,
-        "nama_grup": null,
-        "teks_konteks": null,
-        "gambar_konteks": null,
-        "audio_konteks": null
-    }
+},
+{
+    "id_soal": 6123,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> r(x) = 3x + 2 </strong><strong>mengalami</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>ke</strong><strong> kiri 4 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>refleksi</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>Sumbu</strong><strong> X. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>setelah</strong><strong> </strong><strong>kedua</strong><strong> </strong><strong>transformasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24065,
+            "label_opsi": "A",
+            "teks_opsi": "r(x) = -3(x + 4) - 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24066,
+            "label_opsi": "B",
+            "teks_opsi": "r(x) = 3(x – 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24067,
+            "label_opsi": "C",
+            "teks_opsi": "r(x) = -3(x – 4) - 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24068,
+            "label_opsi": "D",
+            "teks_opsi": "r(x) = 3(x + 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24069,
+            "label_opsi": "E",
+            "teks_opsi": "r(x) = -3(x + 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6124,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> r(x) = 3x + 2 </strong><strong>mengalami</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>ke</strong><strong> kiri 4 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>refleksi</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>Sumbu</strong><strong> X. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>setelah</strong><strong> </strong><strong>kedua</strong><strong> </strong><strong>transformasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24070,
+            "label_opsi": "A",
+            "teks_opsi": "r(x) = -3(x + 4) - 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24071,
+            "label_opsi": "B",
+            "teks_opsi": "r(x) = 3(x – 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24072,
+            "label_opsi": "C",
+            "teks_opsi": "r(x) = -3(x – 4) - 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24073,
+            "label_opsi": "D",
+            "teks_opsi": "r(x) = 3(x + 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24074,
+            "label_opsi": "E",
+            "teks_opsi": "r(x) = -3(x + 4) + 2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6125,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Garis 2x – y = 5 </strong><strong>dirotasikan</strong><strong> </strong><strong>sebesar</strong><strong> 180</strong><strong>° </strong><strong>terhadap</strong><strong> </strong><strong>titik</strong><strong> </strong><strong>pusat</strong><strong> (0,0). Hasil </strong><strong>rotasi</strong><strong> garis </strong><strong>tersebut</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24075,
+            "label_opsi": "A",
+            "teks_opsi": "2x – y = 5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24076,
+            "label_opsi": "B",
+            "teks_opsi": "-2x + y = 5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24077,
+            "label_opsi": "C",
+            "teks_opsi": "2x + y = 5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24078,
+            "label_opsi": "D",
+            "teks_opsi": "-2x – y = 5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24079,
+            "label_opsi": "E",
+            "teks_opsi": "2x – y = -5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        }
+    ]
+},
+{
+    "id_soal": 6126,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Hasil </strong><strong>dari</strong><strong> (-21</strong><strong>) :</strong><strong> (7 – 10) + (-4) x 2 = ….</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24080,
+            "label_opsi": "A",
+            "teks_opsi": "-15",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24081,
+            "label_opsi": "B",
+            "teks_opsi": "-1",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24082,
+            "label_opsi": "C",
+            "teks_opsi": "1",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24083,
+            "label_opsi": "D",
+            "teks_opsi": "15",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24084,
+            "label_opsi": "E",
+            "teks_opsi": "5",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6127,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Transformasi</strong><strong> yang </strong><strong>memindahkan</strong><strong> </strong><strong>objek</strong><strong> </strong><strong>menurut</strong><strong> </strong><strong>bentuk</strong><strong> </strong><strong>bayangan</strong><strong> </strong><strong>disebut</strong><strong> </strong><strong>dengan</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24085,
+            "label_opsi": "A",
+            "teks_opsi": "Translasi",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24086,
+            "label_opsi": "B",
+            "teks_opsi": "Refleksi",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24087,
+            "label_opsi": "C",
+            "teks_opsi": "Rotasi",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24088,
+            "label_opsi": "D",
+            "teks_opsi": "Dilatasi",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24089,
+            "label_opsi": "E",
+            "teks_opsi": "Trandformasi Geometri",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6128,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Persamaan</strong><strong> garis y = 2x + 4 </strong><strong>dirotasikan</strong><strong> </strong><strong>sebesar</strong><strong> 90</strong><strong>°</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>titik</strong><strong> </strong><strong>pusat</strong><strong> (0,0). </strong><strong>Tentukan</strong><strong> </strong><strong>persamaan</strong><strong> garis </strong><strong>hasil</strong><strong> </strong><strong>rotasi</strong><strong>!</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24090,
+            "label_opsi": "A",
+            "teks_opsi": "-2y - 4",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24091,
+            "label_opsi": "B",
+            "teks_opsi": "2y + 4",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24092,
+            "label_opsi": "C",
+            "teks_opsi": "2y - 4",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24093,
+            "label_opsi": "D",
+            "teks_opsi": "2(-y)-4",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24094,
+            "label_opsi": "E",
+            "teks_opsi": "-2y + 4",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6129,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "<strong>Tentukan</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> f(x) = x</strong><strong>²</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>dilanjutkan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> 3 </strong><strong>satuan</strong><strong>!</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+        {
+            "id_opsi": 24095,
+            "label_opsi": "A",
+            "teks_opsi": "–(x – 3)<strong>²</strong><strong> + </strong>2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24096,
+            "label_opsi": "B",
+            "teks_opsi": "(x – 3<strong>)²</strong><strong> + </strong>2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 1
+        },
+        {
+            "id_opsi": 24097,
+            "label_opsi": "C",
+            "teks_opsi": "(x + 3<strong>)²</strong><strong> + </strong>2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24098,
+            "label_opsi": "D",
+            "teks_opsi": "(x – 3<strong>)²</strong><strong> - </strong>2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        },
+        {
+            "id_opsi": 24099,
+            "label_opsi": "E",
+            "teks_opsi": "(x + 3<strong>)²</strong><strong> + </strong>2",
+            "gambar_opsi": null,
+            "is_jawaban_benar": 0
+        }
+    ]
+},
+{
+    "id_soal": 6130,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> h(x) = 5x + 2 </strong><strong>ditranslasikan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong> 2 </strong><strong>satuan</strong><strong>. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+},
+{
+    "id_soal": 6131,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "<strong>Diketahui</strong><strong> </strong><strong>fungsi</strong><strong> </strong><span class=\"math\">{f\\left( x \\right)=2x}^{2}+3x-5</span><strong> digeser sebanyak 1 satuan ke kanan. Persamaan fungsi hasil pergeserannya adalah…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+},
+{
+    "id_soal": 6132,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "<strong>Diketahui</strong><strong> f(x) = 6 – 3x </strong><strong>ditranslasikan</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> dan 1 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>atas</strong><strong>. </strong><strong>Persamaan</strong><strong> </strong><strong>fungsi</strong><strong> </strong><strong>hasil</strong><strong> </strong><strong>translasi</strong><strong> </strong><strong>adalah</strong><strong>…</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+},
+{
+    "id_soal": 6133,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "<strong>Diketahui</strong><strong> </strong><span class=\"math\">{g\\left( x \\right)=x}^{2}+1</span><strong> digeser sejauh 3 satuan ke kanan dan 2 satuan ke bawah kemudian dicerminkan terhadap Sumbu X sehingga menghasilkan g(x</strong><strong>) .</strong><strong> Maka g(x) = ….</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+},
+{
+    "id_soal": 6134,
+    "id_ujian": 391,
+    "id_guru_pembuat": 73,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "<strong>Jika f(x) = </strong><span class=\"math\">{x}^{2}</span><strong> </strong><strong>digeser</strong><strong> 2 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>kanan</strong><strong> dan 3 </strong><strong>satuan</strong><strong> </strong><strong>ke</strong><strong> </strong><strong>bawah</strong><strong>, </strong><strong>kemudian</strong><strong> </strong><strong>direfleksikan</strong><strong> </strong><strong>terhadap</strong><strong> </strong><strong>sumbu</strong><strong> X, </strong><strong>hasilnya</strong><strong> </strong><strong>adalah</strong><strong>….</strong>",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-07T04:28:47.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+}
 ]
