@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 1580,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pancasila sebagai nilai kodrati dapat dipahami sebagai nilai yang ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5658,
+                "label_opsi": "A",
+                "teks_opsi": "hanya berlaku bagi pejabat negara",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5659,
+                "label_opsi": "B",
+                "teks_opsi": "bersumber dari perkembangan teknologi modern",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5660,
+                "label_opsi": "C",
+                "teks_opsi": "melekat pada hakikat manusia dan berlaku secara universal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5661,
+                "label_opsi": "D",
+                "teks_opsi": "hanya diterapkan ketika upacara bendera",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5662,
+                "label_opsi": "E",
+                "teks_opsi": "berlaku untuk kelompok masyarakat tertentu saja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1581,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan pernyataan berikut: <br><em>\"Manusia tidak dapat hidup sendiri, ia membutuhkan orang lain dalam pemenuhan kebutuhan hidupnya.\" </em><br>Pernyataan ini paling tepat menggambarkan nilai kodrati manusia sebagai ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5663,
+                "label_opsi": "A",
+                "teks_opsi": "makhluk individu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5664,
+                "label_opsi": "B",
+                "teks_opsi": "makhluk ekonomi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5665,
+                "label_opsi": "C",
+                "teks_opsi": "makhluk politik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5666,
+                "label_opsi": "D",
+                "teks_opsi": "makhluk sosial",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5667,
+                "label_opsi": "E",
+                "teks_opsi": "makhluk berbudaya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1582,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pancasila menjadi identitas bangsa Indonesia karena nilai-nilainya  ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5668,
+                "label_opsi": "A",
+                "teks_opsi": "digali dari budaya dan kepribadian bangsa Indonesia sendiri",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5669,
+                "label_opsi": "B",
+                "teks_opsi": "sama dengan ideologi negara lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5670,
+                "label_opsi": "C",
+                "teks_opsi": "hanya berlaku bagi sebagian masyarakat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5671,
+                "label_opsi": "D",
+                "teks_opsi": "bersifat universal tanpa akar budaya lokal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5672,
+                "label_opsi": "E",
+                "teks_opsi": "diciptakan oleh bangsa penjajah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1583,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seorang pelajar SMK memilih menggunakan produk lokal, melestarikan bahasa daerah, dan menghormati adat istiadat setempat. Sikap tersebut mencerminkan penguatan Pancasila sebagai ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5673,
+                "label_opsi": "A",
+                "teks_opsi": "dasar negara",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5674,
+                "label_opsi": "B",
+                "teks_opsi": "sumber hukum",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5675,
+                "label_opsi": "C",
+                "teks_opsi": "identitas nasional",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5676,
+                "label_opsi": "D",
+                "teks_opsi": "perjanjian para leluhur bangsa",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5677,
+                "label_opsi": "E",
+                "teks_opsi": "sistem pemerintahan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1584,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Sebuah perusahaan memberikan upah yang sama untuk pekerjaan yang sama tanpa membedakan gender maupun latar belakang suku pekerjanya. Kebijakan tersebut paling sesuai dengan penerapan sila ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5678,
+                "label_opsi": "A",
+                "teks_opsi": "Ketuhanan Yang Maha Esa",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5679,
+                "label_opsi": "B",
+                "teks_opsi": "Kemanusiaan yang Adil dan Beradab",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5680,
+                "label_opsi": "C",
+                "teks_opsi": "Persatuan Indonesia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5681,
+                "label_opsi": "D",
+                "teks_opsi": "Kerakyatan yang dipimpin oleh hikmah kebijaksanaan dalam permusyawaratan/perwakilan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5682,
+                "label_opsi": "E",
+                "teks_opsi": "Keadilan sosial bagi seluruh rakyat Indonesia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1585,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam sebuah tugas kelompok, dua anggota siswa berbeda pendapat tentang pembagian pekerjaan. Salah satu anggota merasa pendapatnya selalu diabaikan, sedangkan anggota lain ingin segera menyelesaikan tugas tanpa berdiskusi. <br><br>Tindakan yang paling sesuai dengan keterkaitan nilai sila kedua, ketiga, dan keempat Pancasila adalah .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5683,
+                "label_opsi": "A",
+                "teks_opsi": "ketua kelompok menentukan seluruh pembagian tugas tanpa mendengar anggota lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5684,
+                "label_opsi": "B",
+                "teks_opsi": "anggota yang lebih banyak jumlahnya memaksakan pendapatnya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5685,
+                "label_opsi": "C",
+                "teks_opsi": "kelompok melakukan musyawarah, menghargai setiap anggota, dan menyepakati pembagian tugas secara adil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5686,
+                "label_opsi": "D",
+                "teks_opsi": "anggota yang berbeda pendapat mengundurkan diri dari kelompok",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5687,
+                "label_opsi": "E",
+                "teks_opsi": "tugas diberikan hanya kepada anggota yang memiliki nilai akademik tinggi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1586,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Berikut yang merupakan tantangan penerapan nilai-nilai Pancasila di era globalisasi adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5688,
+                "label_opsi": "A",
+                "teks_opsi": "meningkatnya rasa cinta tanah air",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5689,
+                "label_opsi": "B",
+                "teks_opsi": "berkembangnya semangat gotong royong",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5690,
+                "label_opsi": "C",
+                "teks_opsi": "masuknya budaya asing yang bertentangan dengan nilai luhur bangsa",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5691,
+                "label_opsi": "D",
+                "teks_opsi": "menguatnya toleransi antarumat beragama",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5692,
+                "label_opsi": "E",
+                "teks_opsi": "meningkatnya partisipasi dalam musyawarah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1587,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Sekelompok siswa SMK membuat konten digital tentang budaya gotong royong di Indonesia. Konten tersebut akan dibagikan melalui platform yang dapat diakses oleh masyarakat dari berbagai negara. Salah satu komentar dari pengguna luar negeri berisi pertanyaan tentang makna gotong royong. <br><br>Strategi yang paling tepat untuk memanfaatkan peluang globalisasi sesuai dengan nilai Pancasila adalah .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5693,
+                "label_opsi": "A",
+                "teks_opsi": "menghapus komentar karena berasal dari orang luar negeri",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5694,
+                "label_opsi": "B",
+                "teks_opsi": "menjelaskan makna gotong royong secara santun serta membuka dialog untuk saling memahami budaya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5695,
+                "label_opsi": "C",
+                "teks_opsi": "menyatakan bahwa budaya Indonesia lebih unggul daripada semua budaya lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5696,
+                "label_opsi": "D",
+                "teks_opsi": "membatasi konten hanya untuk pengguna dari Indonesia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5697,
+                "label_opsi": "E",
+                "teks_opsi": "membalas komentar dengan pernyataan yang merendahkan budaya lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1588,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Di era globalisasi, berbagai budaya dan gaya hidup dari luar negeri mudah masuk ke Indonesia melalui media sosial, film, musik, dan internet. Sebagian budaya tersebut dapat memberikan dampak positif, tetapi ada pula yang bertentangan dengan nilai-nilai Pancasila, seperti sikap individualistis, intoleransi, dan perilaku yang tidak menghargai norma masyarakat. <br><br>Berdasarkan kondisi tersebut, Pancasila dapat digunakan oleh masyarakat Indonesia untuk menilai dan menentukan budaya asing yang sesuai maupun yang bertentangan dengan nilai-nilai bangsa. Dalam hal ini, Pancasila berperan sebagai .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5698,
+                "label_opsi": "A",
+                "teks_opsi": "dasar negara dalam penyelenggaraan pemerintahan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5699,
+                "label_opsi": "B",
+                "teks_opsi": "pandangan hidup bangsa dalam menjalankan kehidupan sehari-hari",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5700,
+                "label_opsi": "C",
+                "teks_opsi": "identitas nasional yang menunjukkan ciri khas bangsa Indonesia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5701,
+                "label_opsi": "D",
+                "teks_opsi": "filter terhadap budaya asing yang bertentangan dengan nilai-nilai Pancasila",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5702,
+                "label_opsi": "E",
+                "teks_opsi": "sumber hukum dalam penyusunan peraturan perundang-undangan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1589,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh penerapan nilai Pancasila dalam <strong>skala global</strong> adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5703,
+                "label_opsi": "A",
+                "teks_opsi": "mengikuti upacara bendera setiap hari Senin",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5704,
+                "label_opsi": "B",
+                "teks_opsi": "gotong royong membersihkan lingkungan RT",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5705,
+                "label_opsi": "C",
+                "teks_opsi": "musyawarah pemilihan ketua kelas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5706,
+                "label_opsi": "D",
+                "teks_opsi": "menghormati orang tua di rumah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5707,
+                "label_opsi": "E",
+                "teks_opsi": "Indonesia aktif berperan menjaga perdamaian dunia melalui pasukan perdamaian PBB",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1590,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seorang warga negara menikmati fasilitas jalan umum tanpa pernah membayar pajak kendaraan yang menjadi kewajibannya. Kondisi ini menunjukkan adanya ketimpangan antara ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5708,
+                "label_opsi": "A",
+                "teks_opsi": "hak dan tanggung jawab sosial",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5709,
+                "label_opsi": "B",
+                "teks_opsi": "kewajiban moral dan kewajiban hukum",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5710,
+                "label_opsi": "C",
+                "teks_opsi": "hak asasi dan hak warga negara",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5711,
+                "label_opsi": "D",
+                "teks_opsi": "kewajiban individu dan kewajiban kolektif",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5712,
+                "label_opsi": "E",
+                "teks_opsi": "hak yang diterima dan kewajiban yang diabaikan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1591,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Tindakan main hakim sendiri terhadap seseorang yang diduga melakukan pencurian merupakan bentuk ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5713,
+                "label_opsi": "A",
+                "teks_opsi": "penegakan hukum yang tepat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5714,
+                "label_opsi": "B",
+                "teks_opsi": "pelaksanaan kewajiban warga negara",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5715,
+                "label_opsi": "C",
+                "teks_opsi": "pelanggaran hak asasi manusia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5716,
+                "label_opsi": "D",
+                "teks_opsi": "penerapan sila kelima Pancasila",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5717,
+                "label_opsi": "E",
+                "teks_opsi": "tindakan yang dibenarkan oleh hukum",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1592,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Kegiatan yang dapat digunakan sebagai kampanye untuk meningkatkan kesadaran hak dan kewajiban warga negara adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5718,
+                "label_opsi": "A",
+                "teks_opsi": "menyebarkan informasi tanpa memeriksa kebenarannya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5719,
+                "label_opsi": "B",
+                "teks_opsi": "membuat poster edukasi tentang hak dan kewajiban disertai ajakan bertanggung jawab",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5720,
+                "label_opsi": "C",
+                "teks_opsi": "menutup ruang diskusi tentang peraturan sekolah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5721,
+                "label_opsi": "D",
+                "teks_opsi": "membuat konten yang menyalahkan kelompok tertentu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5722,
+                "label_opsi": "E",
+                "teks_opsi": "mengabaikan pendapat masyarakat dalam kegiatan kampanye",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1593,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Sekelompok siswa SMK membuat konten video pendek di media sosial tentang bahaya perundungan <em>(bullying) </em>dan cara melapor jika mengalami kekerasan. Kegiatan ini merupakan bentuk kontribusi nyata generasi muda dalam ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5723,
+                "label_opsi": "A",
+                "teks_opsi": "pelanggaran privasi orang lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5724,
+                "label_opsi": "B",
+                "teks_opsi": "kampanye penegakan hak dan kewajiban warga negara",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5725,
+                "label_opsi": "C",
+                "teks_opsi": "propaganda politik tertentu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5726,
+                "label_opsi": "D",
+                "teks_opsi": "tindakan yang tidak berkaitan dengan Pancasila",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5727,
+                "label_opsi": "E",
+                "teks_opsi": "pelanggaran kode etik media sosial",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1594,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu peluang penerapan nilai Pancasila dalam kehidupan global adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5728,
+                "label_opsi": "A",
+                "teks_opsi": "memperkenalkan budaya Indonesia melalui kerja sama dan komunikasi antarbangsa",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5729,
+                "label_opsi": "B",
+                "teks_opsi": "menolak seluruh bentuk interaksi dengan negara lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5730,
+                "label_opsi": "C",
+                "teks_opsi": "menganggap budaya sendiri lebih tinggi daripada budaya lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5731,
+                "label_opsi": "D",
+                "teks_opsi": "menghindari kerja sama internasional",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5732,
+                "label_opsi": "E",
+                "teks_opsi": "membatasi penggunaan teknologi untuk semua kegiatan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1595,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Di media sosial beredar video yang menampilkan budaya suatu daerah di Indonesia. Video tersebut disertai komentar yang merendahkan masyarakat pemilik budaya tersebut. Beberapa siswa kemudian ingin membagikan video itu agar menjadi viral. <br><br>Tindakan yang paling mencerminkan penerapan nilai Pancasila adalah .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5733,
+                "label_opsi": "A",
+                "teks_opsi": "membagikan video tersebut karena semua konten viral bermanfaat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5734,
+                "label_opsi": "B",
+                "teks_opsi": "menambahkan komentar yang lebih merendahkan agar menarik perhatian",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5735,
+                "label_opsi": "C",
+                "teks_opsi": "memeriksa informasi, tidak menyebarkan penghinaan, dan mengajak orang lain menghormati keberagaman",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5736,
+                "label_opsi": "D",
+                "teks_opsi": "mengajak teman untuk menyerang akun pengunggah menggunakan komentar kasar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5737,
+                "label_opsi": "E",
+                "teks_opsi": "menganggap penghinaan sebagai hal wajar dalam kebebasan berpendapat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1596,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pernyataan yang tepat mengenai hak dan kewajiban warga negara adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5738,
+                "label_opsi": "A",
+                "teks_opsi": "hak merupakan sesuatu yang harus dilakukan, sedangkan kewajiban adalah sesuatu yang boleh diabaikan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5739,
+                "label_opsi": "B",
+                "teks_opsi": "hak dan kewajiban merupakan dua hal yang tidak memiliki hubungan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5740,
+                "label_opsi": "C",
+                "teks_opsi": "hak merupakan sesuatu yang menjadi milik atau wewenang seseorang, sedangkan kewajiban adalah sesuatu yang harus dilaksanakan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5741,
+                "label_opsi": "D",
+                "teks_opsi": "kewajiban hanya berlaku bagi warga negara yang sudah bekerja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5742,
+                "label_opsi": "E",
+                "teks_opsi": "setiap hak boleh digunakan tanpa memperhatikan hak orang lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1597,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pelaksanaan hak dan kewajiban warga negara perlu dilakukan secara seimbang, karena ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5743,
+                "label_opsi": "A",
+                "teks_opsi": "agar seseorang dapat menuntut hak tanpa menjalankan kewajibannya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5744,
+                "label_opsi": "B",
+                "teks_opsi": "agar setiap warga negara dapat menggunakan haknya dengan menghormati hak orang lain dan menjalankan kewajibannya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5745,
+                "label_opsi": "C",
+                "teks_opsi": "agar kewajiban hanya dilakukan oleh masyarakat yang kurang mampu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5746,
+                "label_opsi": "D",
+                "teks_opsi": "agar seluruh hak warga negara dapat dibatasi tanpa alasan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5747,
+                "label_opsi": "E",
+                "teks_opsi": "agar setiap warga negara dapat menghindari tanggung jawab sosial",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1598,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seorang siswa di SMK tidak diperbolehkan mengikuti diskusi kelompok oleh teman-temannya karena berasal dari keluarga kurang mampu. Anggota kelompok tersebut juga mengatakan bahwa pendapat siswa itu tidak perlu didengarkan. <br><br>Berdasarkan ilustrasi tersebut, tindakan yang paling tepat untuk mencerminkan nilai Pancasila adalah .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5748,
+                "label_opsi": "A",
+                "teks_opsi": "membiarkan kelompok menentukan anggota berdasarkan kondisi ekonomi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5749,
+                "label_opsi": "B",
+                "teks_opsi": "mengeluarkan siswa tersebut dari kelompok agar tidak terjadi konflik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5750,
+                "label_opsi": "C",
+                "teks_opsi": "memberikan kesempatan yang setara untuk berpartisipasi, menghargai martabatnya, dan menyelesaikan masalah melalui dialog",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5751,
+                "label_opsi": "D",
+                "teks_opsi": "menyarankan siswa tersebut tidak mengikuti kegiatan kelompok",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5752,
+                "label_opsi": "E",
+                "teks_opsi": "meminta siswa tersebut membuktikan bahwa dirinya layak menjadi anggota",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1599,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "OSIS merancang dua kampanye untuk mengurangi perundungan di sekolah. <br><strong>Kampanye A:</strong> Membuat poster bertuliskan <em><strong>\"Jangan Membully!\"</strong></em> tanpa informasi tambahan, contoh tindakan, atau saluran pelaporan. <br><strong>Kampanye B:</strong> Membuat poster edukasi yang menjelaskan dampak perundungan, mengajak siswa menghormati sesama, menyediakan informasi pelaporan, dan mendorong dukungan terhadap korban. <br><br>Berdasarkan nilai Pancasila dan tujuan kampanye, alasan yang paling tepat untuk memilih rancangan kampanye yang lebih komprehensif adalah .... (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 5753,
+                "label_opsi": "A",
+                "teks_opsi": "kampanye harus menggunakan kata-kata yang keras agar siswa takut",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5754,
+                "label_opsi": "B",
+                "teks_opsi": "kampanye harus berfokus pada hukuman tanpa memberikan edukasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5755,
+                "label_opsi": "C",
+                "teks_opsi": "kampanye perlu menyampaikan nilai kemanusiaan, pencegahan, tindakan nyata, dan dukungan untuk menciptakan lingkungan sekolah yang aman",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 5756,
+                "label_opsi": "D",
+                "teks_opsi": "kampanye cukup ditujukan kepada korban karena pelaku tidak perlu dilibatkan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 5757,
+                "label_opsi": "E",
+                "teks_opsi": "kampanye hanya perlu menampilkan gambar yang menarik tanpa pesan edukatif",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1600,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Jelaskan tiga nilai yang terkandung dalam Pancasila dan berikan masing-masing satu contoh penerapannya dalam kehidupan sehari-hari!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "5.00",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1601,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Sebagai siswa SMK yang akan memasuki dunia kerja, tulislah tiga contoh perilaku yang mencerminkan nilai-nilai Pancasila yang dapat diterapkan di lingkungan tempat kerja/industri! (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1602,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Mengapa pembiasaan perilaku yang sesuai dengan nilai-nilai Pancasila penting dilakukan oleh pelajar SMK? Jelaskan minimal tiga alasan! (HOTS)",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1603,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Perhatikan kasus berikut! (HOTS)<br>Seorang pengusaha membuang limbah pabrik ke sungai tanpa pengolahan sehingga mencemari lingkungan dan merugikan warga sekitar. <br><br>Analisislah dampak dari tindakan tersebut bagi kehidupan bermasyarakat!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 1604,
+        "id_ujian": 200,
+        "id_guru_pembuat": 46,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Perhatikan permasalahan berikut! (HOTS)<br>Perkembangan media sosial memungkinkan budaya dan informasi dari berbagai negara masuk ke Indonesia. Hal tersebut memberikan peluang untuk mengenalkan budaya Indonesia, tetapi juga dapat menimbulkan tantangan seperti penyebaran hoaks, ujaran kebencian, dan perilaku yang tidak menghargai keberagaman. <br><br>Sebagai pelajar SMK, evaluasilah penerapan nilai-nilai Pancasila yang dapat dilakukan untuk menghadapi permasalahan tersebut. Kemudian, jelaskan solusi yang dapat kamu lakukan agar penggunaan media sosial tetap mencerminkan nilai-nilai Pancasila!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "15.00",
+        "created_at": "2026-10-05T05:28:59.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]
