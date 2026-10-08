@@ -144,6 +144,10 @@ app.get('/api/questions/:id', async (req, res) => {
     }
 });
 
+// Register /view/list and /view/:name endpoints
+const { registerViewRoutes } = require('./viewRoutes');
+registerViewRoutes(app, QUESTIONS_DIR);
+
 // Serve frontend static files
 app.use(express.static(__dirname));
 

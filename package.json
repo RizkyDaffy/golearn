@@ -14,6 +14,7 @@
   "keywords": [],
   "type": "commonjs",
   "dependencies": {
+    "@opencode/cli": "^2.0.25",
     "cors": "^2.8.6",
     "express": "^5.2.1"
   }
