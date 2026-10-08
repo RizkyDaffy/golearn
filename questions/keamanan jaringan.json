@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 5409,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Tujuan utama mempelajari keamanan jaringan bagi siswa TKJ adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21181,
+                "label_opsi": "A",
+                "teks_opsi": "Agar dapat menggunakan internet tanpa batas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21182,
+                "label_opsi": "B",
+                "teks_opsi": "Agar dapat menghapus semua data jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21183,
+                "label_opsi": "C",
+                "teks_opsi": "Agar mampu melindungi sistem dan data dari berbagai ancaman",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21184,
+                "label_opsi": "D",
+                "teks_opsi": "Agar dapat menghindari penggunaan jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21185,
+                "label_opsi": "E",
+                "teks_opsi": "Agar dapat memperbanyak perangkat komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5410,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu contoh penerapan keamanan jaringan di sekolah adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21186,
+                "label_opsi": "A",
+                "teks_opsi": "Membagikan password Wi-Fi kepada semua orang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21187,
+                "label_opsi": "B",
+                "teks_opsi": "Menggunakan password administrator yang kuat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21188,
+                "label_opsi": "C",
+                "teks_opsi": "Menonaktifkan semua sistem keamanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21189,
+                "label_opsi": "D",
+                "teks_opsi": "Membuka seluruh akses server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21190,
+                "label_opsi": "E",
+                "teks_opsi": "Menggunakan satu password untuk semua pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5411,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam mempelajari keamanan jaringan, siswa harus memiliki sikap ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21191,
+                "label_opsi": "A",
+                "teks_opsi": "Ceroboh dalam menggunakan data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21192,
+                "label_opsi": "B",
+                "teks_opsi": "Bertanggung jawab dan menjaga kerahasiaan informasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21193,
+                "label_opsi": "C",
+                "teks_opsi": "Bebas mengakses semua komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21194,
+                "label_opsi": "D",
+                "teks_opsi": "Membagikan password kepada teman",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21195,
+                "label_opsi": "E",
+                "teks_opsi": "Mengabaikan aturan penggunaan jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5412,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu manfaat penerapan keamanan jaringan adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21196,
+                "label_opsi": "A",
+                "teks_opsi": "Mengurangi keamanan data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21197,
+                "label_opsi": "B",
+                "teks_opsi": "Meningkatkan risiko serangan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21198,
+                "label_opsi": "C",
+                "teks_opsi": "Melindungi data dan layanan jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21199,
+                "label_opsi": "D",
+                "teks_opsi": "Membuka akses kepada semua pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21200,
+                "label_opsi": "E",
+                "teks_opsi": "Menghilangkan kebutuhan administrator",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5413,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Tiga aspek utama keamanan informasi yang dikenal dengan istilah CIA Triad adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21201,
+                "label_opsi": "A",
+                "teks_opsi": "Control, Internet, Access",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21202,
+                "label_opsi": "B",
+                "teks_opsi": "Confidentiality, Integrity, Availability",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21203,
+                "label_opsi": "C",
+                "teks_opsi": "Computer, Information, Authentication",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21204,
+                "label_opsi": "D",
+                "teks_opsi": "Connection, Internet, Authorization",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21205,
+                "label_opsi": "E",
+                "teks_opsi": "Confidentiality, Internet, Authentication",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5414,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Confidentiality dalam keamanan informasi berarti ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21206,
+                "label_opsi": "A",
+                "teks_opsi": "Data selalu tersedia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21207,
+                "label_opsi": "B",
+                "teks_opsi": "Data tidak boleh diubah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21208,
+                "label_opsi": "C",
+                "teks_opsi": "Data hanya dapat diakses oleh pihak yang berwenang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21209,
+                "label_opsi": "D",
+                "teks_opsi": "Data harus dihapus secara berkala",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21210,
+                "label_opsi": "E",
+                "teks_opsi": "Data harus disimpan di internet",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5415,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Integrity bertujuan memastikan bahwa ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21211,
+                "label_opsi": "A",
+                "teks_opsi": "a. Data tetap akurat dan tidak diubah secara tidak sah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21212,
+                "label_opsi": "B",
+                "teks_opsi": "Semua orang dapat mengakses data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21213,
+                "label_opsi": "C",
+                "teks_opsi": "Server selalu dimatikan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21214,
+                "label_opsi": "D",
+                "teks_opsi": "Password dibagikan kepada pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21215,
+                "label_opsi": "E",
+                "teks_opsi": "Data dapat dihapus siapa saja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5416,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Availability dalam keamanan informasi berarti ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21216,
+                "label_opsi": "A",
+                "teks_opsi": "Data hanya boleh dimiliki administrator",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21217,
+                "label_opsi": "B",
+                "teks_opsi": "Sistem dan data tersedia ketika dibutuhkan oleh pengguna yang berwenang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21218,
+                "label_opsi": "C",
+                "teks_opsi": "Data tidak boleh disimpan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21219,
+                "label_opsi": "D",
+                "teks_opsi": "Sistem tidak boleh digunakan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21220,
+                "label_opsi": "E",
+                "teks_opsi": "Semua data harus dirahasiakan dari pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5417,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Program berbahaya yang dapat mengganggu atau merusak sistem komputer disebut ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21221,
+                "label_opsi": "A",
+                "teks_opsi": "Malware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21222,
+                "label_opsi": "B",
+                "teks_opsi": "Hardware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21223,
+                "label_opsi": "C",
+                "teks_opsi": "Firmware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21224,
+                "label_opsi": "D",
+                "teks_opsi": "Freeware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21225,
+                "label_opsi": "E",
+                "teks_opsi": "Shareware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5418,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Serangan yang bertujuan membuat layanan jaringan tidak dapat diakses oleh pengguna disebut ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21226,
+                "label_opsi": "A",
+                "teks_opsi": "Phishing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21227,
+                "label_opsi": "B",
+                "teks_opsi": "DDoS",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21228,
+                "label_opsi": "C",
+                "teks_opsi": "Spoofing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21229,
+                "label_opsi": "D",
+                "teks_opsi": "Sniffing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21230,
+                "label_opsi": "E",
+                "teks_opsi": "Defragmentasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5419,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Phishing merupakan serangan yang biasanya dilakukan dengan cara ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21231,
+                "label_opsi": "A",
+                "teks_opsi": "Mengganti kabel jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21232,
+                "label_opsi": "B",
+                "teks_opsi": "Menipu korban agar memberikan informasi rahasia",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21233,
+                "label_opsi": "C",
+                "teks_opsi": "Membersihkan virus komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21234,
+                "label_opsi": "D",
+                "teks_opsi": "Meningkatkan kecepatan jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21235,
+                "label_opsi": "E",
+                "teks_opsi": "Melakukan backup data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5420,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Kegiatan menangkap atau memantau paket data yang melewati jaringan disebut ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21236,
+                "label_opsi": "A",
+                "teks_opsi": "Sniffing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21237,
+                "label_opsi": "B",
+                "teks_opsi": "Formatting",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21238,
+                "label_opsi": "C",
+                "teks_opsi": "Routing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21239,
+                "label_opsi": "D",
+                "teks_opsi": "Switching",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21240,
+                "label_opsi": "E",
+                "teks_opsi": "Bridging",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5421,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Serangan yang dilakukan dengan menyamar sebagai perangkat atau pihak lain disebut ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21241,
+                "label_opsi": "A",
+                "teks_opsi": "Spoofing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21242,
+                "label_opsi": "B",
+                "teks_opsi": "Backup",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21243,
+                "label_opsi": "C",
+                "teks_opsi": "Scanning",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21244,
+                "label_opsi": "D",
+                "teks_opsi": "Routing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21245,
+                "label_opsi": "E",
+                "teks_opsi": "Filtering",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5422,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu cara mengurangi risiko serangan malware adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21246,
+                "label_opsi": "A",
+                "teks_opsi": "Menonaktifkan antivirus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21247,
+                "label_opsi": "B",
+                "teks_opsi": "Mengunduh semua file dari sumber tidak dikenal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21248,
+                "label_opsi": "C",
+                "teks_opsi": "Menggunakan perangkat lunak keamanan dan memperbarui sistem",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21249,
+                "label_opsi": "D",
+                "teks_opsi": "Membagikan password administrator",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21250,
+                "label_opsi": "E",
+                "teks_opsi": "Membuka semua lampiran email",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5423,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Risiko keamanan jaringan dapat dipahami sebagai kemungkinan terjadinya ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21251,
+                "label_opsi": "A",
+                "teks_opsi": "Peningkatan jumlah komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21252,
+                "label_opsi": "B",
+                "teks_opsi": "Kerugian akibat ancaman yang memanfaatkan suatu kelemahan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21253,
+                "label_opsi": "C",
+                "teks_opsi": "Penambahan pengguna jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21254,
+                "label_opsi": "D",
+                "teks_opsi": "Penggantian perangkat jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21255,
+                "label_opsi": "E",
+                "teks_opsi": "Perubahan tampilan komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5424,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Langkah awal yang penting dalam analisis risiko keamanan jaringan adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21256,
+                "label_opsi": "A",
+                "teks_opsi": "Menghapus seluruh data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21257,
+                "label_opsi": "B",
+                "teks_opsi": "Mengidentifikasi aset, ancaman, dan kerentanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21258,
+                "label_opsi": "C",
+                "teks_opsi": "Mematikan semua komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21259,
+                "label_opsi": "D",
+                "teks_opsi": "Mengganti seluruh perangkat jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21260,
+                "label_opsi": "E",
+                "teks_opsi": "Menghapus akun pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5425,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Jika sebuah server menyimpan data penting sekolah, maka server tersebut termasuk ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21261,
+                "label_opsi": "A",
+                "teks_opsi": "Ancaman",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21262,
+                "label_opsi": "B",
+                "teks_opsi": "Kerentanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21263,
+                "label_opsi": "C",
+                "teks_opsi": "Aset yang perlu dilindungi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21264,
+                "label_opsi": "D",
+                "teks_opsi": "Serangan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21265,
+                "label_opsi": "E",
+                "teks_opsi": "Malware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5426,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Security policy adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21266,
+                "label_opsi": "A",
+                "teks_opsi": "Program untuk mempercepat komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21267,
+                "label_opsi": "B",
+                "teks_opsi": "Aturan dan pedoman untuk menjaga keamanan informasi dan sistem",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21268,
+                "label_opsi": "C",
+                "teks_opsi": "Perangkat untuk menghubungkan komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21269,
+                "label_opsi": "D",
+                "teks_opsi": "Aplikasi untuk membuat desain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21270,
+                "label_opsi": "E",
+                "teks_opsi": "Sistem operasi jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5427,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh aturan dalam security policy adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21271,
+                "label_opsi": "A",
+                "teks_opsi": "Semua pengguna boleh mengetahui password administrator",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21272,
+                "label_opsi": "B",
+                "teks_opsi": "Password harus kuat dan tidak boleh dibagikan kepada orang lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21273,
+                "label_opsi": "C",
+                "teks_opsi": "Semua komputer harus bebas dari antivirus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21274,
+                "label_opsi": "D",
+                "teks_opsi": "Pengguna boleh mengakses semua data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21275,
+                "label_opsi": "E",
+                "teks_opsi": "Data penting tidak perlu dilakukan backup",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5428,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu tujuan dibuatnya security policy di sekolah atau perusahaan adalah ....",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 21276,
+                "label_opsi": "A",
+                "teks_opsi": "Membatasi penggunaan teknologi tanpa alasan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21277,
+                "label_opsi": "B",
+                "teks_opsi": "Memberikan pedoman bagi pengguna dalam menjaga keamanan sistem dan informasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 21278,
+                "label_opsi": "C",
+                "teks_opsi": "Menghilangkan tugas administrator jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21279,
+                "label_opsi": "D",
+                "teks_opsi": "Membuka akses seluruh data kepada pengguna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 21280,
+                "label_opsi": "E",
+                "teks_opsi": "Mengurangi penggunaan sistem keamanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 5429,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Jelaskan pengertian keamanan jaringan!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 5430,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Mengapa keamanan jaringan penting untuk dipelajari oleh siswa TKJ?",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 5431,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Berikan dua contoh penerapan keamanan informasi dalam kehidupan sehari-hari!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 5432,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Apa yang dimaksud dengan ancaman keamanan jaringan? Sebutkan dua contohnya!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 5433,
+        "id_ujian": 364,
+        "id_guru_pembuat": 53,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Jelaskan apa yang dimaksud dengan serangan phishing dan bagaimana cara mencegahnya!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-06T02:45:57.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]
