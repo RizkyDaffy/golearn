@@ -1,0 +1,1190 @@
+[
+    {
+        "id_soal": 6801,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perangkat keras (hardware) yang dibutuhkan untuk membangun sebuah jaringan, kecuali...",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26911,
+                "label_opsi": "A",
+                "teks_opsi": "switch",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26912,
+                "label_opsi": "B",
+                "teks_opsi": "hub",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26913,
+                "label_opsi": "C",
+                "teks_opsi": "router",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26914,
+                "label_opsi": "D",
+                "teks_opsi": "gateway",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26915,
+                "label_opsi": "E",
+                "teks_opsi": "crimping",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 6802,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Apa yang dimaksud dengan IP Address",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26916,
+                "label_opsi": "A",
+                "teks_opsi": "IP Address adalah gambaran / rangkain jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26917,
+                "label_opsi": "B",
+                "teks_opsi": "IP Address adalah alamat dari server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26918,
+                "label_opsi": "C",
+                "teks_opsi": "IP Address adalah jaringan LAN nirkabel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26919,
+                "label_opsi": "D",
+                "teks_opsi": "IP Address adalah alamat / address global yang menggunakan protocol tcp/ip",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26920,
+                "label_opsi": "E",
+                "teks_opsi": "ip address untuk lokal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6803,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Apa urutan warna ke –tiga dikedua sisi pada pengkabelan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26921,
+                "label_opsi": "A",
+                "teks_opsi": "Biru – Biru",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26922,
+                "label_opsi": "B",
+                "teks_opsi": "Putih Orange",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26923,
+                "label_opsi": "C",
+                "teks_opsi": "Putih - Hijau",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26924,
+                "label_opsi": "D",
+                "teks_opsi": "Cokelat – Cokelat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26925,
+                "label_opsi": "E",
+                "teks_opsi": "Hitam-putih",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6804,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Topologi jaringan komputer yang sangat mudah digunakan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26926,
+                "label_opsi": "A",
+                "teks_opsi": "star",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26927,
+                "label_opsi": "B",
+                "teks_opsi": "mesh",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26928,
+                "label_opsi": "C",
+                "teks_opsi": "tree",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26929,
+                "label_opsi": "D",
+                "teks_opsi": "ring",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26930,
+                "label_opsi": "E",
+                "teks_opsi": "star",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6805,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Komponen jaringan computer yang berfungsi memperkuat sinyal disebut",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26931,
+                "label_opsi": "A",
+                "teks_opsi": "Repeater",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26932,
+                "label_opsi": "B",
+                "teks_opsi": "Bridge",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26933,
+                "label_opsi": "D",
+                "teks_opsi": "switch",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26934,
+                "label_opsi": "E",
+                "teks_opsi": "hub",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6806,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Alat yang berfungsi untuk menghubungkan 2 jaringan beda segmen",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26935,
+                "label_opsi": "A",
+                "teks_opsi": "switch",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26936,
+                "label_opsi": "B",
+                "teks_opsi": "router",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26937,
+                "label_opsi": "C",
+                "teks_opsi": "mikrotik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26938,
+                "label_opsi": "D",
+                "teks_opsi": "hub",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26939,
+                "label_opsi": "E",
+                "teks_opsi": "coaxial",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6807,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seiring berkembangnya zaman, maka jaringan local disebut sebagai",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26940,
+                "label_opsi": "A",
+                "teks_opsi": "LAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26941,
+                "label_opsi": "B",
+                "teks_opsi": "WAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26942,
+                "label_opsi": "C",
+                "teks_opsi": "MAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26943,
+                "label_opsi": "D",
+                "teks_opsi": "MPLS",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26944,
+                "label_opsi": "E",
+                "teks_opsi": "Intercity",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6808,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Jaringan yang terbentuk dari beberapa jaringan local disebut",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26945,
+                "label_opsi": "A",
+                "teks_opsi": "LAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26946,
+                "label_opsi": "B",
+                "teks_opsi": "WAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26947,
+                "label_opsi": "D",
+                "teks_opsi": "MAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26948,
+                "label_opsi": "E",
+                "teks_opsi": "TCP/IP",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6809,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Agar 3 atau lebih komputer bisa membentuk suatu jaringan dibutuhkan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26949,
+                "label_opsi": "A",
+                "teks_opsi": "kabel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26950,
+                "label_opsi": "B",
+                "teks_opsi": "switch",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26951,
+                "label_opsi": "C",
+                "teks_opsi": "reapeater",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26952,
+                "label_opsi": "D",
+                "teks_opsi": "catalyst",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26953,
+                "label_opsi": "E",
+                "teks_opsi": "cisco",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6810,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Agar jaringan bisa berfungsi pada kecepatan full 1gb/s, maka dibutuhkan perangkat",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26954,
+                "label_opsi": "A",
+                "teks_opsi": "switch gigabit",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26955,
+                "label_opsi": "B",
+                "teks_opsi": "access point 5G",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26956,
+                "label_opsi": "C",
+                "teks_opsi": "router 5G",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26957,
+                "label_opsi": "D",
+                "teks_opsi": "repeater Gigabit",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26958,
+                "label_opsi": "E",
+                "teks_opsi": "kabel UTP",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6811,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "pada suatu vlan, untuk menghubungkan antar vlan menggunakan metode",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26959,
+                "label_opsi": "A",
+                "teks_opsi": "sambung vlan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26960,
+                "label_opsi": "B",
+                "teks_opsi": "intervlan routing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26961,
+                "label_opsi": "C",
+                "teks_opsi": "ospf",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26962,
+                "label_opsi": "D",
+                "teks_opsi": "bgp",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26963,
+                "label_opsi": "E",
+                "teks_opsi": "next hop",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6812,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "crossover kabel utp berfungsi menghubungkan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26964,
+                "label_opsi": "A",
+                "teks_opsi": "client ke server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26965,
+                "label_opsi": "B",
+                "teks_opsi": "client ke client",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26966,
+                "label_opsi": "C",
+                "teks_opsi": "server ke client",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26967,
+                "label_opsi": "D",
+                "teks_opsi": "hub ke server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26968,
+                "label_opsi": "E",
+                "teks_opsi": "server ke server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6813,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "teknologi jaringan tanpa kabel disebut",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26969,
+                "label_opsi": "A",
+                "teks_opsi": "star",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26970,
+                "label_opsi": "B",
+                "teks_opsi": "bus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26971,
+                "label_opsi": "C",
+                "teks_opsi": "mesh",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26972,
+                "label_opsi": "D",
+                "teks_opsi": "wireless",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26973,
+                "label_opsi": "E",
+                "teks_opsi": "point to point",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6814,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Agar IP lokal bisa mengakses internet kita menggunakan teknik",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26974,
+                "label_opsi": "A",
+                "teks_opsi": "NAT",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26975,
+                "label_opsi": "B",
+                "teks_opsi": "enkapsulasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26976,
+                "label_opsi": "C",
+                "teks_opsi": "ssl",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26977,
+                "label_opsi": "D",
+                "teks_opsi": "enkripsi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26978,
+                "label_opsi": "E",
+                "teks_opsi": "vlan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6815,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "pemberi ip secara otomatis adalah tanggung jawab",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26979,
+                "label_opsi": "A",
+                "teks_opsi": "dhcp server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26980,
+                "label_opsi": "B",
+                "teks_opsi": "smtp server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26981,
+                "label_opsi": "C",
+                "teks_opsi": "ftpserver",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26982,
+                "label_opsi": "D",
+                "teks_opsi": "samba",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26983,
+                "label_opsi": "E",
+                "teks_opsi": "telnet",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6816,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam konfigurasi firewall, istilah Whitelist merujuk pada",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26984,
+                "label_opsi": "A",
+                "teks_opsi": "Daftar alamat IP yang diblokir oleh sistem",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26985,
+                "label_opsi": "B",
+                "teks_opsi": "Daftar aplikasi yang dilarang mengakses jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26986,
+                "label_opsi": "C",
+                "teks_opsi": "Daftar pengguna yang tidak memiliki hak akses",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26987,
+                "label_opsi": "D",
+                "teks_opsi": "Daftar alamat IP atau domain yang diizinkan melewati firewall",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26988,
+                "label_opsi": "E",
+                "teks_opsi": "Daftar file sistem yang diamankan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6817,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "perintah untuk melihat ip address adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26989,
+                "label_opsi": "A",
+                "teks_opsi": "nslookup",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26990,
+                "label_opsi": "B",
+                "teks_opsi": "tracert",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26991,
+                "label_opsi": "C",
+                "teks_opsi": "ipconfig",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26992,
+                "label_opsi": "D",
+                "teks_opsi": "ping",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26993,
+                "label_opsi": "E",
+                "teks_opsi": "whois",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6818,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "jika suatu host mati ketika di cek maka menghasilkan informasi",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26994,
+                "label_opsi": "A",
+                "teks_opsi": "TTL Live timeout",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26995,
+                "label_opsi": "B",
+                "teks_opsi": "Timeout",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26996,
+                "label_opsi": "C",
+                "teks_opsi": "time to live",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26997,
+                "label_opsi": "D",
+                "teks_opsi": "unknown host",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26998,
+                "label_opsi": "E",
+                "teks_opsi": "reply",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6819,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Setiap computer yang terhubung ke jaringan dapat bertindak baik sebagai workstation maupun server disebut…",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26999,
+                "label_opsi": "A",
+                "teks_opsi": "peer to peer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27000,
+                "label_opsi": "B",
+                "teks_opsi": "client-server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 27001,
+                "label_opsi": "C",
+                "teks_opsi": "LAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27002,
+                "label_opsi": "D",
+                "teks_opsi": "Bus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27003,
+                "label_opsi": "E",
+                "teks_opsi": "data pending",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6820,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Jaringan yang dirancang untuk broperasi di wilayah yang sangat luas disebut",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 27004,
+                "label_opsi": "A",
+                "teks_opsi": "LAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27005,
+                "label_opsi": "B",
+                "teks_opsi": "LAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27006,
+                "label_opsi": "C",
+                "teks_opsi": "MAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27007,
+                "label_opsi": "D",
+                "teks_opsi": "WAN",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 27008,
+                "label_opsi": "E",
+                "teks_opsi": "Mesh",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6821,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Salah satu alasan penggunaan NAT",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 27009,
+                "label_opsi": "A",
+                "teks_opsi": "hemat ip publik",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 27010,
+                "label_opsi": "B",
+                "teks_opsi": "bisa digunakan mengamankan jaringan lokal",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27011,
+                "label_opsi": "C",
+                "teks_opsi": "memudahkan manajemen network",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27012,
+                "label_opsi": "D",
+                "teks_opsi": "load balancing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 27013,
+                "label_opsi": "E",
+                "teks_opsi": "efisiensi jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6822,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Jelaskan manfaat dari NAT",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6823,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "dalam sistem NAT ada juga PAT. Jelaskan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6824,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "salah satu fungsi VLAN adalah melakukan segmentasi jaringan, jelaskan fungsi lain",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6825,
+        "id_ujian": 288,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Sebutkan perbedaan antara VLAN dengan LAN",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:37:43.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]

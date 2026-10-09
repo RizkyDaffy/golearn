@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 6775,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "yang bukan karakteristik sistem operasi jaringan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26811,
+                "label_opsi": "A",
+                "teks_opsi": "Pusat kendali sumber daya jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26812,
+                "label_opsi": "B",
+                "teks_opsi": "izinkan remote user terkoneksi ke jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26813,
+                "label_opsi": "C",
+                "teks_opsi": "susah dipelajari",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26814,
+                "label_opsi": "D",
+                "teks_opsi": "backup data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26815,
+                "label_opsi": "E",
+                "teks_opsi": "Akses aman ke sebuah jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6776,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Fungsi Utama sistem operasi jaringan kecuali",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26816,
+                "label_opsi": "A",
+                "teks_opsi": "pengelolaan sumberdaya jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26817,
+                "label_opsi": "B",
+                "teks_opsi": "Menghubungkan sejumlah komputer dalam jaringan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26818,
+                "label_opsi": "C",
+                "teks_opsi": "menyediakan layanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26819,
+                "label_opsi": "D",
+                "teks_opsi": "menyediakan keamanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26820,
+                "label_opsi": "E",
+                "teks_opsi": "menyediakan data user",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 6777,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Ubuntu termasuk ke dalam",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26821,
+                "label_opsi": "A",
+                "teks_opsi": "sistem operasi jaringan basis gui",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26822,
+                "label_opsi": "B",
+                "teks_opsi": "pernyataan ini benar kecuali sistem operasi jaringan linux",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26823,
+                "label_opsi": "C",
+                "teks_opsi": "sistem operasi jaringan hybrid",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26824,
+                "label_opsi": "D",
+                "teks_opsi": "sistem operasi jaringan jadul",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26825,
+                "label_opsi": "E",
+                "teks_opsi": "sistem operasi jaringan opensources",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6778,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "yang bukan keuntung close sources dalam sistem operasi jaringan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26826,
+                "label_opsi": "A",
+                "teks_opsi": "kaku",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26827,
+                "label_opsi": "B",
+                "teks_opsi": "stabil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26828,
+                "label_opsi": "C",
+                "teks_opsi": "dukungan penuh",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26829,
+                "label_opsi": "D",
+                "teks_opsi": "susah dipakai",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26830,
+                "label_opsi": "E",
+                "teks_opsi": "jumlsh terbatas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6779,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "manakah pernyataan yang salah terkait keuntungan open sources dalam sistem operasi jaringan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26831,
+                "label_opsi": "A",
+                "teks_opsi": "murah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26832,
+                "label_opsi": "B",
+                "teks_opsi": "jumlah banyak",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26833,
+                "label_opsi": "C",
+                "teks_opsi": "dukungan komunitas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26834,
+                "label_opsi": "D",
+                "teks_opsi": "harus training penggunanya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26835,
+                "label_opsi": "E",
+                "teks_opsi": "pengembangan terbatas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6780,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "yang bukan merupakan kerugian dari penggunaan sistem operasi open ourcess adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26836,
+                "label_opsi": "A",
+                "teks_opsi": "tidak ada dukungan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26837,
+                "label_opsi": "B",
+                "teks_opsi": "kurang sdm",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26838,
+                "label_opsi": "C",
+                "teks_opsi": "rumit penggunaanya",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26839,
+                "label_opsi": "D",
+                "teks_opsi": "garansi bagus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26840,
+                "label_opsi": "E",
+                "teks_opsi": "bebas malware",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 6781,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Layanan DHCP digunakan untuk",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26841,
+                "label_opsi": "A",
+                "teks_opsi": "membagikan ip",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26842,
+                "label_opsi": "B",
+                "teks_opsi": "menghubungankan antar server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26843,
+                "label_opsi": "C",
+                "teks_opsi": "mengelola data",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26844,
+                "label_opsi": "D",
+                "teks_opsi": "menyediakan keamanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26845,
+                "label_opsi": "E",
+                "teks_opsi": "melakukan scaning virus",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6782,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "remote server menggunakan standar port",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26846,
+                "label_opsi": "A",
+                "teks_opsi": "22",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26847,
+                "label_opsi": "B",
+                "teks_opsi": "23",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26848,
+                "label_opsi": "C",
+                "teks_opsi": "25",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26849,
+                "label_opsi": "D",
+                "teks_opsi": "80",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26850,
+                "label_opsi": "E",
+                "teks_opsi": "25",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6783,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "remote server dari laptop bisa menggunakan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26851,
+                "label_opsi": "A",
+                "teks_opsi": "putty",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26852,
+                "label_opsi": "B",
+                "teks_opsi": "anydesk",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26853,
+                "label_opsi": "C",
+                "teks_opsi": "teamviewer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26854,
+                "label_opsi": "D",
+                "teks_opsi": "ultra viewer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26855,
+                "label_opsi": "E",
+                "teks_opsi": "RAT",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6784,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "user tertinggi dalam linux adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26856,
+                "label_opsi": "A",
+                "teks_opsi": "root",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26857,
+                "label_opsi": "B",
+                "teks_opsi": "joe",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26858,
+                "label_opsi": "C",
+                "teks_opsi": "admin",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26859,
+                "label_opsi": "D",
+                "teks_opsi": "bejo",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26860,
+                "label_opsi": "E",
+                "teks_opsi": "ubnt",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6785,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "port dalam linux paling tinggi adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26861,
+                "label_opsi": "A",
+                "teks_opsi": "65535",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26862,
+                "label_opsi": "B",
+                "teks_opsi": "1717",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26863,
+                "label_opsi": "C",
+                "teks_opsi": "31137",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26864,
+                "label_opsi": "D",
+                "teks_opsi": "8080",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26865,
+                "label_opsi": "E",
+                "teks_opsi": "12500",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6786,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "yang bukan merpakan contoh services di linux adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26866,
+                "label_opsi": "A",
+                "teks_opsi": "web server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26867,
+                "label_opsi": "B",
+                "teks_opsi": "db server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26868,
+                "label_opsi": "C",
+                "teks_opsi": "wa server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26869,
+                "label_opsi": "D",
+                "teks_opsi": "dns server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26870,
+                "label_opsi": "E",
+                "teks_opsi": "fileserver",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6787,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "pengujian koneksi antar server bisa menggunakan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26871,
+                "label_opsi": "A",
+                "teks_opsi": "traceroute",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26872,
+                "label_opsi": "B",
+                "teks_opsi": "ping",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26873,
+                "label_opsi": "C",
+                "teks_opsi": "if up",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26874,
+                "label_opsi": "D",
+                "teks_opsi": "ip a",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26875,
+                "label_opsi": "E",
+                "teks_opsi": "nmap",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6788,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Akses secure dalam web server menggunakan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26876,
+                "label_opsi": "A",
+                "teks_opsi": "SSL",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26877,
+                "label_opsi": "B",
+                "teks_opsi": "smtp",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26878,
+                "label_opsi": "C",
+                "teks_opsi": "snmp",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26879,
+                "label_opsi": "D",
+                "teks_opsi": "apache",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26880,
+                "label_opsi": "E",
+                "teks_opsi": "nginx",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6789,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Jenis teknologi penyimpanan data yang dinyatakan sebagai HDD masa depan adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26881,
+                "label_opsi": "A",
+                "teks_opsi": "SSD/NVME",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26882,
+                "label_opsi": "B",
+                "teks_opsi": "HDD",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26883,
+                "label_opsi": "C",
+                "teks_opsi": "Cloud",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26884,
+                "label_opsi": "D",
+                "teks_opsi": "SAS",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26885,
+                "label_opsi": "E",
+                "teks_opsi": "SATA",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6790,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "VPS adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26886,
+                "label_opsi": "A",
+                "teks_opsi": "server tungal untuk berbagi resources",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26887,
+                "label_opsi": "B",
+                "teks_opsi": "server kecil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26888,
+                "label_opsi": "C",
+                "teks_opsi": "server untuk keperluan virtual",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26889,
+                "label_opsi": "D",
+                "teks_opsi": "cocok untuk webhosting saja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26890,
+                "label_opsi": "E",
+                "teks_opsi": "server keperluan terbatas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6791,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "untuk mengatur sumberdaya dalam suatu server bisa menggunakan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26891,
+                "label_opsi": "A",
+                "teks_opsi": "control panel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26892,
+                "label_opsi": "B",
+                "teks_opsi": "webserver",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26893,
+                "label_opsi": "C",
+                "teks_opsi": "ftp server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26894,
+                "label_opsi": "D",
+                "teks_opsi": "ssh server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26895,
+                "label_opsi": "E",
+                "teks_opsi": "remote server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6792,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "contoh contoh control panel yang populer adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26896,
+                "label_opsi": "A",
+                "teks_opsi": "cpanel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26897,
+                "label_opsi": "B",
+                "teks_opsi": "webmin",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26898,
+                "label_opsi": "C",
+                "teks_opsi": "hpanel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26899,
+                "label_opsi": "D",
+                "teks_opsi": "ssh server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26900,
+                "label_opsi": "E",
+                "teks_opsi": "cyberpanel",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6793,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "contoh webserver yang paling banyak digunkaan adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26901,
+                "label_opsi": "A",
+                "teks_opsi": "apache",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26902,
+                "label_opsi": "B",
+                "teks_opsi": "caddy",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26903,
+                "label_opsi": "C",
+                "teks_opsi": "nginx",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26904,
+                "label_opsi": "D",
+                "teks_opsi": "IIS",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26905,
+                "label_opsi": "E",
+                "teks_opsi": "linuxweb",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6794,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "komputer di yang bertugas menyimpan halaman web yang pernah diakses sebelumnya disebut...",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26906,
+                "label_opsi": "A",
+                "teks_opsi": "webserver",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26907,
+                "label_opsi": "B",
+                "teks_opsi": "proxy server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26908,
+                "label_opsi": "C",
+                "teks_opsi": "smtp server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26909,
+                "label_opsi": "D",
+                "teks_opsi": "dhcp server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26910,
+                "label_opsi": "E",
+                "teks_opsi": "finger server",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6795,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "apakah pengertian sistem operasi jaringan?",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6796,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "fungsi utama sistem operasi jaringan?",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6797,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "beri contoh sistem operasi jaringan berbasis teks",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6798,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "beri contoh sistem operasi jaringan berbasisgui",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6799,
+        "id_ujian": 292,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "beri contoh sistem operasi jaringan  opensources.",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-09T11:28:16.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]

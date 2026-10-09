@@ -1,0 +1,1167 @@
+[
+    {
+        "id_soal": 6750,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "pikir komputasional adalah kemampuan untuk",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26711,
+                "label_opsi": "A",
+                "teks_opsi": "Menyelesaikan soal matematika",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26712,
+                "label_opsi": "B",
+                "teks_opsi": "Mengoperasikan komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26713,
+                "label_opsi": "C",
+                "teks_opsi": "Menyelesaikan masalah secara sistematis",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26714,
+                "label_opsi": "D",
+                "teks_opsi": "Mendesain poster digital",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26715,
+                "label_opsi": "E",
+                "teks_opsi": "Memperbaiki komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6751,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Tahapan berpikir komputasional berikut benar, kecuali",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26716,
+                "label_opsi": "A",
+                "teks_opsi": ". Dekomposisi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26717,
+                "label_opsi": "B",
+                "teks_opsi": "Algoritma",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26718,
+                "label_opsi": "C",
+                "teks_opsi": "Abstraksi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26719,
+                "label_opsi": "D",
+                "teks_opsi": "Pola berulang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26720,
+                "label_opsi": "E",
+                "teks_opsi": "editing warna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 6752,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh dekomposisi adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26721,
+                "label_opsi": "A",
+                "teks_opsi": "Memecah masalah besar menjadi bagian kecil",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26722,
+                "label_opsi": "B",
+                "teks_opsi": "Mewarnai ilustrasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26723,
+                "label_opsi": "C",
+                "teks_opsi": "Menghapus file",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26724,
+                "label_opsi": "D",
+                "teks_opsi": "Mengatur ukuran kertas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26725,
+                "label_opsi": "E",
+                "teks_opsi": "Menyalin file",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6753,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Abstraksi digunakan untuk",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26726,
+                "label_opsi": "A",
+                "teks_opsi": "Membesarkan objek",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26727,
+                "label_opsi": "B",
+                "teks_opsi": "Menghilangkan informasi tidak penting",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26728,
+                "label_opsi": "C",
+                "teks_opsi": "Menambah layer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26729,
+                "label_opsi": "D",
+                "teks_opsi": "Mengatur saturasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26730,
+                "label_opsi": "E",
+                "teks_opsi": "Mempercepat komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6754,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Algoritma adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26731,
+                "label_opsi": "A",
+                "teks_opsi": "Kumpulan warna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26732,
+                "label_opsi": "B",
+                "teks_opsi": "Urutan langkah logis memecahkan masalah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26733,
+                "label_opsi": "C",
+                "teks_opsi": "Jenis font",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26734,
+                "label_opsi": "D",
+                "teks_opsi": "File penyimpanan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26735,
+                "label_opsi": "E",
+                "teks_opsi": "Teknik zoom",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6755,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh algoritma sehari-hari adalah …",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26736,
+                "label_opsi": "A",
+                "teks_opsi": "Memasak mie mengikuti langkah-langkah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26737,
+                "label_opsi": "B",
+                "teks_opsi": "Mengobrol",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26738,
+                "label_opsi": "C",
+                "teks_opsi": "Ngopi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26739,
+                "label_opsi": "D",
+                "teks_opsi": "Melukis bebas",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26740,
+                "label_opsi": "E",
+                "teks_opsi": "Berenang",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6756,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Pattern recognition",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26741,
+                "label_opsi": "A",
+                "teks_opsi": "Mengubah pola",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26742,
+                "label_opsi": "B",
+                "teks_opsi": "Menghapus pola",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26743,
+                "label_opsi": "C",
+                "teks_opsi": "Mencari kesamaan suatu masalah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26744,
+                "label_opsi": "D",
+                "teks_opsi": "Memecah masalah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26745,
+                "label_opsi": "E",
+                "teks_opsi": "Menambah efek",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6757,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam desain, berpikir komputasional membantu",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26746,
+                "label_opsi": "A",
+                "teks_opsi": "Mengatur workflow secara terstruktur",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26747,
+                "label_opsi": "B",
+                "teks_opsi": "Membuat komputer cepat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26748,
+                "label_opsi": "C",
+                "teks_opsi": "Menambhkan alur kerja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26749,
+                "label_opsi": "D",
+                "teks_opsi": "Mempercepat RAM",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26750,
+                "label_opsi": "E",
+                "teks_opsi": "Mengatur jalannya komputer",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6758,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh berpikir komputasional pada desain poster adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26751,
+                "label_opsi": "A",
+                "teks_opsi": "Menentukan warna dulu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26752,
+                "label_opsi": "B",
+                "teks_opsi": "Menyusun alur informasi secara logis",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26753,
+                "label_opsi": "C",
+                "teks_opsi": "Menambah watermark",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26754,
+                "label_opsi": "D",
+                "teks_opsi": "Mengurangi kerumitan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26755,
+                "label_opsi": "E",
+                "teks_opsi": "Menyelesaikan masalah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6759,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh dekomposisi proyek animasi adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26756,
+                "label_opsi": "A",
+                "teks_opsi": "Meng-upload video",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26757,
+                "label_opsi": "B",
+                "teks_opsi": "Membagi proses: storyboard, aset, animasi, editing",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26758,
+                "label_opsi": "C",
+                "teks_opsi": "Menambah banyak teks",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26759,
+                "label_opsi": "D",
+                "teks_opsi": "Menghapus audio",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26760,
+                "label_opsi": "E",
+                "teks_opsi": "mengurangi kesalahan kerja",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6760,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Flowchart digunakan untuk",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26761,
+                "label_opsi": "A",
+                "teks_opsi": "Memperjelas alur proses",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26762,
+                "label_opsi": "B",
+                "teks_opsi": "Mengatur warna",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26763,
+                "label_opsi": "C",
+                "teks_opsi": "Menentukan hasil pengolahan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26764,
+                "label_opsi": "D",
+                "teks_opsi": "Menghapus background",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26765,
+                "label_opsi": "E",
+                "teks_opsi": "mencari  materi dari AI",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6761,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Yang bukan contoh berpikir komputasional adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26766,
+                "label_opsi": "A",
+                "teks_opsi": "Menyusun langkah instalasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26767,
+                "label_opsi": "B",
+                "teks_opsi": "Mengurutkan file",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26768,
+                "label_opsi": "C",
+                "teks_opsi": "Menebak jawaban",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26769,
+                "label_opsi": "D",
+                "teks_opsi": "Menganalisis pola",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26770,
+                "label_opsi": "E",
+                "teks_opsi": "Membagi masalah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6762,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dampak negatif AI  bagi kehidupan adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26771,
+                "label_opsi": "A",
+                "teks_opsi": "menambah pengangguran",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26772,
+                "label_opsi": "B",
+                "teks_opsi": "Ketergantungan berlebihan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26773,
+                "label_opsi": "C",
+                "teks_opsi": "kebocorqn data dan Privasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26774,
+                "label_opsi": "D",
+                "teks_opsi": "kesenjangan digital",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26775,
+                "label_opsi": "E",
+                "teks_opsi": "memperoleh tambahan rejeki",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 6763,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seseorang meminta AI memperjelas foto orang lain tanpa izin. Ini melanggar",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26776,
+                "label_opsi": "A",
+                "teks_opsi": "Estetika",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26777,
+                "label_opsi": "B",
+                "teks_opsi": "Privasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26778,
+                "label_opsi": "C",
+                "teks_opsi": "Pixel art",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26779,
+                "label_opsi": "D",
+                "teks_opsi": "Desain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26780,
+                "label_opsi": "E",
+                "teks_opsi": "Komposisi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6764,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam proyek animasi, membagi proses menjadi storyboard, aset, animasi, dan editing adalah contoh",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26781,
+                "label_opsi": "A",
+                "teks_opsi": "Repetisi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26782,
+                "label_opsi": "B",
+                "teks_opsi": "Dekomposisi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26783,
+                "label_opsi": "C",
+                "teks_opsi": "Koreksi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26784,
+                "label_opsi": "D",
+                "teks_opsi": "Motivasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26785,
+                "label_opsi": "E",
+                "teks_opsi": "improvisasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6765,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Literasi digital penting bagi siswa TKJ karena",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26786,
+                "label_opsi": "A",
+                "teks_opsi": "menambah follower",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26787,
+                "label_opsi": "B",
+                "teks_opsi": "memahami hak cipta digital",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26788,
+                "label_opsi": "C",
+                "teks_opsi": "memahami kondisi masyarakat terbaru",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26789,
+                "label_opsi": "D",
+                "teks_opsi": "mampu mengembangkan diri",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26790,
+                "label_opsi": "E",
+                "teks_opsi": "memperluas ilmu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6766,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh penerapan AI dalam kehidupan sehari-hari",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26791,
+                "label_opsi": "A",
+                "teks_opsi": "belajar membuat robot",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26792,
+                "label_opsi": "B",
+                "teks_opsi": "Asistant Digital",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26793,
+                "label_opsi": "C",
+                "teks_opsi": "fotokopi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26794,
+                "label_opsi": "D",
+                "teks_opsi": "kalkulator",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26795,
+                "label_opsi": "E",
+                "teks_opsi": "pengatur sampah",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6767,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Contoh pelanggaran etika AI adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26796,
+                "label_opsi": "A",
+                "teks_opsi": "Menyontek tugas menggunakan AI",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26797,
+                "label_opsi": "B",
+                "teks_opsi": "Meminta ringkasan materi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26798,
+                "label_opsi": "C",
+                "teks_opsi": "melakukan edit desain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26799,
+                "label_opsi": "D",
+                "teks_opsi": "mengakali sistem",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26800,
+                "label_opsi": "E",
+                "teks_opsi": "melakukan modifikasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6768,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Mengunggah data pribadi ke AI berbahaya karena",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26801,
+                "label_opsi": "A",
+                "teks_opsi": "File jadi besar",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26802,
+                "label_opsi": "B",
+                "teks_opsi": "AI tidak paham",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26803,
+                "label_opsi": "C",
+                "teks_opsi": "hasil tidak akurat",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26804,
+                "label_opsi": "D",
+                "teks_opsi": "data rawan disalahgunakan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26805,
+                "label_opsi": "E",
+                "teks_opsi": "Tidak bisa diakses",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6769,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Guru memberi tugas membuat poster anti-hoaks. Langkah berpikir komputasional yang tepat",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "2.50",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 26806,
+                "label_opsi": "A",
+                "teks_opsi": "Mewarnai dulu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26807,
+                "label_opsi": "B",
+                "teks_opsi": "Menentukan font dulu",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26808,
+                "label_opsi": "C",
+                "teks_opsi": "Mengumpulkan fakta → Mengelompokkan → Menyusun pesan logis",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 26809,
+                "label_opsi": "D",
+                "teks_opsi": "Mengunduh poster lain",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 26810,
+                "label_opsi": "E",
+                "teks_opsi": "Menambah filter",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 6770,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "adalah",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6771,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Sebutkan tahapan pemilihan solusi dan beri contoh",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6772,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "apa saja manfat pemecahan masalah? Jelaskan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6773,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "apakah hubungan AI dengan informatika? Jelaskan",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    },
+    {
+        "id_soal": 6774,
+        "id_ujian": 413,
+        "id_guru_pembuat": 58,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "sebutkan contoh contoh produk AI yang kamu kenal",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-09T11:01:02.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null
+    }
+]
