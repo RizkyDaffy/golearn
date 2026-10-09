@@ -1134,7 +1134,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Manfaat Network Address Translation (NAT) antara lain:\n1. Menghemat penggunaan alamat IPv4 publik, karena ribuan host dengan IP privat dapat mengakses internet hanya menggunakan satu atau beberapa IP publik.\n2. Meningkatkan keamanan jaringan internal, karena alamat IP privat tidak terekspos secara langsung ke jaringan publik (internet).\n3. Mencegah terjadinya konflik/duplikasi alamat IP pada jaringan publik.\n4. Memberikan fleksibilitas dalam mengatur dan mendesain pengalamatan jaringan internal tanpa perlu mengubah alokasi IP publik dari ISP."
     },
     {
         "id_soal": 6823,
@@ -1151,7 +1152,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "PAT (Port Address Translation), atau disebut juga NAT Overload, adalah varian dari NAT di mana banyak alamat IP privat dipetakan ke dalam satu alamat IP publik yang sama dengan menggunakan nomor port (port TCP/UDP) yang berbeda untuk setiap sesi koneksi. Hal ini memungkinkan seluruh perangkat di jaringan lokal (LAN) dapat berselancar di internet secara bersamaan menggunakan satu IP publik tunggal."
     },
     {
         "id_soal": 6824,
@@ -1168,7 +1170,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Fungsi lain dari VLAN (Virtual Local Area Network) selain segmentasi jaringan:\n1. Meningkatkan Keamanan (Security): Memisahkan lalu lintas data sensitif antar departemen sehingga tidak dapat disadap atau diakses oleh departemen lain tanpa izin router/firewall.\n2. Mengurangi Beban Broadcast (Mitigasi Broadcast Storm): Membatasi lalu lintas broadcast hanya di dalam satu VLAN sehingga menghemat bandwidth jaringan.\n3. Efisiensi Biaya (Cost Reduction): Menghemat pengeluaran karena tidak perlu membeli switch fisik terpisah untuk setiap divisi kerja.\n4. Fleksibilitas Manajemen: Memudahkan administrator memindahkan komputer atau pengguna ke grup kerja lain tanpa perlu memindahkan kabel secara fisik."
     },
     {
         "id_soal": 6825,
@@ -1185,6 +1188,7 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Perbedaan antara VLAN dengan LAN:\n1. Batasan Fisik: LAN terikat pada batas fisik perangkat dan kabel pada satu switch fisik. VLAN merupakan pengelompokan logis (virtual) tanpa memandang port fisik switch mana yang digunakan.\n2. Broadcast Domain: Dalam LAN standar (1 switch fisik), terdapat satu broadcast domain untuk seluruh port. Pada VLAN, satu switch fisik dapat dibagi menjadi beberapa broadcast domain yang terisolasi secara mandiri.\n3. Komunikasi Antar Jaringan: Pada LAN tradisional, perangkat dalam satu switch langsung dapat berkomunikasi. Pada VLAN, perangkat di VLAN yang berbeda tidak bisa saling berkomunikasi secara langsung tanpa bantuan perutean (Routing / Inter-VLAN Routing pada Layer 3).\n4. Fleksibilitas & Biaya: VLAN jauh lebih hemat biaya dan fleksibel dalam konfigurasi dibandingkan LAN fisik."
     }
 ]

@@ -1094,7 +1094,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Keamanan Jaringan (Network Security) adalah serangkaian aturan, kebijakan, konfigurasi, dan teknologi yang dirancang untuk melindungi integritas, kerahasiaan (confidentiality), dan ketersediaan (availability) infrastruktur jaringan komputer, perangkat, serta data yang ditransmisikan dari akses ilegal, pencurian, modifikasi, atau serangan siber."
     },
     {
         "id_soal": 5430,
@@ -1111,7 +1112,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Keamanan jaringan sangat penting dipelajari oleh siswa TKJ karena:\n1. Siswa TKJ dipersiapkan menjadi teknisi dan administrator jaringan yang bertanggung jawab menjaga keandalan dan keamanan infrastruktur IT di dunia industri.\n2. Tingginya ancaman kejahatan siber (cyber crime) saat ini membutuhkan tenaga terampil yang mampu mendeteksi, mencegah, dan menanggulangi celah keamanan.\n3. Melindungi data penting dan privasi pengguna dari ancaman pencurian data maupun ransomware.\n4. Memenuhi standar sertifikasi dan kompetensi kerja industri IT Networking & Cybersecurity."
     },
     {
         "id_soal": 5431,
@@ -1128,7 +1130,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Dua contoh penerapan keamanan informasi dalam kehidupan sehari-hari:\n1. Mengaktifkan Autentikasi Dua Faktor (Two-Factor Authentication / 2FA) atau verifikasi OTP pada akun email, media sosial, dan mobile banking.\n2. Menggunakan password yang kuat (kombinasi huruf besar, kecil, angka, dan simbol) serta tidak membagikan PIN atau password kepada orang lain.\n(Contoh lain: Menghindari penggunaan jaringan Wi-Fi publik gratis tanpa enkripsi VPN saat melakukan transaksi keuangan)."
     },
     {
         "id_soal": 5432,
@@ -1145,7 +1148,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Ancaman keamanan jaringan adalah setiap potensi bahaya, aktivitas berbahaya, atau celah kerentanan yang dapat merusak, mengganggu, mencuri, atau mengeksploitasi sistem jaringan dan data pengguna.\n\nDua contohnya:\n1. Serangan Malware (Ransomware, Virus, Trojan): Program berbahaya yang merusak file atau mengenkripsi data dan memeras korban.\n2. Serangan DDoS (Distributed Denial of Service): Membanjiri server dengan lalu lintas data palsu sehingga server down dan tidak dapat diakses pengguna resmi."
     },
     {
         "id_soal": 5433,
@@ -1162,6 +1166,7 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Serangan Phishing adalah bentuk kejahatan siber di mana pelaku menyamar sebagai pihak terpercaya (seperti bank, admin layanan, atau platform resmi) melalui pesan, email, atau tautan palsu untuk memancing korban memasukkan informasi rahasia seperti username, password, nomor kartu kredit, atau OTP.\n\nCara mencegahnya:\n1. Selalu memeriksa alamat email pengirim dan keaslian URL domain situs sebelum mengklik tautan atau memasukkan data.\n2. Mengaktifkan 2FA (Two-Factor Authentication) pada semua akun penting.\n3. Tidak pernah membagikan password, PIN, atau kode OTP kepada siapapun.\n4. Menggunakan peramban (browser) yang memiliki perlindungan anti-phishing serta memasang antivirus terupdate."
     }
 ]

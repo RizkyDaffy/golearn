@@ -1094,7 +1094,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Sistem Operasi Jaringan (Network Operating System / NOS) adalah sistem operasi yang dirancang khusus untuk mengelola sumber daya jaringan komputer, menyediakan layanan terpusat (seperti file sharing, printer sharing, DNS, DHCP, Web Server), mengontrol akses pengguna (otentikasi & otorisasi), serta menghubungkan beberapa komputer dan perangkat dalam satu jaringan agar dapat saling berkomunikasi secara aman dan terkoordinasi."
     },
     {
         "id_soal": 6796,
@@ -1111,7 +1112,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Fungsi utama sistem operasi jaringan meliputi:\n1. Mengelola dan mengontrol lalu lintas data serta sumber daya jaringan (berbagi berkas, printer, dan perangkat keras).\n2. Menyediakan layanan jaringan server (DHCP, DNS, FTP, Web Server, Mail Server).\n3. Mengatur keamanan jaringan, manajemen akun pengguna (user management), hak akses, dan otentikasi.\n4. Memantau kesehatan, konektivitas, dan performa jaringan secara berkala.\n5. Menyediakan mekanisme backup data dan pemulihan sistem (recovery) secara terpusat."
     },
     {
         "id_soal": 6797,
@@ -1128,7 +1130,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Contoh sistem operasi jaringan berbasis teks (CLI / Command Line Interface):\n1. Debian GNU/Linux (mode Server / minimal installation)\n2. Ubuntu Server\n3. CentOS / Rocky Linux / AlmaLinux (mode CLI/Server)\n4. FreeBSD\n5. MikroTik RouterOS (Console/CLI)"
     },
     {
         "id_soal": 6798,
@@ -1145,7 +1148,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Contoh sistem operasi jaringan berbasis GUI (Graphical User Interface):\n1. Windows Server (2012, 2016, 2019, 2022) dengan fitur Desktop Experience\n2. Red Hat Enterprise Linux (RHEL) dengan antarmuka GNOME GUI\n3. SUSE Linux Enterprise Server (SLES) dengan YaST GUI\n4. macOS Server"
     },
     {
         "id_soal": 6799,
@@ -1162,6 +1166,7 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Contoh sistem operasi jaringan open source (kode sumber terbuka):\n1. Debian GNU/Linux\n2. Ubuntu Server\n3. Rocky Linux / AlmaLinux / CentOS Stream\n4. openSUSE Leap\n5. FreeBSD dan OpenBSD"
     }
 ]

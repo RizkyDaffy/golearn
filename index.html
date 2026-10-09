@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="dark">
 
 <head>
@@ -1778,7 +1778,7 @@
                                                         </div>
                                                         <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-emerald-600 dark:text-emerald-400">
                                                             <span className="font-extrabold block text-[10px] uppercase mb-1">Official Solution Key:</span>
-                                                            <p className="font-mono">{q.kunci_jawaban || 'Refer to teacher commentary.'}</p>
+                                                            <p className="whitespace-pre-line leading-relaxed text-xs">{q.kunci_jawaban || 'Refer to teacher commentary.'}</p>
                                                         </div>
                                                     </div>
                                                 )}
@@ -2173,25 +2173,32 @@
                                                         <FormattedText content={item.question.teks_soal} />
                                                     </div>
 
-                                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                                                        <div className={`p-2.5 rounded-xl border ${item.isCorrect ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400' : 'bg-red-500/10 border-red-500/30 text-red-600 dark:text-red-400'}`}>
-                                                            <span className="text-[10px] font-bold uppercase opacity-75 block">Your Choice:</span>
-                                                            {item.selectedOption ? (
-                                                                <span><strong>{item.selectedOption.label_opsi}.</strong> <FormattedText content={item.selectedOption.teks_opsi} /></span>
-                                                            ) : (
-                                                                <span className="italic">Time Expired</span>
-                                                            )}
+                                                    {item.question.tipe_soal === 'ESSAY' ? (
+                                                        <div className="p-3 rounded-xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs">
+                                                            <span className="text-[10px] font-bold uppercase opacity-75 block mb-1">Official Solution Key:</span>
+                                                            <p className="whitespace-pre-line leading-relaxed">{item.question.kunci_jawaban || 'Refer to teacher commentary.'}</p>
                                                         </div>
+                                                    ) : (
+                                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                                                            <div className={`p-2.5 rounded-xl border ${item.isCorrect ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400' : 'bg-red-500/10 border-red-500/30 text-red-600 dark:text-red-400'}`}>
+                                                                <span className="text-[10px] font-bold uppercase opacity-75 block">Your Choice:</span>
+                                                                {item.selectedOption ? (
+                                                                    <span><strong>{item.selectedOption.label_opsi}.</strong> <FormattedText content={item.selectedOption.teks_opsi} /></span>
+                                                                ) : (
+                                                                    <span className="italic">Time Expired</span>
+                                                                )}
+                                                            </div>
 
-                                                        <div className="p-2.5 rounded-xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400">
-                                                            <span className="text-[10px] font-bold uppercase opacity-75 block">Correct Answer:</span>
-                                                            {item.correctOption ? (
-                                                                <span><strong>{item.correctOption.label_opsi}.</strong> <FormattedText content={item.correctOption.teks_opsi} /></span>
-                                                            ) : (
-                                                                <span>-</span>
-                                                            )}
+                                                            <div className="p-2.5 rounded-xl border bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400">
+                                                                <span className="text-[10px] font-bold uppercase opacity-75 block">Correct Answer:</span>
+                                                                {item.correctOption ? (
+                                                                    <span><strong>{item.correctOption.label_opsi}.</strong> <FormattedText content={item.correctOption.teks_opsi} /></span>
+                                                                ) : (
+                                                                    <span>{item.question.kunci_jawaban || '-'}</span>
+                                                                )}
+                                                            </div>
                                                         </div>
-                                                    </div>
+                                                    )}
                                                 </div>
                                             ))}
                                         </div>

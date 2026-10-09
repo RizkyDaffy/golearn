@@ -1093,6 +1093,21 @@ function renderQuestionCardsHtml(questions) {
             optionsHtml = `<div class="options-list">${opts}</div>`;
         }
 
+        // Essay Answer Key HTML
+        let essayAnswerHtml = '';
+        if (isEssay && q.kunci_jawaban) {
+            essayAnswerHtml = `
+            <div class="option-item correct essay-key-box" style="align-items: flex-start;">
+              <div class="option-label" style="margin-top: 2px;">✓</div>
+              <div class="option-content" style="display: block;">
+                <div style="margin-bottom: 6px;">
+                  <span class="correct-tag" style="margin-left: 0;">✓ Official Solution Key / Jawaban</span>
+                </div>
+                <div class="essay-answer-text" style="white-space: pre-line; line-height: 1.6; font-size: 0.95em; font-weight: 500;">${escapeHtml(q.kunci_jawaban)}</div>
+              </div>
+            </div>`;
+        }
+
         // Context / Reading passage
         const contextHtml = q.teks_konteks ? `
             <div class="context-box">
@@ -1147,6 +1162,7 @@ function renderQuestionCardsHtml(questions) {
           </div>
 
           ${optionsHtml}
+          ${essayAnswerHtml}
 
           <details class="raw-meta">
             <summary>More Info & IDs</summary>

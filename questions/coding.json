@@ -1094,7 +1094,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Berpikir Komputasional (Computational Thinking) adalah metode penyelesaian masalah dengan merumuskan persoalan dan solusinya secara terstruktur dan logis sehingga dapat diselesaikan secara efektif oleh manusia maupun komputer, melalui 4 pilar utama:\n1. Dekomposisi (memecah masalah rumit menjadi bagian-bagian kecil)\n2. Pengenalan Pola (Pattern Recognition)\n3. Abstraksi (fokus pada informasi penting dan mengabaikan detail yang tidak relevan)\n4. Algoritma (menyusun langkah-langkah solusi terurut dan sistematis)."
     },
     {
         "id_soal": 6771,
@@ -1111,7 +1112,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Tahapan pemilihan solusi dalam pemecahan masalah:\n1. Mengidentifikasi & Memahami Masalah: Mengetahui akar penyebab masalah dengan jelas.\n2. Mengembangkan Berbagai Alternatif Solusi: Mengumpulkan beberapa opsi jalan keluar yang memungkinkan.\n3. Mengevaluasi Alternatif Solusi: Menganalisis kelebihan, kekurangan, biaya, waktu, dan risiko dari tiap alternatif.\n4. Memilih Solusi Terbaik: Menentukan alternatif yang paling efektif dan efisien.\n5. Mengimplementasikan Solusi: Melaksanakan langkah solusi yang dipilih.\n6. Mengevaluasi Hasil: Memeriksa apakah masalah telah terselesaikan secara tuntas.\n\nContoh: Mengatasi koneksi internet lambat di lab sekolah -> Alternatif: menambah kuota bandwidth, membatasi jam akses, atau mengatur Quality of Service (QoS) -> Evaluasi: mengatur QoS adalah yang paling hemat biaya dan cepat -> Solusi terpilih: menerapkan manajemen bandwidth (QoS) di router mikrotik."
     },
     {
         "id_soal": 6772,
@@ -1128,7 +1130,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Manfaat pemecahan masalah (Problem Solving):\n1. Meningkatkan Kemampuan Berpikir Kritis & Logis: Melatih daya analisis dalam membedah situasi rumit secara objektif.\n2. Meningkatkan Efisiensi & Produktivitas: Membantu menemukan solusi tepat sasaran tanpa membuang-buang waktu dan sumber daya.\n3. Menumbuhkan Kreativitas & Inovasi: Mendorong penemuan ide-ide baru dan cara kerja yang lebih baik.\n4. Membangun Kepercayaan Diri: Membiasakan diri menghadapi tantangan dan membuat keputusan yang tepat di bawah tekanan."
     },
     {
         "id_soal": 6773,
@@ -1145,7 +1148,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Hubungan Artificial Intelligence (AI) dengan Informatika sangat erat karena AI merupakan salah satu cabang disiplin ilmu terpenting dalam informatika/ilmu komputer. Informatika menyediakan pondasi dasar bagi AI (seperti struktur data, logika matematika, algoritma, pemrograman, dan basis data). Sementara AI memanfaatkan pondasi tersebut untuk menciptakan program dan sistem komputer cerdas yang mampu belajar dari data (machine learning), bernalar, mengenali pola, dan mengambil keputusan seperti kecerdasan manusia."
     },
     {
         "id_soal": 6774,
@@ -1162,6 +1166,7 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Contoh produk AI yang populer dan banyak digunakan:\n1. Asisten Virtual & Chatbot Cerdas: ChatGPT, Google Gemini, Microsoft Copilot, Apple Siri.\n2. Computer Vision & Pengenalan Gambar/Wajah: Google Lens, Face ID pada smartphone.\n3. Sistem Rekomendasi Pintar: Algoritma YouTube, TikTok Feed, rekomendasi Spotify, dan e-commerce.\n4. AI Generator Gambar/Desain: Midjourney, DALL-E, Canva Magic Studio.\n5. Kendaraan Otonom (Self-Driving): Tesla Autopilot."
     }
 ]

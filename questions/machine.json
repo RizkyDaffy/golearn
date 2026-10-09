@@ -1094,7 +1094,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Fungsi dari etiket gambar (kepala gambar / title block) adalah memuat identitas dan informasi resmi mengenai gambar teknik, antara lain: judul/nama gambar, nomor gambar, nama instansi/sekolah, nama penggambar (drafter), nama pemeriksa dan penyetuju gambar, tanggal pembuatan, skala gambar, satuan ukuran yang digunakan, sistem proyeksi yang digunakan (Eropa atau Amerika), serta ukuran kertas gambar. Etiket memudahkan pembaca gambar memahami spesifikasi gambar secara akurat dan terstandar."
     },
     {
         "id_soal": 996,
@@ -1111,7 +1112,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Ukuran standar kertas gambar seri A menurut standar ISO 216 (dalam milimeter):\n- A0 : 841 mm × 1189 mm\n- A1 : 594 mm × 841 mm\n- A2 : 420 mm × 594 mm\n- A3 : 297 mm × 420 mm\n(Sebagai referensi tambahan, A4 : 210 mm × 297 mm)."
     },
     {
         "id_soal": 997,
@@ -1128,7 +1130,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Etiket gambar teknik umumnya diletakkan di sudut kanan bawah kertas gambar dengan lebar standar 185 mm dan tinggi 25–40 mm. Bagian-bagian yang harus termuat di dalamnya meliputi:\n1. Judul / Nama Gambar\n2. Nama Instansi / Sekolah (SMK)\n3. Keterangan \"Digambar oleh\", \"Diperiksa oleh\", dan \"Disetujui oleh\"\n4. Tanggal pembuatan\n5. Skala Gambar (contoh: 1:1, 1:2, 2:1)\n6. Satuan Ukuran (contoh: mm)\n7. Lambang / Simbol Proyeksi (Simbol Proyeksi Eropa atau Proyeksi Amerika)\n8. Nomor Lembar Gambar dan Ukuran Kertas (contoh: No. 01/A3)."
     },
     {
         "id_soal": 998,
@@ -1145,7 +1148,8 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Fungsi dari alat gambar Jangka dan Mal Gambar:\n- Jangka: Berfungsi untuk membuat lingkaran, busur lingkaran, membagi garis atau sudut menjadi beberapa bagian yang sama, serta memindahkan ukuran jarak secara akurat pada kertas gambar.\n- Mal Gambar (Template): Berfungsi untuk menggambar bentuk-bentuk geometri standar, huruf, angka, kurva lengkung khusus, dan simbol teknik secara cepat, presisi, dan seragam (contoh: mal huruf/angka, mal lingkaran kecil, mal busur/kurva Prancis, dan mal elips)."
     },
     {
         "id_soal": 999,
@@ -1162,6 +1166,7 @@
         "nama_grup": null,
         "teks_konteks": null,
         "gambar_konteks": null,
-        "audio_konteks": null
+        "audio_konteks": null,
+        "kunci_jawaban": "Langkah-langkah yang harus disiapkan dalam menggambar teknik:\n1. Menyiapkan dan membersihkan meja gambar serta peralatan gambar (pensil teknik, penggaris T, sepasang penggaris segitiga, jangka, penghapus, dan mal).\n2. Memasang dan meratakan kertas gambar pada meja gambar menggunakan selotip khusus agar kertas tidak bergeser.\n3. Menentukan dan menggambar garis tepi (border line) sesuai standar ukuran kertas gambar (tepi kiri 20 mm untuk penjilidan, tepi atas, kanan, dan bawah 5 mm atau 10 mm).\n4. Membuat kotak etiket gambar di sudut kanan bawah bidang gambar.\n5. Merencanakan tata letak (layout) gambar agar pandangan benda terlihat seimbang dan proporsional di tengah kertas.\n6. Membuat gambar dengan garis bantu/tipis terlebih dahulu, kemudian memeriksa ketepatan ukuran, dan menebalkan garis gambar utama serta mencantumkan ukuran dimensi dan keterangan."
     }
 ]
