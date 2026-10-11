@@ -6,9 +6,17 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const QUESTIONS_DIR = path.join(__dirname, 'questions');
+const { registerPaywallRoutes, authenticate } = require('./paywall');
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
+
+registerPaywallRoutes(app);
+app.get('/paywall.md', (req, res) => res.sendStatus(404));
+app.use('/api/subjects', authenticate);
+app.use('/api/questions', authenticate);
+app.use('/questions', authenticate);
+app.use('/view', authenticate);
 
 // Helper to convert filename (e.g. 'machine_learning' or 'math') to display title
 function slugToTitle(slug) {

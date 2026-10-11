@@ -58,6 +58,7 @@
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
 
     <style>
         body {
@@ -2221,6 +2222,265 @@
             );
         }
 
+        function Paywall({ onAuthenticated }) {
+            const [mode, setMode] = useState('loading');
+            const [config, setConfig] = useState({ amount: null, currency: 'IDR', configured: false });
+            const [codeInput, setCodeInput] = useState('');
+            const [payment, setPayment] = useState(null);
+            const [error, setError] = useState('');
+            const [busy, setBusy] = useState(false);
+
+            const redeem = async (code) => {
+                setError('');
+                setBusy(true);
+                try {
+                    const response = await fetch('/api/auth/redeem', {
+                        method: 'POST',
+                        headers: { 'content-type': 'application/json' },
+                        body: JSON.stringify({ code }),
+                    });
+                    const result = await response.json();
+                    if (!response.ok) throw new Error(result.error || 'Kode tidak dapat digunakan.');
+                    localStorage.removeItem('golearn-payment-id');
+                    onAuthenticated(result);
+                } catch (err) {
+                    setError(err.message);
+                } finally {
+                    setBusy(false);
+                }
+            };
+
+            useEffect(() => {
+                let cancelled = false;
+                const restore = async () => {
+                    try {
+                        const response = await fetch('/api/paywall/config');
+                        const data = await response.json();
+                        if (!cancelled) setConfig(data);
+                        const paymentId = localStorage.getItem('golearn-payment-id');
+                        if (paymentId) {
+                            const paymentResponse = await fetch(`/api/paywall/payment/${encodeURIComponent(paymentId)}`);
+                            if (paymentResponse.ok) {
+                                const previousPayment = await paymentResponse.json();
+                                if (!cancelled && previousPayment.status === 'pending') {
+                                    setPayment({ id: paymentId, ...previousPayment });
+                                    setMode('pending');
+                                    return;
+                                }
+                                if (!cancelled && previousPayment.status === 'paid') {
+                                    localStorage.removeItem('golearn-payment-id');
+                                    setCodeInput(previousPayment.code || '');
+                                    setMode('paid');
+                                    return;
+                                }
+                            }
+                            localStorage.removeItem('golearn-payment-id');
+                        }
+                    } catch (_) {
+                        if (!cancelled) setError('Tidak dapat memuat status pembayaran.');
+                    }
+                    if (!cancelled) setMode('pay');
+                };
+                restore();
+                return () => { cancelled = true; };
+            }, []);
+
+            useEffect(() => {
+                if (mode !== 'pending' || !payment?.id) return undefined;
+                let checking = false;
+                const poll = async () => {
+                    if (checking) return;
+                    checking = true;
+                    try {
+                        const response = await fetch(`/api/paywall/payment/${encodeURIComponent(payment.id)}`);
+                        const result = await response.json();
+                        if (!response.ok) throw new Error(result.error || 'Gagal memeriksa transaksi.');
+                        if (result.status === 'paid') {
+                            localStorage.removeItem('golearn-payment-id');
+                            setCodeInput(result.code || '');
+                            setMode('paid');
+                        } else if (result.status !== 'pending') {
+                            localStorage.removeItem('golearn-payment-id');
+                            setPayment(null);
+                            setMode(result.status === 'failed' ? 'failed' : 'pay');
+                        }
+                    } catch (err) {
+                        setError(err.message);
+                    } finally {
+                        checking = false;
+                    }
+                };
+                const timer = setInterval(poll, 3000);
+                return () => clearInterval(timer);
+            }, [mode, payment?.id]);
+
+            useEffect(() => {
+                if (mode !== 'pending' || !payment?.paymentNumber || !window.QRCode) return;
+                const canvas = document.getElementById('paywall-qr');
+                if (canvas) window.QRCode.toCanvas(canvas, payment.paymentNumber, { width: 220, margin: 1 }, () => {});
+            }, [mode, payment?.paymentNumber]);
+
+            const createPayment = async () => {
+                setBusy(true);
+                setError('');
+                try {
+                    const response = await fetch('/api/paywall/payment', { method: 'POST' });
+                    const result = await response.json();
+                    if (!response.ok) throw new Error(result.error || 'Gagal membuat transaksi.');
+                    localStorage.setItem('golearn-payment-id', result.id);
+                    setPayment(result);
+                    setMode('pending');
+                } catch (err) {
+                    setError(err.message);
+                } finally {
+                    setBusy(false);
+                }
+            };
+
+            const cancelPayment = async () => {
+                if (!window.confirm('Batalkan pembayaran ini? Transaksi Pakasir yang sudah dibuat mungkin tetap dapat dibayar sampai kedaluwarsa.')) return;
+                if (payment?.id) {
+                    const response = await fetch(`/api/paywall/payment/${encodeURIComponent(payment.id)}`, { method: 'DELETE' });
+                    const result = await response.json();
+                    if (result.status === 'paid') {
+                        localStorage.removeItem('golearn-payment-id');
+                        setCodeInput(result.code || '');
+                        setMode('paid');
+                        return;
+                    }
+                }
+                localStorage.removeItem('golearn-payment-id');
+                setPayment(null);
+                setMode('pay');
+            };
+
+            const formatAmount = value => new Intl.NumberFormat('id-ID', { style: 'currency', currency: config.currency, maximumFractionDigits: 0 }).format(value);
+
+            if (mode === 'loading') return <div className="min-h-screen grid place-items-center text-sm text-slate-500">Memeriksa akses...</div>;
+
+            return (
+                <div className="min-h-screen bg-[#171719] text-white flex items-center justify-center p-5">
+                    <section className="w-full max-w-sm text-center">
+                        <div className="text-xl font-semibold tracking-normal mb-12">Golearn</div>
+                        {mode === 'pending' && payment ? (
+                            <div className="relative rounded-2xl bg-[#242426] p-6 sm:p-8 space-y-5">
+                                <button onClick={cancelPayment} aria-label="Batalkan pembayaran" title="Batalkan pembayaran" className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-lg text-slate-400 hover:bg-white/10 hover:text-white">x</button>
+                                <div className="mx-auto grid h-56 w-56 place-items-center bg-white rounded-xl">
+                                    {payment.paymentNumber ? <canvas id="paywall-qr" aria-label="QR pembayaran" /> : <span className="text-slate-700">QRIS</span>}
+                                </div>
+                                <h1 className="text-xl font-semibold">Menunggu pembayaran</h1>
+                                <p className="text-sm text-slate-400">Selesaikan pembayaran sebelum transaksi kedaluwarsa.</p>
+                                <div className="inline-flex items-center gap-2 border border-amber-500 text-amber-400 px-3 py-2 rounded-lg text-sm">
+                                    <span className="h-2 w-2 rounded-full bg-amber-400" /> Belum dibayar
+                                </div>
+                                {payment.paymentUrl && <a className="block text-sm text-sky-400 underline" href={payment.paymentUrl} target="_blank" rel="noreferrer">Buka halaman pembayaran</a>}
+                                {payment.paymentNumber && <button onClick={() => navigator.clipboard?.writeText(payment.paymentNumber)} className="block w-full text-xs text-slate-400 break-all">{payment.paymentNumber}</button>}
+                            </div>
+                        ) : mode === 'paid' ? (
+                            <div className="rounded-2xl bg-[#242426] p-7 space-y-5">
+                                <p className="text-sm text-slate-300">Pembayaran berhasil. Access code kamu:</p>
+                                <div className="text-3xl font-semibold tracking-[0.08em] select-all">{codeInput}</div>
+                                <div className="inline-flex items-center gap-2 border border-emerald-500 text-emerald-400 px-3 py-2 rounded-lg text-sm">Pembayaran berhasil</div>
+                                <button onClick={() => redeem(codeInput)} disabled={busy} className="w-full rounded-lg bg-sky-600 py-3 text-sm font-semibold hover:bg-sky-500 disabled:opacity-50">Gunakan kode ini</button>
+                                <button onClick={() => navigator.clipboard?.writeText(codeInput)} className="text-sm text-slate-400 underline">Salin kode</button>
+                            </div>
+                        ) : (
+                            <div className="rounded-2xl bg-[#242426] p-7 space-y-5">
+                                <div className="mx-auto grid h-16 w-16 place-items-center rounded-xl bg-sky-600 text-2xl" aria-hidden="true">▤</div>
+                                <h1 className="text-xl font-medium">Bayar untuk mengakses materi</h1>
+                                <button onClick={createPayment} disabled={busy || !config.configured} className="w-full rounded-lg bg-[#303033] py-3 text-base hover:bg-[#3a3a3d] disabled:opacity-50">
+                                    {busy ? 'Membuat pembayaran...' : config.amount ? `Bayar ${formatAmount(config.amount)}` : 'Pembayaran belum tersedia'}
+                                </button>
+                                <form onSubmit={event => { event.preventDefault(); redeem(codeInput); }} className="space-y-3">
+                                    <label className="sr-only" htmlFor="access-code">Use codes</label>
+                                    <input id="access-code" value={codeInput} onChange={event => setCodeInput(event.target.value)} placeholder="use codes" autoComplete="off" className="w-full rounded-lg border border-[#555] bg-transparent px-4 py-3 text-center outline-none focus:border-sky-500" />
+                                    <button type="submit" disabled={busy || !codeInput.trim()} className="w-full rounded-lg border border-[#555] py-3 text-sm hover:bg-white/5 disabled:opacity-50">Gunakan kode</button>
+                                </form>
+                                {!config.configured && <p className="text-xs text-amber-300">Pakasir belum dikonfigurasi di server.</p>}
+                                {mode === 'failed' && <p className="text-sm text-rose-300">Pembayaran gagal atau kedaluwarsa. Silakan coba lagi.</p>}
+                                {error && <p role="alert" className="text-sm text-rose-300">{error}</p>}
+                            </div>
+                        )}
+                        {error && mode !== 'pay' && <p role="alert" className="mt-4 text-sm text-rose-300">{error}</p>}
+                    </section>
+                </div>
+            );
+        }
+
+        function KeyManagement({ onBack }) {
+            const [keys, setKeys] = useState([]);
+            const [code, setCode] = useState('');
+            const [days, setDays] = useState(2);
+            const [error, setError] = useState('');
+
+            const loadKeys = async () => {
+                const response = await fetch('/api/admin/keys');
+                const result = await response.json();
+                if (!response.ok) throw new Error(result.error || 'Gagal memuat access code.');
+                setKeys(result.keys);
+            };
+
+            useEffect(() => { loadKeys().catch(err => setError(err.message)); }, []);
+
+            const addKey = async event => {
+                event.preventDefault();
+                setError('');
+                try {
+                    const response = await fetch('/api/admin/keys', {
+                        method: 'POST', headers: { 'content-type': 'application/json' },
+                        body: JSON.stringify({ code, expiresInDays: Number(days) }),
+                    });
+                    const result = await response.json();
+                    if (!response.ok) throw new Error(result.error || 'Gagal membuat kode.');
+                    setCode('');
+                    await loadKeys();
+                } catch (err) { setError(err.message); }
+            };
+
+            const updateKey = async (key, patch) => {
+                const response = await fetch(`/api/admin/keys/${encodeURIComponent(key.code)}`, {
+                    method: 'PATCH', headers: { 'content-type': 'application/json' }, body: JSON.stringify(patch),
+                });
+                const result = await response.json();
+                if (!response.ok) setError(result.error || 'Gagal memperbarui kode.');
+                else await loadKeys();
+            };
+
+            const deleteKey = async key => {
+                if (!window.confirm(`Hapus kode ${key.code}?`)) return;
+                const response = await fetch(`/api/admin/keys/${encodeURIComponent(key.code)}`, { method: 'DELETE' });
+                if (!response.ok) setError('Gagal menghapus kode.');
+                else await loadKeys();
+            };
+
+            return (
+                <main className="min-h-screen bg-slate-100 dark:bg-[#0B0F17] text-slate-900 dark:text-slate-100 p-5 sm:p-10">
+                    <div className="mx-auto max-w-4xl">
+                        <button onClick={onBack} className="mb-6 text-sm text-sky-600 dark:text-sky-400">Kembali ke aplikasi</button>
+                        <h1 className="text-2xl font-semibold mb-6">Manajemen access code</h1>
+                        <form onSubmit={addKey} className="mb-8 grid gap-3 sm:grid-cols-[1fr_130px_auto]">
+                            <input value={code} onChange={event => setCode(event.target.value)} placeholder="Kode manual (opsional)" className="rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-2" />
+                            <label className="flex items-center gap-2 text-sm">Hari <input type="number" min="1" max="3650" value={days} onChange={event => setDays(event.target.value)} className="w-20 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-2 py-2" /></label>
+                            <button className="rounded-lg bg-sky-600 px-4 py-2 text-white">Tambah kode</button>
+                        </form>
+                        {error && <p role="alert" className="mb-4 text-sm text-rose-600">{error}</p>}
+                        <div className="overflow-x-auto border-y border-slate-200 dark:border-slate-800">
+                            <table className="w-full min-w-[640px] text-left text-sm">
+                                <thead><tr className="text-slate-500"><th className="py-3">Kode</th><th>Status</th><th>Redeem</th><th>Kedaluwarsa</th><th>Aksi</th></tr></thead>
+                                <tbody>{keys.map(key => <tr key={key.code} className="border-t border-slate-200 dark:border-slate-800">
+                                    <td className="py-3 font-mono">{key.code}</td>
+                                    <td>{key.active ? (key.activeSession ? 'Dipakai' : 'Aktif') : 'Nonaktif'}</td>
+                                    <td>{key.redeemedAt ? new Date(key.redeemedAt).toLocaleDateString('id-ID') : 'Belum'}</td>
+                                    <td>{key.expiresAt ? new Date(key.expiresAt).toLocaleString('id-ID') : 'Tidak ada'}</td>
+                                    <td className="space-x-3"><button onClick={() => updateKey(key, { active: !key.active })} className="text-sky-600">{key.active ? 'Nonaktifkan' : 'Aktifkan'}</button><button onClick={() => deleteKey(key)} className="text-rose-600">Hapus</button></td>
+                                </tr>)}</tbody>
+                            </table>
+                        </div>
+                    </div>
+                </main>
+            );
+        }
+
         function App() {
             const [darkMode, setDarkMode] = useState(true);
             const [streak, setStreak] = useState(5);
@@ -2230,6 +2490,39 @@
             const [datasets, setDatasets] = useState({});
             const [subjects, setSubjects] = useState([]);
             const [subjectsLoading, setSubjectsLoading] = useState(true);
+            const [authenticated, setAuthenticated] = useState(null);
+            const [admin, setAdmin] = useState(false);
+            const [authLoading, setAuthLoading] = useState(true);
+            const [keysPage, setKeysPage] = useState(window.location.pathname === '/keys');
+
+            useEffect(() => {
+                fetch('/api/auth/session').then(response => {
+                    if (!response.ok) throw new Error('Unauthenticated');
+                    return response.json();
+                }).then(session => {
+                    setAuthenticated(true);
+                    setAdmin(session.admin);
+                }).catch(() => setAuthenticated(false)).finally(() => setAuthLoading(false));
+            }, []);
+
+            useEffect(() => {
+                if (!authenticated) return undefined;
+                let lastActivity = Date.now();
+                let lastTouch = 0;
+                const markActivity = () => { lastActivity = Date.now(); };
+                const events = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
+                events.forEach(name => window.addEventListener(name, markActivity, { passive: true }));
+                const timer = setInterval(async () => {
+                    if (Date.now() - lastActivity > 2 * 60 * 1000 || Date.now() - lastTouch < 60 * 1000) return;
+                    lastTouch = Date.now();
+                    const response = await fetch('/api/auth/touch', { method: 'POST' });
+                    if (response.status === 401) setAuthenticated(false);
+                }, 30 * 1000);
+                return () => {
+                    clearInterval(timer);
+                    events.forEach(name => window.removeEventListener(name, markActivity));
+                };
+            }, [authenticated]);
 
             // Icon / color palette — assigned round-robin by index (static fallback only)
             const getSubjectMeta = (id, index) => {
@@ -2260,85 +2553,39 @@
                     .replace(/[-_]/g, ' ')
                     .replace(/\b\w/g, c => c.toUpperCase());
 
-            // Fetch a single JSON file directly (static file fallback)
-            const fetchSubjectFile = async (filename) => {
-                const id = filename.replace(/\.json$/i, '');
-                try {
-                    const res = await fetch(`questions/${filename}`);
-                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                    const data = await res.json();
-                    return [id, Array.isArray(data) ? data : []];
-                } catch (e) {
-                    console.warn(`[Golearn] Could not load questions/${filename}:`, e.message);
-                    return [id, []];
-                }
-            };
-
-            // Boot: Try Express /api/subjects first, fall back to static file scanning
             useEffect(() => {
+                if (!authenticated) {
+                    setSubjectsLoading(false);
+                    return undefined;
+                }
                 let cancelled = false;
 
                 const loadSubjects = async () => {
                     setSubjectsLoading(true);
-
-                    // 1. Try Express API
                     try {
                         const apiRes = await fetch('/api/subjects');
-                        if (apiRes.ok) {
-                            const apiData = await apiRes.json();
-                            if (apiData && Array.isArray(apiData.subjects) && apiData.subjects.length > 0) {
-                                if (cancelled) return;
-                                const newDatasets = {};
-                                apiData.subjects.forEach(s => {
-                                    newDatasets[s.id] = s.questions || [];
-                                });
-                                setDatasets(newDatasets);
-                                setSubjects(apiData.subjects);
-                                setActiveSubject(prev => prev && newDatasets[prev] ? prev : apiData.subjects[0].id);
-                                setSubjectsLoading(false);
-                                return;
-                            }
+                        if (apiRes.status === 401) {
+                            setAuthenticated(false);
+                            return;
                         }
-                    } catch (_) {
-                        // Express API not available (e.g. running as purely static file)
+                        if (!apiRes.ok) throw new Error(`HTTP ${apiRes.status}`);
+                        const apiData = await apiRes.json();
+                        if (cancelled) return;
+                        const newDatasets = {};
+                        apiData.subjects.forEach(subject => { newDatasets[subject.id] = subject.questions || []; });
+                        setDatasets(newDatasets);
+                        setSubjects(apiData.subjects);
+                        setActiveSubject(prev => prev && newDatasets[prev] ? prev : (apiData.subjects[0]?.id ?? null));
+                    } catch (err) {
+                        console.error('[Golearn] Could not load subjects:', err);
                     }
 
-                    // 2. Static fallback: manifest.json or default files
-                    const FALLBACK_FILES = ['math.json', 'machine.json'];
-                    let fileList = FALLBACK_FILES;
-                    try {
-                        const mRes = await fetch('questions/manifest.json');
-                        if (mRes.ok) {
-                            const mData = await mRes.json();
-                            if (Array.isArray(mData) && mData.length > 0) fileList = mData;
-                        }
-                    } catch (_) { /* use fallback */ }
-
-                    const results = await Promise.all(fileList.map(f => fetchSubjectFile(f)));
-                    if (cancelled) return;
-
-                    const newDatasets = {};
-                    const newSubjects = [];
-                    results.forEach(([id, questions], idx) => {
-                        newDatasets[id] = questions;
-                        newSubjects.push({
-                            id,
-                            title: slugToTitle(id),
-                            description: `${questions.filter(q => q.tipe_soal === 'PILGAN').length} multiple choice · ${questions.filter(q => q.tipe_soal === 'ESSAY').length} essay`,
-                            count: questions.length,
-                            ...getSubjectMeta(id, idx),
-                        });
-                    });
-
-                    setDatasets(newDatasets);
-                    setSubjects(newSubjects);
-                    setActiveSubject(prev => prev && newDatasets[prev] ? prev : (newSubjects[0]?.id ?? null));
                     setSubjectsLoading(false);
                 };
 
                 loadSubjects();
                 return () => { cancelled = true; };
-            }, []);
+            }, [authenticated]);
 
             // Derive current questions dynamically based on the selected subject
             const currentQuestions = datasets[activeSubject] || [];
@@ -2370,6 +2617,20 @@
                 }
             });
 
+            const leaveKeysPage = () => {
+                window.history.pushState({}, '', '/');
+                setKeysPage(false);
+            };
+
+            if (authLoading) return <div className="min-h-screen grid place-items-center text-sm text-slate-500">Memeriksa sesi...</div>;
+            if (!authenticated) {
+                return <Paywall onAuthenticated={session => { setAuthenticated(true); setAdmin(session.admin); }} />;
+            }
+            if (keysPage) {
+                if (admin) return <KeyManagement onBack={leaveKeysPage} />;
+                return <main className="min-h-screen grid place-items-center bg-slate-100 dark:bg-[#0B0F17] p-6 text-center"><div><h1 className="text-xl font-semibold mb-3">Akses admin diperlukan</h1><button onClick={leaveKeysPage} className="text-sky-600 dark:text-sky-400">Kembali ke aplikasi</button></div></main>;
+            }
+
             return (
                 <div className="min-h-screen bg-slate-50 dark:bg-[#0B0F17] text-slate-900 dark:text-slate-100">
                     <Navbar
@@ -2381,6 +2642,10 @@
                         darkMode={darkMode}
                         setDarkMode={setDarkMode}
                     />
+                    <div className="mx-auto flex max-w-7xl justify-end gap-4 px-4 pt-3">
+                        {admin && <button onClick={() => { window.history.pushState({}, '', '/keys'); setKeysPage(true); }} className="text-xs text-sky-600 dark:text-sky-400">Manajemen keys</button>}
+                        <button onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); setAuthenticated(false); }} className="text-xs text-slate-500">Keluar</button>
+                    </div>
 
                     <main className="pb-24 md:pb-16">
                         {activeTab === 'dashboard' && (
