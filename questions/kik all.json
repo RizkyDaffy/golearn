@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 5334,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Tingkat kepuasaan pelanggan terhadap produk merupakan tujuan dari perencanaan. semakin besar tingkat kepuasaan pelanggan terhadap produk, maka semakin mudah bagi perusahaan untuk mendapatkan keuntungan, sebaliknya semakin pelanggan tidak puas terhadap produk, maka akan semakin sulit bagi perusahaan. Jika dicermati hal tersebut termasuk ke dalam....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20881,
+        "label_opsi": "A",
+        "teks_opsi": "Ruang lingkup perencanaan produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20882,
+        "label_opsi": "B",
+        "teks_opsi": "Unsur perencanaan produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20883,
+        "label_opsi": "C",
+        "teks_opsi": "Pengukuran standar produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20884,
+        "label_opsi": "D",
+        "teks_opsi": "Tujuan dan fungsi perencanaan produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20885,
+        "label_opsi": "E",
+        "teks_opsi": "Tujuan produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5335,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Pak Bambang merupakan seorang yang hanya lulusan SD. Dia ingin membangun usaha karena sadar dengan ijazah seperti itu, tidak akan ada perusahaan yang mau menerima dia sebagai pegawai. Hal ini motivasi usaha yang berasal dari ….",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20886,
+        "label_opsi": "A",
+        "teks_opsi": "Lingkungan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20887,
+        "label_opsi": "B",
+        "teks_opsi": "Prasangka terhadap seseorang",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20888,
+        "label_opsi": "C",
+        "teks_opsi": "Situasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20889,
+        "label_opsi": "D",
+        "teks_opsi": "Kondisi Ekonomi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20890,
+        "label_opsi": "E",
+        "teks_opsi": "Diri sendiri",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5336,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Technopreneur adalah seseorang yang mengelola usaha yang memanfaatkan perkembangan teknologi mutakhir untuk dioptimalkan sebagai basis dalam mengembangkan pengembangan usaha. Peran Technopreneurship dalam menghadapi tantangan global adalah sebagai berikut, Kecuali...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20891,
+        "label_opsi": "A",
+        "teks_opsi": "Ikut serta dalam menggerakkan perekonomian di Indonesia, baik ekonomi makro, mikro dan skala yang lebih besar.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20892,
+        "label_opsi": "B",
+        "teks_opsi": "Memiliki wawasan global mengembangkan sayap bisnis berorientasi internasional, memiliki daya saing global yang berdampak pada jalannya roda perekonomian di Indonesia.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20893,
+        "label_opsi": "C",
+        "teks_opsi": "Mengembangkan penerapan teknologi dalam bidang ekonomi, sehingga tercipta inovasi-inovasi yang out of the box.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20894,
+        "label_opsi": "D",
+        "teks_opsi": "Melatih para pengusaha untuk tidak terlalu tergantung dengan teknologi.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20895,
+        "label_opsi": "E",
+        "teks_opsi": "Tidak terpaku pada lapangan kerja yang ada, sehingga berani untuk membuka lapangan kerja baru.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5337,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perusahaan bakpia memproduksi 60.000 bakpia setiap tahunnya. Rincian bahan pembuatannya perharinya adalah sebagai berikut :<br><br>Gandum Rp. 20.000<br><br>Gula Pasir Rp 20.000<br><br>Mentega Rp. 30.000<br><br>Telur Rp 10.000<br><br>Kacang hijau Rp 30.000<br><br>Susu Bubuk 30.000<br><br>Upah pegawai 2 orang Rp.4.500.000/bulan<br><br>Biaya kardus Rp.800.000/bulan<br><br>Biaya listrik dan gas Rp.700.000/bulan<br><br>Biaya air Rp.350.000/bulan<br><br>Biaya perawatan mesin produksi Rp.450.000/bulan<br><br>Maka harga pokok produksi per satuan produk adalah....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20896,
+        "label_opsi": "A",
+        "teks_opsi": "Rp. 2.200",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20897,
+        "label_opsi": "B",
+        "teks_opsi": "Rp. 183,3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20898,
+        "label_opsi": "C",
+        "teks_opsi": "Rp. 2.040",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20899,
+        "label_opsi": "D",
+        "teks_opsi": "Rp. 170",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20900,
+        "label_opsi": "E",
+        "teks_opsi": "Rp. 115,7",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5338,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Job profesi yang bertugas untuk merancang software aplikasi komputer, dan kemudian akan melakukan pengujian dari software yang sudah selesai. Setelah itu juga akan melakukan maintenance. merupakan pengertian dari job Profil TJKT di bidang…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20901,
+        "label_opsi": "A",
+        "teks_opsi": "Developer software",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20902,
+        "label_opsi": "B",
+        "teks_opsi": "Data Scientist",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20903,
+        "label_opsi": "C",
+        "teks_opsi": "Database Administrator",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20904,
+        "label_opsi": "D",
+        "teks_opsi": "Analisis keamanan informasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20905,
+        "label_opsi": "E",
+        "teks_opsi": "Ananlisis sistem komputer",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5339,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Pengusaha asal Amerika Serikat yang merupakan CEO SpaceX, PayPal, Tesla dan baru-baru ini menghebohkan berita IT karena membeli saham Twitter dan bersiteru dengan CEO facebook dan Instagram, Siapakah teknopreneur tersebut…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20906,
+        "label_opsi": "A",
+        "teks_opsi": "Larry Page dan Sergey Brin",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20907,
+        "label_opsi": "B",
+        "teks_opsi": "Elon Musk",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20908,
+        "label_opsi": "C",
+        "teks_opsi": "Mark Zuckerberg",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20909,
+        "label_opsi": "D",
+        "teks_opsi": "Bill Gates",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20910,
+        "label_opsi": "E",
+        "teks_opsi": "Steve Jobs",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5340,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Harga yang harus dikeluarkan oleh para penjual untuk bisa mengolah bahan mentah menjadi produk yang bisa dijual baik itu produksi barang maupun jasa adalah pengertian dari.....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20911,
+        "label_opsi": "A",
+        "teks_opsi": "Harga pokok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20912,
+        "label_opsi": "B",
+        "teks_opsi": "Harga pokok produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20913,
+        "label_opsi": "C",
+        "teks_opsi": "Harga pokok penjualan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20914,
+        "label_opsi": "D",
+        "teks_opsi": "Biaya",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20915,
+        "label_opsi": "E",
+        "teks_opsi": "Biaya tenaga kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5341,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Jumlah dari pengeluaran dan beban yang diizinkan, baik secara langsung maupun tidak langsung sehingga menghasilkan barang produksi maupun barang jasa yang bisa dijual kembali merupakan pengertian dari.....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20916,
+        "label_opsi": "A",
+        "teks_opsi": "Harga pokok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20917,
+        "label_opsi": "B",
+        "teks_opsi": "Harga pokok produksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20918,
+        "label_opsi": "C",
+        "teks_opsi": "Harga pokok penjualan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20919,
+        "label_opsi": "D",
+        "teks_opsi": "Biaya",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20920,
+        "label_opsi": "E",
+        "teks_opsi": "Biaya tenaga kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5342,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Laporan yang berisi ringkasan transaksi - transaksi keuangan yang terjadi selama periode akuntansi yang bersangkutan disebut juga .....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20921,
+        "label_opsi": "A",
+        "teks_opsi": "Laporan transaksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20922,
+        "label_opsi": "B",
+        "teks_opsi": "Laporan kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20923,
+        "label_opsi": "C",
+        "teks_opsi": "Jurnal keuangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20924,
+        "label_opsi": "D",
+        "teks_opsi": "Rencana anggaran biaya (RAB)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20925,
+        "label_opsi": "E",
+        "teks_opsi": "Laporan keuangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5343,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Laporan yang dibuat atau disusun dalam pelaksanaan proyek bisnis untuk membantu dalam perencanaan keuangan, pengendalian biaya, dan pengambilan keputusan yang lebih baik, disebut dengan…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20926,
+        "label_opsi": "A",
+        "teks_opsi": "Laporan transaksi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20927,
+        "label_opsi": "B",
+        "teks_opsi": "Laporan kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20928,
+        "label_opsi": "C",
+        "teks_opsi": "Jurnal keuangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20929,
+        "label_opsi": "D",
+        "teks_opsi": "Rencana anggaran biaya (RAB)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20930,
+        "label_opsi": "E",
+        "teks_opsi": "Laporan keuangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5344,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Promosi produk adalah proses menjelaskan nilai suatu produk kepada calon pelanggan dan pelanggan lama untuk mengedukasi, membangkitkan minat, dan memacu pembelian. Promosi produk yang menggunakan website disebut…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20931,
+        "label_opsi": "A",
+        "teks_opsi": "Media elektronik",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20932,
+        "label_opsi": "B",
+        "teks_opsi": "Media internet",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20933,
+        "label_opsi": "C",
+        "teks_opsi": "Media digital",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20934,
+        "label_opsi": "D",
+        "teks_opsi": "Media cetak",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20935,
+        "label_opsi": "E",
+        "teks_opsi": "Media produk",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5345,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Media promosi sebagai plakat yang dicetak pada kertas yang biasanya berukuran besar, berisi pengumuman atau iklan dalam bentuk gambar ataupun tulisan dan ditempelkan di dinding maupun tembok yang berada di tempat-tempat umum adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20936,
+        "label_opsi": "A",
+        "teks_opsi": "Pamphlet",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20937,
+        "label_opsi": "B",
+        "teks_opsi": "Flyer",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20938,
+        "label_opsi": "C",
+        "teks_opsi": "Banner",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20939,
+        "label_opsi": "D",
+        "teks_opsi": "Brosur",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20940,
+        "label_opsi": "E",
+        "teks_opsi": "Poster",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5346,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Wirausaha adalah kegiatan usaha atau bisnis mandiri di mana segala sumber daya dan upaya dibebankan kepada pelaku usaha. Di bawah ini yang bukan ciri seorang wirausaha adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20941,
+        "label_opsi": "A",
+        "teks_opsi": "Orang yang menciptakan barang baru",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20942,
+        "label_opsi": "B",
+        "teks_opsi": "Orang yang kreatif terhadap keseimbangan yang terjadi dipasar",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20943,
+        "label_opsi": "C",
+        "teks_opsi": "Orang yang selalu melihat peluang",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20944,
+        "label_opsi": "D",
+        "teks_opsi": "Orang yang siap menanggung resiko",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20945,
+        "label_opsi": "E",
+        "teks_opsi": "Orang yang selalu pesimis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5347,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Berikut ini merupakan kebiasaan mental jelek yang dapat menghambat kreativitas wirausahaan yaitu kecuali…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20946,
+        "label_opsi": "A",
+        "teks_opsi": "Pemikiran kemungkinan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20947,
+        "label_opsi": "B",
+        "teks_opsi": "Pemikiran lain",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20948,
+        "label_opsi": "C",
+        "teks_opsi": "Mencari",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20949,
+        "label_opsi": "D",
+        "teks_opsi": "Sterotype",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20950,
+        "label_opsi": "E",
+        "teks_opsi": "Percaya diri",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5348,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kegagalan adalah konsep sosial yang tidak memenuhi tujuan yang diinginkan atau dimaksudkan, dan biasanya dipandang sebagai kebalikan dari kesuksesan. Kegagalan dan keberhasilan seseorang tidak ditentukan dari pengetahuan saja, tetapi juga ditentukan dari...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20951,
+        "label_opsi": "A",
+        "teks_opsi": "Kemampuan motivasi diri",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20952,
+        "label_opsi": "B",
+        "teks_opsi": "Kemampuan berinovasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20953,
+        "label_opsi": "C",
+        "teks_opsi": "Karakter (sikap, perilaku, dan mental) yang lebih maju",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20954,
+        "label_opsi": "D",
+        "teks_opsi": "Kemampuan mengatur waktu kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20955,
+        "label_opsi": "E",
+        "teks_opsi": "Kemampuan menerik sisi positif",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5349,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Setiap perusahaan yang sudah mendapatkan ijin operasional kerja harus menerapkan SMK3. Yang dimaksud dengan SMK3 adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20956,
+        "label_opsi": "A",
+        "teks_opsi": "Standar Manajemen Kecakapan Ketrampilan Komunikasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20957,
+        "label_opsi": "B",
+        "teks_opsi": "Sistem Manajemen Ketrampilan Komunikasi dalam Kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20958,
+        "label_opsi": "C",
+        "teks_opsi": "Sistem Manajemen Kesehatan dan Keselamatan Kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20959,
+        "label_opsi": "D",
+        "teks_opsi": "Sekolah Menengah Kejuruan Tiga",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20960,
+        "label_opsi": "E",
+        "teks_opsi": "Standar Menengah Kejuruan Ketrampilan Kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5350,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dalam pembuatan proposal PKK perlu diperhatikan 4 aspek berikut. Salah satu aspek yang sangat penting adalah Rancangan Produk, yang meliputi : <br>1) Alat dan bahan <br>2) Langkah kerja <br>3) Rencana anggaran <br>4) Strategi pesaing<br><br>Dari 4 pernyataan diatas yang paling tepat dalam aspek Rancangan Produk adalah .....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20961,
+        "label_opsi": "A",
+        "teks_opsi": "1, 3, dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20962,
+        "label_opsi": "B",
+        "teks_opsi": "2, 3, dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20963,
+        "label_opsi": "C",
+        "teks_opsi": "1, 2, dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20964,
+        "label_opsi": "D",
+        "teks_opsi": "1, 2, dan 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20965,
+        "label_opsi": "E",
+        "teks_opsi": "Semua jawaban benar",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5351,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Berikut adalah jenis sumber daya dalam usaha ! <br>1) Man<br>2) Money <br>3) Material <br>4) Machine <br>5) Methode <br>6) Market<br><br>Untuk menghasilkan produk yang berkualitas dan optimal dibutuhkan sumberdaya yang professional dan ahli dibidangnya, selain itu juga harus didukung bahan dasar pilihan berkualitas, maka sumber daya yang dibutuhkan adalah ......",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20966,
+        "label_opsi": "A",
+        "teks_opsi": "1 dan 2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20967,
+        "label_opsi": "B",
+        "teks_opsi": "1 dan 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20968,
+        "label_opsi": "C",
+        "teks_opsi": "2 dan 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20969,
+        "label_opsi": "D",
+        "teks_opsi": "3 dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20970,
+        "label_opsi": "E",
+        "teks_opsi": "5 dan 6",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5352,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Star up adalah perusahaan rintisan yang belum lama beroperasi, dengan kata lain perusahaan yang baru masuk atau masih berada pada fase pengembangan atau penelitian untuk terus menemukan pasar maupun mengembangkan produknya. Star up biasanya mengacu pada perusahaan-perusahaan yang layanannya atau produknya berbasis teknologi. Salah satu pelaku model usaha star up di bidang TKJ yang telah mendulang kesuksesan di Indonesia adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20971,
+        "label_opsi": "A",
+        "teks_opsi": "Paypal",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20972,
+        "label_opsi": "B",
+        "teks_opsi": "Gojek",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20973,
+        "label_opsi": "C",
+        "teks_opsi": "Quora",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20974,
+        "label_opsi": "D",
+        "teks_opsi": "Uber",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20975,
+        "label_opsi": "E",
+        "teks_opsi": "Prezi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5353,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Seiring dengan perkembangan teknologi, lapangan pekerjaan pun kian berkembang. Muncul profesiprofesi Baru yang beberapa tahun kebelakang belum popular, Atau bahkan Belum ada. Salah satu contoh profesi Technopreneurship di bidang TKJ adalah Game Developer. Berikut ini merupakan pengertian dari Game developer yang tepat adalah....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20976,
+        "label_opsi": "A",
+        "teks_opsi": "Seseorang yang bertugas merancang, menguji dan memperbaiki software aplikasi komputer.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20977,
+        "label_opsi": "B",
+        "teks_opsi": "Seseorang yang bertugas bagaimana membuat, merawat, dan mengembangkan beragam program komputer.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20978,
+        "label_opsi": "C",
+        "teks_opsi": "Seorang yang tugasnya sebagai pengembang software yang mempunyai keahlian pada bidang pembuatan game dan video games baik di smartphone, website maupun komputer.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20979,
+        "label_opsi": "D",
+        "teks_opsi": "Seseorang yang bertugas dalam menganalisis,memberikan Analisa dan rekomendasi perbaikan system, merancang, menerapkan, serta mengevaluasi system software, hardware, maupun system informasi, agar sesuai dengan kebutuhan bisnis perusahaan atau klien.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20980,
+        "label_opsi": "E",
+        "teks_opsi": "Seseorang yang bertugas dalam membuat dan mengelola suatu situs web.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5354,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan mengapa validasi ide produk sangat penting dalam fase awal pengembangan bisnis di bidang TKJ…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5355,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Mengapa analisis SWOT penting dilakukan sebelum memasarkan suatu produk? Jelaskan masing-masing komponen SWOT dan berikan contoh penerapannya pada produk teknologi sederhana…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5356,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan bagaimana sebuah produk kreatif dapat memiliki nilai tambah (value added), dan berikan contoh bagaimana siswa SMK TKJ bisa menciptakan nilai tambah pada produk teknologi yang sederhana…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5357,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Apa saja faktor yang harus dipertimbangkan dalam menentukan segmentasi pasar (market segmentation) untuk sebuah produk? Berikan 3 contoh segmentasi pasar untuk produk smart device sederhana…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5358,
+    "id_ujian": 359,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Sebutkan minimal 5 masing-masing peluang usaha apa saja dalam bidang jasa dan produk yang bisa dijadikan bisnis oleh siswa lulusan TKJ….",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:38:55.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]
