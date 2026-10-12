@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const { registerPinRoutes, pinGuard, initPinStore } = require('./pinRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -9,6 +10,10 @@ const QUESTIONS_DIR = path.join(__dirname, 'questions');
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
+
+// PIN gate: auth API, /admin/pins UI, and the guard that locks content routes.
+registerPinRoutes(app);
+app.use(pinGuard);
 
 // Helper to convert filename (e.g. 'machine_learning' or 'math') to display title
 function slugToTitle(slug) {
@@ -148,7 +153,14 @@ app.get('/api/questions/:id', async (req, res) => {
 const { registerViewRoutes } = require('./viewRoutes');
 registerViewRoutes(app, QUESTIONS_DIR);
 
-// Serve frontend static files
+// Serve frontend static files (never expose server source / configs / raw JSON datasets)
+const PRIVATE_ROOT_FILE = /^\/[^/]*\.(js|cjs|mjs|map|json|md|ts|ya?ml|lock)$/i;
+app.use((req, res, next) => {
+    if (req.method === 'GET' && PRIVATE_ROOT_FILE.test(req.path)) {
+        return res.status(404).send('Not found');
+    }
+    next();
+});
 app.use(express.static(__dirname));
 
 // Fallback to index.html for SPA navigation
@@ -157,7 +169,21 @@ app.use((req, res) => {
 });
 
 // Bind to 0.0.0.0 so the app is reachable from Railway / containers.
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', async () => {
     console.log(`🚀 Golearn Express Server running on port ${PORT}`);
     console.log(`📁 Scanning subjects from: ${QUESTIONS_DIR}`);
+    try {
+        const seeded = await initPinStore();
+        if (seeded) {
+            console.log('🔑 Seeded admin account. Username: ' + seeded.username);
+            if (seeded.generated) {
+                console.log('   Generated admin PIN: ' + seeded.pin + '  (set ADMIN_PIN env to pin a fixed one)');
+            }
+            console.log('   Manage PINs at /admin/pins');
+        } else {
+            console.log('🔑 PIN store ready — manage PINs at /admin/pins');
+        }
+    } catch (err) {
+        console.error('⚠️  PIN store unavailable (Neon):', err.message);
+    }
 });

@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 5384,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Standar urutan warna kabel UTP untuk kategori T568B secara berurutan dari pin 1 sampai 8 adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21081,
+        "label_opsi": "A",
+        "teks_opsi": "Putih Orange - Orange - Putih Hijau - Biru - Putih Biru - Hijau - Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21082,
+        "label_opsi": "B",
+        "teks_opsi": "Putih Hijau - Hijau - Putih Orange - Biru - Putih Biru - Orange - Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21083,
+        "label_opsi": "C",
+        "teks_opsi": "Putih Orange - Orange - Putih Hijau - Hijau - Putih Biru - Biru - Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21084,
+        "label_opsi": "D",
+        "teks_opsi": "Putih Cokelat - Cokelat - Putih Hijau - Biru - Putih Biru - Hijau - Putih Orange - Orange",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21085,
+        "label_opsi": "E",
+        "teks_opsi": "Putih Biru - Biru - Putih Orange - Orange - Putih Hijau - Hijau - Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5385,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Jenis kabel UTP yang digunakan untuk menghubungkan dua perangkat yang sama (misalnya Switch ke Switch tanpa MDI-X) adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21086,
+        "label_opsi": "A",
+        "teks_opsi": "Straight-Through Cable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21087,
+        "label_opsi": "B",
+        "teks_opsi": "Cross-Over Cable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21088,
+        "label_opsi": "C",
+        "teks_opsi": "Rollover Cable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21089,
+        "label_opsi": "D",
+        "teks_opsi": "Coaxial Cable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21090,
+        "label_opsi": "E",
+        "teks_opsi": "Fiber Optic Cable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5386,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Secara default, seluruh port pada switch unmanaged atau switch baru terdaftar pada VLAN id...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21091,
+        "label_opsi": "A",
+        "teks_opsi": "VLAN ID 10",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21092,
+        "label_opsi": "B",
+        "teks_opsi": "VLAN ID 100",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21093,
+        "label_opsi": "C",
+        "teks_opsi": "VLAN ID 0",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21094,
+        "label_opsi": "D",
+        "teks_opsi": "VLAN ID 1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21095,
+        "label_opsi": "E",
+        "teks_opsi": "VLAN ID 4095",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5387,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Komponen protokol pada RouterOS Mikrotik yang berfungsi membungkus frame Ethernet dengan ID VLAN (802.1Q) adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21096,
+        "label_opsi": "A",
+        "teks_opsi": "VLAN Trunking Protocol (VTP)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21097,
+        "label_opsi": "B",
+        "teks_opsi": "IEEE 802.1Q",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21098,
+        "label_opsi": "C",
+        "teks_opsi": "Spanning Tree Protocol (STP)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21099,
+        "label_opsi": "D",
+        "teks_opsi": "Link Aggregation Control Protocol (LACP)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21100,
+        "label_opsi": "E",
+        "teks_opsi": "Interior Gateway Routing Protocol (IGRP)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5388,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Mode wireless pada Mikrotik RouterOS yang digunakan agar interface wireless dapat memancarkan sinyal Wi-Fi (Access Point) sekaligus melayani banyak client (Point-to-Multipoint) serta mendukung fitur transmisi Layer 2 (Bridge) secara penuh adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21101,
+        "label_opsi": "A",
+        "teks_opsi": "WDS Slave",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21102,
+        "label_opsi": "B",
+        "teks_opsi": "Alignment Mode",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21103,
+        "label_opsi": "C",
+        "teks_opsi": "Station Bridge",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21104,
+        "label_opsi": "D",
+        "teks_opsi": "AP Bridge",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21105,
+        "label_opsi": "E",
+        "teks_opsi": "Station",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5389,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Jenis enkripsi keamanan pada jaringan WLAN yang paling aman dan direkomendasikan saat ini untuk jaringan standar/sederhana adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21106,
+        "label_opsi": "A",
+        "teks_opsi": "WEP (Wired Equivalent Privacy)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21107,
+        "label_opsi": "B",
+        "teks_opsi": "WPA-PSK",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21108,
+        "label_opsi": "C",
+        "teks_opsi": "WPA2-PSK",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21109,
+        "label_opsi": "D",
+        "teks_opsi": "MAC Filtering",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21110,
+        "label_opsi": "E",
+        "teks_opsi": "Open System",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5390,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Mode VLAN filtering pada switch MikroTik yang mewajibkan paket data memiliki VLAN ID yang sesuai dan akan membuang (drop) paket yang tidak terdaftar adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21111,
+        "label_opsi": "A",
+        "teks_opsi": "Disabled",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21112,
+        "label_opsi": "B",
+        "teks_opsi": "Optional",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21113,
+        "label_opsi": "C",
+        "teks_opsi": "Check",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21114,
+        "label_opsi": "D",
+        "teks_opsi": "Always Strip",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21115,
+        "label_opsi": "E",
+        "teks_opsi": "Secure",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5391,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Fitur pada sistem operasi Windows yang harus diaktifkan agar folder atau printer dapat diakses oleh komputer lain dalam satu LAN adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21116,
+        "label_opsi": "A",
+        "teks_opsi": "Network Discovery and File/Printer Sharing",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21117,
+        "label_opsi": "B",
+        "teks_opsi": "Windows Defender Firewall Active Scanning",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21118,
+        "label_opsi": "C",
+        "teks_opsi": "Internet Connection Sharing (ICS)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21119,
+        "label_opsi": "D",
+        "teks_opsi": "Remote Desktop Protocol (RDP)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21120,
+        "label_opsi": "E",
+        "teks_opsi": "Internet Information Services (IIS)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5392,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Pasangan warna kabel UTP (Unshielded Twisted Pair) yang berfungsi sebagai media penghantar alokasi arus/tegangan listrik searah (DC) adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21121,
+        "label_opsi": "A",
+        "teks_opsi": "Putih Orange - Orange",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21122,
+        "label_opsi": "B",
+        "teks_opsi": "Putih Hijau - Hijau",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21123,
+        "label_opsi": "C",
+        "teks_opsi": "Putih Biru - Biru",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21124,
+        "label_opsi": "D",
+        "teks_opsi": "Putih Abu - Abu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21125,
+        "label_opsi": "E",
+        "teks_opsi": "Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5393,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Alat pengetes kabel UTP yang digunakan untuk mengecek kontinuitas dan kebenaran urutan pin pada kedua ujung konektor RJ-45 adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21126,
+        "label_opsi": "A",
+        "teks_opsi": "Tang Crimping",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21127,
+        "label_opsi": "B",
+        "teks_opsi": "LAN Tester / Cable Tester",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21128,
+        "label_opsi": "C",
+        "teks_opsi": "Optical Power Meter (OPM)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21129,
+        "label_opsi": "D",
+        "teks_opsi": "Fusion Splicer",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21130,
+        "label_opsi": "E",
+        "teks_opsi": "Multimeter Digital",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5394,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Opsi action pada IP Firewall NAT MikroTik yang digunakan untuk menyamarkan IP lokal (private IP) menggunakan IP publik yang terpasang pada interface keluar secara otomatis adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21131,
+        "label_opsi": "A",
+        "teks_opsi": "Src-nat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21132,
+        "label_opsi": "B",
+        "teks_opsi": "Dst-nat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21133,
+        "label_opsi": "C",
+        "teks_opsi": "Redirect",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21134,
+        "label_opsi": "D",
+        "teks_opsi": "Passthrough",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21135,
+        "label_opsi": "E",
+        "teks_opsi": "Masquerade",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5395,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Status terikatnya alamat IP dan MAC Address pada tabel Leases atau IP Binding di MikroTik adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21136,
+        "label_opsi": "A",
+        "teks_opsi": "Bound",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21137,
+        "label_opsi": "B",
+        "teks_opsi": "Searching",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21138,
+        "label_opsi": "C",
+        "teks_opsi": "Drop",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21139,
+        "label_opsi": "D",
+        "teks_opsi": "Stoped",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21140,
+        "label_opsi": "E",
+        "teks_opsi": "Running",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5396,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Fitur MikroTik untuk mentranslasikan alamat IP privat menjadi alamat IP publik agar client bisa terhubung ke internet adalah….",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21141,
+        "label_opsi": "A",
+        "teks_opsi": "Filter Rules",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21142,
+        "label_opsi": "B",
+        "teks_opsi": "Mangle",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21143,
+        "label_opsi": "C",
+        "teks_opsi": "NAT",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21144,
+        "label_opsi": "D",
+        "teks_opsi": "Raw",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21145,
+        "label_opsi": "E",
+        "teks_opsi": "Connections",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5397,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Pesan balasan atau respon paket data dari perangkat/host tujuan yang diterima oleh perangkat pengirim dalam jaringan aktif dan dapat terhubung ketika melakukan pengujian konektivitas jaringan menggunakan perintah ping (ICMP Request) adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21146,
+        "label_opsi": "A",
+        "teks_opsi": "Request Timed Out (RTO)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21147,
+        "label_opsi": "B",
+        "teks_opsi": "Destination Host Unreachable",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21148,
+        "label_opsi": "C",
+        "teks_opsi": "Reply",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21149,
+        "label_opsi": "D",
+        "teks_opsi": "Time To Live (TTL) Exceeded",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21150,
+        "label_opsi": "E",
+        "teks_opsi": "Transmit Failed",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5398,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Standar pengkabelan T568A diawali oleh urutan warna kabel…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21151,
+        "label_opsi": "A",
+        "teks_opsi": "Putih Orange - Orange",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21152,
+        "label_opsi": "B",
+        "teks_opsi": "Putih Hijau - Hijau",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21153,
+        "label_opsi": "C",
+        "teks_opsi": "Putih Biru - Biru",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21154,
+        "label_opsi": "D",
+        "teks_opsi": "Putih Abu - Abu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21155,
+        "label_opsi": "E",
+        "teks_opsi": "Putih Cokelat - Cokelat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5399,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Setelah printer pada PC-A dengan IP 192.168.1.10 berhasil di-share dengan nama Printer_Lab, langkah yang harus dilakukan oleh penguji di PC-B (komputer client) melalui jendela Run (Win + R) untuk menghubungkan dan menginstal printer tersebut secara cepat melalui jaringan LAN adalah mengetikkan perintah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21156,
+        "label_opsi": "A",
+        "teks_opsi": "\\\\192.168.1.10",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21157,
+        "label_opsi": "B",
+        "teks_opsi": "ping 192.168.1.10",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21158,
+        "label_opsi": "C",
+        "teks_opsi": "cmd /k ipconfig",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21159,
+        "label_opsi": "D",
+        "teks_opsi": "(http://192.168.1.10/printer)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21160,
+        "label_opsi": "E",
+        "teks_opsi": "control printers",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5400,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Layanan/service pada sistem operasi Windows yang bertanggung jawab untuk mengelola antrean cetak (print queue) dan mengirimkan dokumen ke printer (baik printer lokal maupun printer yang di-share melalui jaringan) adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21161,
+        "label_opsi": "A",
+        "teks_opsi": "DHCP Client",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21162,
+        "label_opsi": "B",
+        "teks_opsi": "Workstation Service",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21163,
+        "label_opsi": "C",
+        "teks_opsi": "Print Spooler",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21164,
+        "label_opsi": "D",
+        "teks_opsi": "Network Location Awareness (NLA)",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21165,
+        "label_opsi": "E",
+        "teks_opsi": "Server Service",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5401,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Pengaturan parameter vlan-header MikroTik yang digunakan untuk memastikan paket dari perangkat tanpa VLAN ID tetap diberi header VLAN baru saat melewati interface (trunk-port), adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21166,
+        "label_opsi": "A",
+        "teks_opsi": "leave-as-is",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21167,
+        "label_opsi": "B",
+        "teks_opsi": "always-strip",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21168,
+        "label_opsi": "C",
+        "teks_opsi": "always-add",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21169,
+        "label_opsi": "D",
+        "teks_opsi": "use-service-tag",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21170,
+        "label_opsi": "E",
+        "teks_opsi": "add-if-missing",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5402,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "PC Client di VLAN 10 terhubung ke Port 2 Switch MikroTik (Access Port). Client tidak bisa mendapatkan alokasi IP Address dari DHCP Server yang berada di Router MikroTik. Setelah diperiksa, port penghubung antar-switch dan router (Trunk Port) pada switch dikonfigurasi dengan default-vlan-id=10 dan vlan-header=always-strip. Analisis penyebab utama kegagalan alokasi IP DHCP tersebut adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21171,
+        "label_opsi": "A",
+        "teks_opsi": "Opsi always-strip pada Trunk Port melepas tag VLAN sehingga Router menerima paket tanpa VLAN ID (untagged) dan gagal mengarahkannya ke sub-interface vlan10",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21172,
+        "label_opsi": "B",
+        "teks_opsi": "Port 2 Switch MikroTik belum diberikan IP Address statis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21173,
+        "label_opsi": "C",
+        "teks_opsi": "Kabel UTP yang menghubungkan Router dan Switch harus menggunakan tipe Cross-Over",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21174,
+        "label_opsi": "D",
+        "teks_opsi": "Opsi always-strip seharusnya diganti menjadi disabled pada menu Bridge",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21175,
+        "label_opsi": "E",
+        "teks_opsi": "DHCP Server di Router MikroTik hanya bisa berjalan pada interface Wireless",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5403,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Mode wireless pada MikroTik RouterOS yang digunakan untuk memfungsikan perangkat sebagai penerima/klien sinyal (Station) yang terhubung ke sebuah Access Point (AP) untuk menerima koneksi internet atau jaringan adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21176,
+        "label_opsi": "A",
+        "teks_opsi": "WDS Slave",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21177,
+        "label_opsi": "B",
+        "teks_opsi": "Alignment Mode",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21178,
+        "label_opsi": "C",
+        "teks_opsi": "Station Bridge",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21179,
+        "label_opsi": "D",
+        "teks_opsi": "AP Bridge",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21180,
+        "label_opsi": "E",
+        "teks_opsi": "Station",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5404,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Di sebuah sekolah, administrator jaringan ingin membedakan hak akses internet antara Guru dan Siswa :<br>1. Guru: 10 user dengan Kecepatan batasi 5 Mbps/5Mbps.<br>2. Siswa: 30 user dengan Kecepatan dibatasi 2 Mbps / 2 Mbps.<br>Jelaskan parameter-parameter apa saja yang harus dikonfigurasi pada menu User Profile dan Users di MikroTik Hotspot untuk memenuhi kebutuhan tersebut!",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5405,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan fungsi utama dari fitur Bridge VLAN Filtering di RouterOS MikroTik…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5406,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan apa tujuan dari konfigurasi DNS Static atau DNS Allow Remote Requests pada RouterOS MikroTik...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5407,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan menurut anda apa perbedaan fitur DHCP Client dan DHCP Server RputerOS Mikrotik…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5408,
+    "id_ujian": 362,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Sebuah kantor skala kecil baru saja menyewa satu unit ruko dan ingin membangun jaringan LAN lokal yang menghubungkan 10 unit PC Desktop dan 1 unit Printer Jaringan. Pengelola menginginkan seluruh PC dapat terhubung satu sama lain, mendapatkan IP Address secara otomatis, serta dapat menggunakan printer tersebut secara bersamaan. Jelaskan konfigurasi layanan/service jaringan utama yang harus diaktifkan pada Router dan Switch agar seluruh PC mendapatkan IP Address dan informasi gateway secara otomatis, serta dapat melakukan cetak dokumen secara bersamaan di 1 printer tersebut...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T02:42:42.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]

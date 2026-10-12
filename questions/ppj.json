@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 5359,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebutan lain untuk notasi CIDR yang dituliskan dengan menggunakan tanda garis miring atau slash di akhir alamat IP adalah….",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20981,
+        "label_opsi": "A",
+        "teks_opsi": "Garis miring",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20982,
+        "label_opsi": "B",
+        "teks_opsi": "Atau",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20983,
+        "label_opsi": "C",
+        "teks_opsi": "Netmask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20984,
+        "label_opsi": "D",
+        "teks_opsi": "Prefix",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20985,
+        "label_opsi": "E",
+        "teks_opsi": "Wildcard",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5360,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebutan untuk setiap kelompok yang terdiri dari 8 bit angka biner pada format penulisan alamat IPv4 (yang dipisahkan dengan tanda titik/dot) adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20986,
+        "label_opsi": "A",
+        "teks_opsi": "Byte Code",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20987,
+        "label_opsi": "B",
+        "teks_opsi": "Nibble",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20988,
+        "label_opsi": "C",
+        "teks_opsi": "Segment",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20989,
+        "label_opsi": "D",
+        "teks_opsi": "Bitmask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20990,
+        "label_opsi": "E",
+        "teks_opsi": "Oktet",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5361,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Jika kita membutuhkan 10 host per subnet, subnet mask yang paling efisien untuk kelas C adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20991,
+        "label_opsi": "A",
+        "teks_opsi": "255.255.255.192",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20992,
+        "label_opsi": "B",
+        "teks_opsi": "255.255.255.224",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20993,
+        "label_opsi": "C",
+        "teks_opsi": "255.255.255.240",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20994,
+        "label_opsi": "D",
+        "teks_opsi": "255.255.255.248",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20995,
+        "label_opsi": "E",
+        "teks_opsi": "255.255.255.252",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5362,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebuah sekolah memiliki blok jaringan 192.168.10.0/24 dan ingin membaginya menggunakan metode VLSM untuk 3 ruangan:<br>Lab Komputer: Membutuhkan 100 host<br>Ruang Guru: Membutuhkan 50 host<br>Ruang Tata Usaha (TU): Membutuhkan 20 host<br>Berapakah prefix yang paling tepat dialokasikan untuk Ruang Guru dan Ruang TU...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 20996,
+        "label_opsi": "A",
+        "teks_opsi": "Ruang Guru: /25 | Ruang TU: /26",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 20997,
+        "label_opsi": "B",
+        "teks_opsi": "Ruang Guru: /26 | Ruang TU: /27",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20998,
+        "label_opsi": "C",
+        "teks_opsi": "Ruang Guru: /25 | Ruang TU: /27",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 20999,
+        "label_opsi": "D",
+        "teks_opsi": "Ruang Guru: /26 | Ruang TU: /28",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21000,
+        "label_opsi": "E",
+        "teks_opsi": "Ruang Guru: /27 | Ruang TU: /28",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5363,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dalam konfigurasi protokol routing OSPF atau Firewall ACL pada router, seorang administrator memasang Wildcard Mask 0.0.15.255. Berapakah nilai Subnet Mask standar dan notasi Prefix yang setara dengan wildcard mask tersebut…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21001,
+        "label_opsi": "A",
+        "teks_opsi": "255.255.224.0 dan /19",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21002,
+        "label_opsi": "B",
+        "teks_opsi": "255.255.240.0 dan /20",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21003,
+        "label_opsi": "C",
+        "teks_opsi": "255.255.248.0 dan /21",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21004,
+        "label_opsi": "D",
+        "teks_opsi": "255.255.252.0 dan /22",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21005,
+        "label_opsi": "E",
+        "teks_opsi": "255.255.255.240 dan /28",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5364,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kategori kelas alamat IP (IPv4) yang dirancang untuk jaringan skala sangat besar dan memiliki alokasi jumlah host terbanyak (mencapai lebih dari 16 juta host per network) adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21006,
+        "label_opsi": "A",
+        "teks_opsi": "Class A",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21007,
+        "label_opsi": "B",
+        "teks_opsi": "Class B",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21008,
+        "label_opsi": "C",
+        "teks_opsi": "Class C",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21009,
+        "label_opsi": "D",
+        "teks_opsi": "Class D",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21010,
+        "label_opsi": "E",
+        "teks_opsi": "Class E",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5365,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Berikut ini yang bukan merupakan manfaat dari perencanaan pengalamatan jaringan (IP addressing plan) yang baik adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21011,
+        "label_opsi": "A",
+        "teks_opsi": "Memudahkan pengelolaan (management) dan pemecahan masalah (troubleshooting) jaringan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21012,
+        "label_opsi": "B",
+        "teks_opsi": "Meningkatkan efisiensi alokasi IP Address dan keamanan jaringan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21013,
+        "label_opsi": "C",
+        "teks_opsi": "Memungkinkan skalabilitas (kemudahan pengembangan jaringan) di masa depan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21014,
+        "label_opsi": "D",
+        "teks_opsi": "Menghindari terjadinya bentrokan IP (IP Address conflict) antar-perangkat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21015,
+        "label_opsi": "E",
+        "teks_opsi": "Meningkatkan kecepatan maksimum transmisi fisik (bandwidth) kabel UTP secara signifikan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 5366,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Nilai biner atau desimal sepanjang 32-bit yang digunakan oleh sistem operasi/router untuk membedakan bagian Network ID (identitas jaringan) dan Host ID (identitas perangkat) pada suatu alamat IPv4 adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21016,
+        "label_opsi": "A",
+        "teks_opsi": "IP Address",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21017,
+        "label_opsi": "B",
+        "teks_opsi": "MAC Address",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21018,
+        "label_opsi": "C",
+        "teks_opsi": "Subnet Mask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21019,
+        "label_opsi": "D",
+        "teks_opsi": "Wildcard Mask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21020,
+        "label_opsi": "E",
+        "teks_opsi": "Gateway",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5367,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan beberapa alamat IPv4 di bawah ini :<br>1) 192.168.1.1<br>2) 8.8.8.8<br>3) 10.100.50.1<br>4) 202.152.0.1<br>Manakah dari daftar di atas yang tergolong ke dalam kelompok IP Public…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21021,
+        "label_opsi": "A",
+        "teks_opsi": "1 dan 2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21022,
+        "label_opsi": "B",
+        "teks_opsi": "1 dan 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21023,
+        "label_opsi": "C",
+        "teks_opsi": "2 dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21024,
+        "label_opsi": "D",
+        "teks_opsi": "3 dan 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21025,
+        "label_opsi": "E",
+        "teks_opsi": "1, 2, dan 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5368,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Notasi CIDR /28 jika dikonversikan ke dalam format desimal Subnet Mask standar 4 oktet pada IPv4 adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21026,
+        "label_opsi": "A",
+        "teks_opsi": "255.255.255.192",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21027,
+        "label_opsi": "B",
+        "teks_opsi": "255.255.255.224",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21028,
+        "label_opsi": "C",
+        "teks_opsi": "255.255.255.240",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21029,
+        "label_opsi": "D",
+        "teks_opsi": "255.255.255.248",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21030,
+        "label_opsi": "E",
+        "teks_opsi": "255.255.255.252",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5369,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dalam sebuah jaringan, admin ingin memastikan bahwa server memiliki alamat yang tidak berubah meskipun perangkat di-restart. Oleh karena itu admin menggunakan…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21031,
+        "label_opsi": "A",
+        "teks_opsi": "IP dinamis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21032,
+        "label_opsi": "B",
+        "teks_opsi": "IP statis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21033,
+        "label_opsi": "C",
+        "teks_opsi": "IP public",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21034,
+        "label_opsi": "D",
+        "teks_opsi": "IP privat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21035,
+        "label_opsi": "E",
+        "teks_opsi": "IP loopback",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5370,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebuah segmen jaringan komputer di laboratorium sekolah menggunakan alokasi blok IP Address 192.168.1.32/27. Administrator jaringan ingin memastikan bahwa alamat pengiriman pesan massal (broadcast transmission) tidak terganggu dan tidak bentrok dengan IP perangkat host. Alamat Broadcast ID yang tepat dan valid untuk subnet tersebut adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21036,
+        "label_opsi": "A",
+        "teks_opsi": "192.168.1.32",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21037,
+        "label_opsi": "B",
+        "teks_opsi": "192.168.1.33",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21038,
+        "label_opsi": "C",
+        "teks_opsi": "192.168.1.62",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21039,
+        "label_opsi": "D",
+        "teks_opsi": "192.168.1.63",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21040,
+        "label_opsi": "E",
+        "teks_opsi": "192.168.1.64",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5371,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sistem bilangan basis 2 yang hanya terdiri dari angka 0 dan 1 yang dipahami oleh komputer adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21041,
+        "label_opsi": "A",
+        "teks_opsi": "Byte Code",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21042,
+        "label_opsi": "B",
+        "teks_opsi": "Biner",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21043,
+        "label_opsi": "C",
+        "teks_opsi": "Segment",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21044,
+        "label_opsi": "D",
+        "teks_opsi": "Bitmask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21045,
+        "label_opsi": "E",
+        "teks_opsi": "Oktet",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5372,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Seorang teknisi jaringan sedang merancang pembagian subnet di sebuah kantor cabang menggunakan Subnet Mask 255.255.255.240 (notasi CIDR /28). Jumlah bit host yang tersisa pada subnet mask tersebut serta jumlah maksimum alamat IP yang dapat dialokasikan untuk perangkat host (usable IP) secara berturut-turut adalah...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21046,
+        "label_opsi": "A",
+        "teks_opsi": "4 bit dan 14 IP host",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21047,
+        "label_opsi": "B",
+        "teks_opsi": "8 bit dan 254 IP host",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21048,
+        "label_opsi": "C",
+        "teks_opsi": "6 bit dan 62 IP host",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21049,
+        "label_opsi": "D",
+        "teks_opsi": "5 bit dan 30 IP host",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21050,
+        "label_opsi": "E",
+        "teks_opsi": "2 bit dan 2 IP host",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5373,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebuah perangkat IP Camera dipasang di area parkir sekolah dengan alokasi alamat IP 192.168.5.150/25. Administrator hendak mendaftarkan segmen tersebut ke dalam tabel routing. Alamat Network ID yang membawahi perangkat IP Camera tersebut adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21051,
+        "label_opsi": "A",
+        "teks_opsi": "192.168.100.63",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21052,
+        "label_opsi": "B",
+        "teks_opsi": "192.168.100.50",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21053,
+        "label_opsi": "C",
+        "teks_opsi": "192.168.100.62",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21054,
+        "label_opsi": "D",
+        "teks_opsi": "192.168.100.30",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21055,
+        "label_opsi": "E",
+        "teks_opsi": "192.168.100.1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5374,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dalam arsitektur pengalamatan IPv4 standar kelas (Classful Addressing), alamat IP kelas C dirancang untuk jaringan skala kecil (LAN). Rentang nilai desimal pada oktet pertama serta default subnet mask untuk alamat IP kelas C adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21056,
+        "label_opsi": "A",
+        "teks_opsi": "1 - 126 dan 255.0.0.0",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21057,
+        "label_opsi": "B",
+        "teks_opsi": "128 - 191 dan 255.255.0.0",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21058,
+        "label_opsi": "C",
+        "teks_opsi": "192 - 223 dan 255.255.255.0",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21059,
+        "label_opsi": "D",
+        "teks_opsi": "224 - 239 dan 255.255.255.240",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21060,
+        "label_opsi": "E",
+        "teks_opsi": "240 - 255 tanpa subnet mask",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5375,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Alamat IPv4 Kelas B dialokasikan oleh IANA untuk jaringan skala menengah (seperti universitas atau instansi besar). Rentang nilai desimal pada oktet pertama untuk IP Kelas B adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21061,
+        "label_opsi": "A",
+        "teks_opsi": "1 - 126",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21062,
+        "label_opsi": "B",
+        "teks_opsi": "128 - 191",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21063,
+        "label_opsi": "C",
+        "teks_opsi": "192 - 223",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21064,
+        "label_opsi": "D",
+        "teks_opsi": "224 - 239",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21065,
+        "label_opsi": "E",
+        "teks_opsi": "240 - 254",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5376,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebuah alamat IP lokal menggunakan angka desimal 217 pada oktet pertamanya. Jika angka desimal tersebut dikonversikan ke dalam format bilangan biner 8-bit (satu oktet), maka hasil konversi yang tepat adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21066,
+        "label_opsi": "A",
+        "teks_opsi": "11001001",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21067,
+        "label_opsi": "B",
+        "teks_opsi": "11010001",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21068,
+        "label_opsi": "C",
+        "teks_opsi": "11011001",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21069,
+        "label_opsi": "D",
+        "teks_opsi": "10111001",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21070,
+        "label_opsi": "E",
+        "teks_opsi": "11100001",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5377,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sebuah Subnet Mask dengan notasi CIDR /27 memiliki deretan bit biner pada oktet terakhir berupa 11100000. Nilai desimal yang setara dengan bit biner oktet terakhir tersebut adalah…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21071,
+        "label_opsi": "A",
+        "teks_opsi": "192",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21072,
+        "label_opsi": "B",
+        "teks_opsi": "224",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21073,
+        "label_opsi": "C",
+        "teks_opsi": "240",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21074,
+        "label_opsi": "D",
+        "teks_opsi": "248",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21075,
+        "label_opsi": "E",
+        "teks_opsi": "252",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5378,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Berapakah alamat IP standar (default) yang terpasang pada router MikroTik RouterBOARD saat pertama kali dinyalakan atau setelah di-reset ke konfigurasi pabrik…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 21076,
+        "label_opsi": "A",
+        "teks_opsi": "0.0.0.0",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21077,
+        "label_opsi": "B",
+        "teks_opsi": "192.168.0.1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21078,
+        "label_opsi": "C",
+        "teks_opsi": "192.168.1.1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 21079,
+        "label_opsi": "D",
+        "teks_opsi": "192.168.88.1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 21080,
+        "label_opsi": "E",
+        "teks_opsi": "10.0.0.1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 5379,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan mengapa subnetting diperlukan dalam sebuah jaringan dan sebutkan dua keuntungan utamanya!",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "50.00",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5380,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Sebutkan bagaimana langkah-langkah yang harus dilakukan untuk memasang IP static pada sebuah PC...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "50.00",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5381,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jelaskan perbedaan fitur DHCP Client dan DHCP Server pada RouterOS Mikrotik…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "50.00",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5382,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Sebuah sekolah ingin mengalokasikan 25 host untuk laboratorium komputer, dan 30 host untuk ruang guru. Alamat IP yang diberikan adalah 192.168.50.0. Tentukan : Prefix yang sesuai dengan jumlah kebutuhan user, Total IP, Usable Host, IP Network, IP Host (Awal & Akhir), IP Broadcast, dan Subnetmask...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "50.00",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 5383,
+    "id_ujian": 360,
+    "id_guru_pembuat": 68,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Diberikan alamat IP 192.168.1.130 dengan subnet mask 255.255.255.240. Tentukan: Prefix, Alamat Network, Alamat Broadcast, Alamat IP Host pertama yang valid, Alamat IP Host terakhir yang valid…",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "50.00",
+    "created_at": "2026-10-06T02:40:49.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]
