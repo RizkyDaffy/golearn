@@ -1,0 +1,1172 @@
+[
+    {
+        "id_soal": 1000,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan iklan lowongan kerja berikut!\n\nPT Nusantara Teknik membuka lowongan untuk posisi Teknisi Otomotif. Pelamar adalah lulusan SMK Teknik Kendaraan Ringan. Lamaran ditujukan kepada Manajer SDM. Iklan dimuat di harian Kompas edisi 5 Oktober 2026.\n\nPembuka surat lamaran yang paling tepat dan profesional berdasarkan iklan tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3400,
+                "label_opsi": "A",
+                "teks_opsi": "Saya butuh pekerjaan secepatnya karena sudah lama menganggur dan belum mendapat panggilan kerja.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3401,
+                "label_opsi": "B",
+                "teks_opsi": "Sehubungan dengan iklan lowongan kerja PT Nusantara Teknik di harian Kompas edisi 5 Oktober 2026, saya bermaksud mengajukan lamaran sebagai Teknisi Otomotif.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3402,
+                "label_opsi": "C",
+                "teks_opsi": "Halo, Pak, kebetulan saya melihat lowongan di internet, jadi boleh ya saya ikut mendaftar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3403,
+                "label_opsi": "D",
+                "teks_opsi": "Dengan ini saya memohon dengan sangat agar Bapak berkenan menerima saya pada posisi apa pun di perusahaan ini.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3404,
+                "label_opsi": "E",
+                "teks_opsi": "Saya adalah orang yang paling cocok untuk mengisi lowongan yang ada di perusahaan Anda.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1001,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan data pelamar berikut!\n\nNama lengkap Dimas Aditya Pratama, lahir di Bandung pada tanggal 12 Mei 2007.\n\nPenulisan identitas pelamar yang sesuai dengan ejaan dan kaidah baku adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3405,
+                "label_opsi": "A",
+                "teks_opsi": "Nama: dimas aditya pratama; Tempat, tanggal lahir: Bandung, 12 mei 2007",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3406,
+                "label_opsi": "B",
+                "teks_opsi": "Nama : Dimas Aditya Pratama; tempat tanggal lahir : bandung 12 Mei 2007",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3407,
+                "label_opsi": "C",
+                "teks_opsi": "Nama: Dimas Aditya Pratama; Tempat, tanggal lahir: Bandung, 12 Mei 2007",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3408,
+                "label_opsi": "D",
+                "teks_opsi": "Nama: Dimas Aditya Pratama; Tempat/Tgl lahir: Bandung 12-Mei-2007",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3409,
+                "label_opsi": "E",
+                "teks_opsi": "NAMA = Dimas Aditya Pratama; Tempat dan tanggal lahir – Bandung, 12/mei/2007",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1002,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kutipan isi surat lamaran berikut!\n\n\"Saya akan bersumpah setia seumur hidup kepada Bapak jika lamaran saya diterima. Saya mohon dengan sangat, kasihanilah saya, karena keluarga saya sedang dalam kesulitan ekonomi.\"\n\nKekurangan isi surat tersebut dari aspek etika dan kebahasaan adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3410,
+                "label_opsi": "A",
+                "teks_opsi": "Menggunakan kata sapaan yang terlalu formal.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3411,
+                "label_opsi": "B",
+                "teks_opsi": "Tidak mencantumkan identitas pelamar secara lengkap.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3412,
+                "label_opsi": "C",
+                "teks_opsi": "Memuat kalimat tanya yang tidak diperlukan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3413,
+                "label_opsi": "D",
+                "teks_opsi": "Mengandung ungkapan berlebihan dan memelas sehingga tidak profesional dan kurang santun.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3414,
+                "label_opsi": "E",
+                "teks_opsi": "Tidak menyebutkan nama perusahaan yang dilamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1003,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seorang pelamar menuliskan alasannya melamar pekerjaan di sebuah perusahaan. Alasan yang kurang tepat dalam konteks profesional adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3415,
+                "label_opsi": "A",
+                "teks_opsi": "Ingin mengembangkan kompetensi sesuai dengan bidang keahlian.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3416,
+                "label_opsi": "B",
+                "teks_opsi": "Tertarik dengan reputasi dan budaya kerja perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3417,
+                "label_opsi": "C",
+                "teks_opsi": "Ingin menerapkan keterampilan yang diperoleh selama belajar di SMK.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3418,
+                "label_opsi": "D",
+                "teks_opsi": "Ingin berkontribusi bagi kemajuan perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3419,
+                "label_opsi": "E",
+                "teks_opsi": "Hanya karena teman-teman saya sudah melamar ke perusahaan tersebut.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1004,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Alamat surat lamaran pekerjaan yang ditulis sesuai dengan kaidah bahasa Indonesia adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3420,
+                "label_opsi": "A",
+                "teks_opsi": "Kepada Yth. Pimpinan PT. Maju Jaya, Jl. Merdeka No. 10, di Jakarta.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3421,
+                "label_opsi": "B",
+                "teks_opsi": "Kepada Yth Pimpinan PT Maju Jaya Jalan Merdeka No. 10 di Jakarta",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3422,
+                "label_opsi": "C",
+                "teks_opsi": "Yth. Pimpinan PT Maju Jaya, Jalan Merdeka Nomor 10, Jakarta",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3423,
+                "label_opsi": "D",
+                "teks_opsi": "Kepada: Yth. Pimpinan PT. Maju Jaya, Jl. Merdeka Nomor 10, Di Jakarta.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3424,
+                "label_opsi": "E",
+                "teks_opsi": "Yth. Pimpinan PT. Maju Jaya, Jl. Merdeka No 10 Jakarta",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1005,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan daftar lampiran surat lamaran berikut!\n\n(1) Daftar riwayat hidup\n(2) Pas foto berwarna ukuran 3 x 4\n(3) Fotokopi ijazah terakhir\n(4) Fotocopy sertifikat kompetensi\n\nKesalahan ejaan atau bentuk kata terdapat pada nomor….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3425,
+                "label_opsi": "A",
+                "teks_opsi": "(1)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3426,
+                "label_opsi": "B",
+                "teks_opsi": "(2)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3427,
+                "label_opsi": "C",
+                "teks_opsi": "(3)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3428,
+                "label_opsi": "D",
+                "teks_opsi": "(4)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3429,
+                "label_opsi": "E",
+                "teks_opsi": "Tidak ada kesalahan",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1006,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan penutup surat lamaran berikut!\n\n\"Demikianlah surat lamaran ini saya buat dengan sebenar-benarnya dan sejujur-jujurnya. Saya sangat mengharapkan dan memohon dengan sangat agar surat lamaran saya ini dapat dipertimbangkan dan diterima oleh Bapak.\"\n\nPenutup yang lebih efisien dan santun untuk menggantikan kutipan tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3430,
+                "label_opsi": "A",
+                "teks_opsi": "Terima kasih, saya tunggu panggilan Anda secepatnya, jangan sampai terlambat.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3431,
+                "label_opsi": "B",
+                "teks_opsi": "Mohon lamaran saya diterima, kalau tidak saya akan sangat kecewa.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3432,
+                "label_opsi": "C",
+                "teks_opsi": "Sekian dan terima kasih, wassalam, semoga Anda sehat selalu.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3433,
+                "label_opsi": "D",
+                "teks_opsi": "Demikianlah surat ini saya buat dengan penuh harapan agar segera diterima bekerja di perusahaan Bapak.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3434,
+                "label_opsi": "E",
+                "teks_opsi": "Demikian surat lamaran ini saya sampaikan. Atas perhatian dan pertimbangan Bapak, saya mengucapkan terima kasih.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1007,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam surat lamarannya, seorang pelamar menulis: \"Saya pernah meraih juara 1 Lomba Kompetensi Siswa (LKS) tingkat provinsi bidang Teknologi Mobil.\"\n\nFungsi pengungkapan prestasi tersebut dalam surat lamaran adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3435,
+                "label_opsi": "A",
+                "teks_opsi": "Menunjukkan bahwa pelamar lebih unggul dari pelamar lain tanpa dasar yang jelas.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3436,
+                "label_opsi": "B",
+                "teks_opsi": "Menjadi bukti kompetensi dan argumentasi yang menguatkan kelayakan pelamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3437,
+                "label_opsi": "C",
+                "teks_opsi": "Mengisi bagian surat agar tampak lebih panjang.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3438,
+                "label_opsi": "D",
+                "teks_opsi": "Menggantikan fungsi lampiran sertifikat dan ijazah.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3439,
+                "label_opsi": "E",
+                "teks_opsi": "Menunjukkan bahwa pelamar tidak perlu mengikuti proses seleksi.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1008,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan paragraf pembuka surat lamaran berikut!\n\n\"Berdasarkan informasi dari laman resmi PT Garuda Mekatronika pada tanggal 3 Oktober 2026, perusahaan Bapak/Ibu membutuhkan tenaga teknisi mesin. Sehubungan dengan itu, saya bermaksud mengajukan diri untuk mengisi posisi tersebut.\"\n\nBerdasarkan struktur surat lamaran, paragraf tersebut berfungsi sebagai….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3440,
+                "label_opsi": "A",
+                "teks_opsi": "Pembuka yang memuat sumber informasi lowongan dan maksud melamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3441,
+                "label_opsi": "B",
+                "teks_opsi": "Isi yang memuat kualifikasi dan keunggulan pelamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3442,
+                "label_opsi": "C",
+                "teks_opsi": "Penutup yang berisi harapan agar lamaran diterima.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3443,
+                "label_opsi": "D",
+                "teks_opsi": "Lampiran yang memuat dokumen pendukung lamaran.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3444,
+                "label_opsi": "E",
+                "teks_opsi": "Identitas pelamar yang memuat data diri secara lengkap.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1009,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Seorang pelamar belum memenuhi syarat pengalaman kerja dua tahun yang diminta dalam iklan, tetapi pernah mengikuti praktik kerja lapangan (PKL) selama enam bulan.\n\nKalimat dalam surat lamaran yang paling jujur, persuasif, dan profesional adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3445,
+                "label_opsi": "A",
+                "teks_opsi": "Saya memang belum berpengalaman, tetapi saya yakin Anda tetap akan menerima saya.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3446,
+                "label_opsi": "B",
+                "teks_opsi": "Pengalaman kerja bukan syarat yang penting, sebaiknya persyaratan itu dihapus saja.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3447,
+                "label_opsi": "C",
+                "teks_opsi": "Saya memiliki pengalaman kerja selama dua tahun di bengkel resmi.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3448,
+                "label_opsi": "D",
+                "teks_opsi": "Meskipun belum memiliki pengalaman kerja dua tahun, saya telah mengikuti PKL selama enam bulan dan siap belajar dengan cepat.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3449,
+                "label_opsi": "E",
+                "teks_opsi": "Saya belum punya pengalaman, tetapi saya bersedia digaji berapa pun.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1010,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Penulisan tempat dan tanggal pada surat lamaran pekerjaan yang sesuai dengan aturan tata tulis adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3450,
+                "label_opsi": "A",
+                "teks_opsi": "Bekasi, 12 oktober 2026",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3451,
+                "label_opsi": "B",
+                "teks_opsi": "Bekasi 12 Oktober, 2026",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3452,
+                "label_opsi": "C",
+                "teks_opsi": "Bekasi, 12 Oktober 2026",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3453,
+                "label_opsi": "D",
+                "teks_opsi": "12 Oktober 2026, Bekasi",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3454,
+                "label_opsi": "E",
+                "teks_opsi": "Bekasi, 12-Oktober-2026",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1011,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Rani adalah lulusan SMK jurusan Akuntansi yang melamar pekerjaan sebagai staf keuangan. Ia melampirkan sertifikat kompetensi dalam surat lamarannya.\n\nFungsi sertifikat kompetensi tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3455,
+                "label_opsi": "A",
+                "teks_opsi": "Bukti resmi bahwa keterampilannya telah diuji dan diakui sesuai bidang keahlian.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3456,
+                "label_opsi": "B",
+                "teks_opsi": "Pengganti ijazah sebagai bukti kelulusan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3457,
+                "label_opsi": "C",
+                "teks_opsi": "Syarat administrasi yang tidak berpengaruh pada penilaian pelamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3458,
+                "label_opsi": "D",
+                "teks_opsi": "Bukti identitas diri pelamar.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3459,
+                "label_opsi": "E",
+                "teks_opsi": "Surat rekomendasi dari pihak sekolah.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1012,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kutipan editorial berikut!\n\n(1) Penjualan kendaraan listrik di Indonesia meningkat dalam beberapa tahun terakhir.\n(2) Pemerintah sebaiknya memperluas insentif pembelian kendaraan listrik.\n(3) Kendaraan listrik adalah solusi terbaik untuk mengatasi polusi udara.\n(4) Masyarakat seharusnya segera beralih dari kendaraan berbahan bakar minyak.\n(5) Kebijakan tersebut tampaknya masih kurang berpihak pada masyarakat menengah.\n\nPernyataan fakta pada kutipan editorial tersebut terdapat pada nomor….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3460,
+                "label_opsi": "A",
+                "teks_opsi": "(2)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3461,
+                "label_opsi": "B",
+                "teks_opsi": "(3)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3462,
+                "label_opsi": "C",
+                "teks_opsi": "(4)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3463,
+                "label_opsi": "D",
+                "teks_opsi": "(5)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3464,
+                "label_opsi": "E",
+                "teks_opsi": "(1)",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1013,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kutipan editorial berikut!\n\n\"Kurikulum SMK saat ini mencakup mata pelajaran produktif dan praktik kerja lapangan. Namun, kurikulum tersebut belum sepenuhnya selaras dengan kebutuhan industri. Oleh karena itu, kurikulum SMK harus ditinjau ulang bersama dunia usaha secara berkala.\"\n\nOpini utama redaksi dalam kutipan tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3465,
+                "label_opsi": "A",
+                "teks_opsi": "Kurikulum SMK hanya berisi mata pelajaran produktif.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3466,
+                "label_opsi": "B",
+                "teks_opsi": "Kurikulum SMK perlu ditinjau ulang bersama dunia usaha agar selaras dengan kebutuhan industri.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3467,
+                "label_opsi": "C",
+                "teks_opsi": "Praktik kerja lapangan harus dihapus dari kurikulum SMK.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3468,
+                "label_opsi": "D",
+                "teks_opsi": "Dunia usaha tidak perlu dilibatkan dalam penyusunan kurikulum SMK.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3469,
+                "label_opsi": "E",
+                "teks_opsi": "Lulusan SMK sudah sepenuhnya siap bekerja di industri.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1014,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kalimat-kalimat dalam editorial berikut!\n\nKalimat yang dapat dikategorikan sebagai fakta karena berbasis data adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3470,
+                "label_opsi": "A",
+                "teks_opsi": "Kebijakan tersebut tampaknya terlalu tergesa-gesa.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3471,
+                "label_opsi": "B",
+                "teks_opsi": "Sebaiknya pemerintah memperbanyak pelatihan vokasi.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3472,
+                "label_opsi": "C",
+                "teks_opsi": "Pelatihan vokasi adalah program yang paling bermanfaat bagi generasi muda.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3473,
+                "label_opsi": "D",
+                "teks_opsi": "Berdasarkan survei Dinas Pendidikan terhadap 500 lulusan SMK, sebanyak 320 orang telah bekerja dalam enam bulan setelah lulus.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3474,
+                "label_opsi": "E",
+                "teks_opsi": "Pemerintah mestinya lebih peduli pada nasib lulusan SMK.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1015,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Penggunaan adverbia yang tepat terdapat pada kalimat….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3475,
+                "label_opsi": "A",
+                "teks_opsi": "Banyak pihak sangat menyayangkan keputusan pemerintah tersebut.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3476,
+                "label_opsi": "B",
+                "teks_opsi": "Sangat siswa tersebut mengerjakan soal itu.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3477,
+                "label_opsi": "C",
+                "teks_opsi": "Dia selalu tidak pernah terlambat masuk kelas.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3478,
+                "label_opsi": "D",
+                "teks_opsi": "Harga barang hampir sekali naik minggu ini.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3479,
+                "label_opsi": "E",
+                "teks_opsi": "Pemerintah telah akan segera melakukan perbaikan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1016,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kutipan editorial berikut!\n\n\"Kantor tanpa kertas (paperless office) memang menghemat biaya dan melindungi lingkungan. Namun, penerapannya menimbulkan kekhawatiran akan keamanan data dan kesiapan karyawan yang belum akrab dengan teknologi digital.\"\n\nMasalah utama yang disoroti dalam kutipan tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3480,
+                "label_opsi": "A",
+                "teks_opsi": "Penghematan biaya operasional perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3481,
+                "label_opsi": "B",
+                "teks_opsi": "Kerusakan lingkungan akibat penggunaan kertas.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3482,
+                "label_opsi": "C",
+                "teks_opsi": "Kekhawatiran terhadap keamanan data dan kesiapan karyawan dalam penerapan kantor tanpa kertas.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3483,
+                "label_opsi": "D",
+                "teks_opsi": "Mahalnya harga perangkat komputer di pasaran.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3484,
+                "label_opsi": "E",
+                "teks_opsi": "Kurangnya jumlah karyawan di perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1017,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan kalimat editorial berikut!\n\n\"Pemerintah seharusnya menindak tegas pelaku pungutan liar.\"\n\nKata seharusnya pada kalimat tersebut berfungsi untuk….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3485,
+                "label_opsi": "A",
+                "teks_opsi": "Menyatakan fakta yang sudah terjadi.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3486,
+                "label_opsi": "B",
+                "teks_opsi": "Menyatakan keterangan waktu.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3487,
+                "label_opsi": "C",
+                "teks_opsi": "Menyatakan pertentangan antargagasan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3488,
+                "label_opsi": "D",
+                "teks_opsi": "Menyatakan hubungan sebab akibat.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3489,
+                "label_opsi": "E",
+                "teks_opsi": "Menyatakan saran atau rekomendasi kepada pihak terkait.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            }
+        ]
+    },
+    {
+        "id_soal": 1018,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Perhatikan dua model penulisan jumlah lampiran pada surat berikut!\n\n(1) Lampiran: 3 (tiga) berkas\n(2) Lampiran: 3 berkas\n\nAnalisis yang tepat mengenai kedua model tersebut adalah….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3490,
+                "label_opsi": "A",
+                "teks_opsi": "Model (2) tepat karena lebih singkat, sedangkan model (1) berlebihan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3491,
+                "label_opsi": "B",
+                "teks_opsi": "Model (1) tepat karena jumlah ditulis dengan angka dan huruf serta disertai satuan, sedangkan model (2) kurang lengkap untuk surat resmi.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3492,
+                "label_opsi": "C",
+                "teks_opsi": "Kedua model salah karena jumlah lampiran tidak perlu ditulis.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3493,
+                "label_opsi": "D",
+                "teks_opsi": "Kedua model sama-sama tepat dan tidak ada perbedaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3494,
+                "label_opsi": "E",
+                "teks_opsi": "Model (1) salah karena angka tidak boleh disertai huruf.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1019,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "PILGAN",
+        "teks_soal": "Dalam sebuah surat, pelamar menulis, \"Surat lamaran ini saya buat berdasarkan inisiatif sendiri.\"\n\nUngkapan tersebut menunjukkan bahwa surat lamaran dibuat….",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "10.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "options": [
+            {
+                "id_opsi": 3495,
+                "label_opsi": "A",
+                "teks_opsi": "Atas kemauan pelamar sendiri tanpa adanya pengumuman lowongan terlebih dahulu.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 1
+            },
+            {
+                "id_opsi": 3496,
+                "label_opsi": "B",
+                "teks_opsi": "Untuk menanggapi iklan lowongan di media massa.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3497,
+                "label_opsi": "C",
+                "teks_opsi": "Atas panggilan resmi dari perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3498,
+                "label_opsi": "D",
+                "teks_opsi": "Atas rekomendasi dari karyawan perusahaan.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            },
+            {
+                "id_opsi": 3499,
+                "label_opsi": "E",
+                "teks_opsi": "Atas perintah dari pihak sekolah.",
+                "gambar_opsi": null,
+                "is_jawaban_benar": 0
+            }
+        ]
+    },
+    {
+        "id_soal": 1020,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Sebutkan dan jelaskan tiga struktur utama teks editorial!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "kunci_jawaban": "Tiga struktur utama teks editorial:\n1. Pengenalan isu: bagian awal yang memperkenalkan peristiwa atau masalah aktual yang menjadi pokok pembahasan (tesis/isu yang disoroti).\n2. Penyampaian argumentasi: bagian yang berisi pendapat redaksi beserta alasan, data, dan fakta yang mendukung untuk menguatkan tesis.\n3. Penegasan ulang atau rekomendasi: bagian penutup yang menegaskan kembali pendapat redaksi dan/atau memberikan saran atau solusi kepada pihak terkait."
+    },
+    {
+        "id_soal": 1021,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Jelaskan pengertian teks editorial secara tepat!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "kunci_jawaban": "Teks editorial (tajuk rencana) adalah teks opini yang ditulis oleh redaksi media massa untuk menanggapi suatu isu atau peristiwa aktual yang sedang menjadi perhatian publik. Isinya memuat sikap dan pendapat redaksi yang didukung oleh fakta dan argumen, serta bertujuan memengaruhi dan mengajak pembaca memahami isu tersebut."
+    },
+    {
+        "id_soal": 1022,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Sebutkan tujuh unsur sistematis surat lamaran pekerjaan secara berurutan, kemudian jelaskan fungsi alinea pembuka dan alinea penutup!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "kunci_jawaban": "Tujuh unsur sistematis surat lamaran pekerjaan secara berurutan:\n1. Tempat dan tanggal surat\n2. Lampiran dan hal\n3. Alamat surat (tujuan)\n4. Salam pembuka\n5. Isi surat (terdiri atas alinea pembuka, alinea isi, dan alinea penutup)\n6. Salam penutup\n7. Tanda tangan dan nama terang pelamar\n\nFungsi alinea pembuka: memperkenalkan maksud surat, yaitu menyebutkan sumber informasi lowongan dan menyatakan keinginan melamar pada posisi tertentu.\nFungsi alinea penutup: mengungkapkan harapan agar lamaran dipertimbangkan dan diterima, memohon kesempatan wawancara, serta mengucapkan terima kasih dengan bahasa yang santun."
+    },
+    {
+        "id_soal": 1023,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Perhatikan petikan surat lamaran berikut!\n\nJakarta 3 november 2026\nKepada Yth, Bapak Pimpinan PT. Sinar Abadi\nDengan hormat,\nBerdasarkan iklan yg dimuat di harian Kompas pd tanggal 1 November 2026, saya yg bertanda tangan dibawah ini:\nNama: Rudi hartono\nSaya lulusan SMK dengan nilai bagus dan saya jauh lebih hebat dibandingkan pelamar lain. Saya mohon agar Bapak menerima saya karena saya sangat butuh uang.\nHormat Saya,\nRudi Hartono\n\nAnalisislah minimal empat kesalahan pada petikan surat tersebut dan tuliskan perbaikannya!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "kunci_jawaban": "Kesalahan dan perbaikannya (minimal empat):\n1. Tempat dan tanggal: \"Jakarta 3 november 2026\" seharusnya \"Jakarta, 3 November 2026\" (ada tanda koma setelah tempat dan nama bulan diawali huruf kapital).\n2. Alamat surat: \"Kepada Yth, Bapak Pimpinan PT. Sinar Abadi\" seharusnya \"Yth. Pimpinan PT Sinar Abadi\" (tanda titik setelah Yth., singkatan PT tanpa titik).\n3. Singkatan tidak baku: \"yg\" dan \"pd\" seharusnya \"yang\" dan \"pada\".\n4. Kata depan: \"dibawah ini\" seharusnya \"di bawah ini\" (di sebagai kata depan ditulis terpisah).\n5. Nama diri: \"Rudi hartono\" seharusnya \"Rudi Hartono\" (huruf awal nama diri kapital).\n6. Pilihan kata dan etika: kalimat \"jauh lebih hebat dibandingkan pelamar lain\" bersifat sombong dan merendahkan pelamar lain, sebaiknya diganti dengan pernyataan kompetensi yang objektif.\n7. Alasan melamar: \"sangat butuh uang\" tidak profesional, sebaiknya diganti dengan alasan yang berkaitan dengan pengembangan kompetensi dan kontribusi bagi perusahaan.\n8. Salam penutup: \"Hormat Saya,\" seharusnya \"Hormat saya,\"."
+    },
+    {
+        "id_soal": 1024,
+        "id_ujian": 33,
+        "id_guru_pembuat": 67,
+        "tipe_soal": "ESSAY",
+        "teks_soal": "Perhatikan kutipan editorial berikut!\n\n\"Otomatisasi di berbagai sektor industri berkembang pesat dan mulai menggantikan sejumlah pekerjaan rutin yang selama ini dikerjakan manusia. Di sisi lain, teknologi yang sama membuka kebutuhan akan keterampilan baru, seperti pengoperasian dan perawatan mesin cerdas. Karena itu, tenaga kerja, terutama lulusan SMK, perlu terus beradaptasi dan meningkatkan keterampilan agar tidak tersisih.\"\n\nTentukan isu utama dan tesis penulis dalam kutipan tersebut!",
+        "gambar_soal": null,
+        "audio_soal": null,
+        "bobot_nilai": "20.00",
+        "created_at": "2026-10-12T00:00:00.000Z",
+        "id_grup": null,
+        "urutan_dalam_grup": null,
+        "nama_grup": null,
+        "teks_konteks": null,
+        "gambar_konteks": null,
+        "audio_konteks": null,
+        "kunci_jawaban": "Isu utama: perkembangan otomatisasi industri yang menggantikan pekerjaan rutin manusia sekaligus menimbulkan kebutuhan akan keterampilan baru.\nTesis penulis: tenaga kerja, terutama lulusan SMK, harus terus beradaptasi dan meningkatkan keterampilan agar mampu bersaing dan tidak tersisih akibat otomatisasi."
+    }
+]
