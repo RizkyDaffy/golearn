@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 4582,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Arti kata <strong>しゅみ (shumi)</strong> adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17826,
+        "label_opsi": "A",
+        "teks_opsi": "pelajaran",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17827,
+        "label_opsi": "B",
+        "teks_opsi": "hobi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17828,
+        "label_opsi": "C",
+        "teks_opsi": "pekerjaan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17829,
+        "label_opsi": "D",
+        "teks_opsi": "makanan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17830,
+        "label_opsi": "E",
+        "teks_opsi": "kegiatan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4583,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Bahasa Jepang dari \"makan\" adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17831,
+        "label_opsi": "A",
+        "teks_opsi": "tabemasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17832,
+        "label_opsi": "B",
+        "teks_opsi": "yomimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17833,
+        "label_opsi": "C",
+        "teks_opsi": "nemasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17834,
+        "label_opsi": "D",
+        "teks_opsi": "kikimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17835,
+        "label_opsi": "E",
+        "teks_opsi": "ikimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4584,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kata <strong>のみます (nomimasu)</strong> memiliki arti ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17836,
+        "label_opsi": "A",
+        "teks_opsi": "membaca",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17837,
+        "label_opsi": "B",
+        "teks_opsi": "menulis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17838,
+        "label_opsi": "C",
+        "teks_opsi": "makan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17839,
+        "label_opsi": "D",
+        "teks_opsi": "minum",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17840,
+        "label_opsi": "E",
+        "teks_opsi": "nonton",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4585,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan kalimat berikut!<br><br>わたしは ほんを よみます。<br>Watashi wa hon o yomimasu.<br><br>Arti kalimat tersebut adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17841,
+        "label_opsi": "A",
+        "teks_opsi": "Saya menulis surat.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17842,
+        "label_opsi": "B",
+        "teks_opsi": "Saya membaca buku.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17843,
+        "label_opsi": "C",
+        "teks_opsi": "Saya melihat buku.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17844,
+        "label_opsi": "D",
+        "teks_opsi": "Saya membawa buku.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17845,
+        "label_opsi": "E",
+        "teks_opsi": "Saya membuka buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4586,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Bahasa Jepang dari \"menonton film\" yang tepat adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17846,
+        "label_opsi": "A",
+        "teks_opsi": "eiga o mimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17847,
+        "label_opsi": "B",
+        "teks_opsi": "hon o yomimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17848,
+        "label_opsi": "C",
+        "teks_opsi": "mizu o nomimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17849,
+        "label_opsi": "D",
+        "teks_opsi": "bakso o tabemasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17850,
+        "label_opsi": "E",
+        "teks_opsi": "eiga o kikimasu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4587,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan kalimat berikut!<br><br>わたしは にほんごを べんきょうします。(Watashi wa nihon go o benkyou shimasu)<br><br>Kata べんきょうします(benkyoushimasu) berarti ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17851,
+        "label_opsi": "A",
+        "teks_opsi": "membaca",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17852,
+        "label_opsi": "B",
+        "teks_opsi": "menulis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17853,
+        "label_opsi": "C",
+        "teks_opsi": "belajar",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17854,
+        "label_opsi": "D",
+        "teks_opsi": "makan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17855,
+        "label_opsi": "E",
+        "teks_opsi": "minum",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4588,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kata benda yang tepat untuk melengkapi kalimat berikut adalah ....<br><br>わたしは ______ を たべます。",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17856,
+        "label_opsi": "A",
+        "teks_opsi": "ocha",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17857,
+        "label_opsi": "B",
+        "teks_opsi": "kohii",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17858,
+        "label_opsi": "C",
+        "teks_opsi": "mizu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17859,
+        "label_opsi": "D",
+        "teks_opsi": "hon",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17860,
+        "label_opsi": "E",
+        "teks_opsi": "gohan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 4589,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Arti kalimat berikut adalah ....<br><br>あなたは なにを しますか。(anata wa nani o shimasu ka)",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17861,
+        "label_opsi": "A",
+        "teks_opsi": "Siapa nama Anda?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17862,
+        "label_opsi": "B",
+        "teks_opsi": "Anda tinggal di mana?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17863,
+        "label_opsi": "C",
+        "teks_opsi": "Anda melakukan apa?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17864,
+        "label_opsi": "D",
+        "teks_opsi": "Anda makan apa?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17865,
+        "label_opsi": "E",
+        "teks_opsi": "Anda pergi ke mana?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4590,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan percakapan berikut!<br><br>A: しゅみは なんですか。(shumi wa nan desu ka)<br>B: ______。<br><br>Jawaban yang tepat adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17866,
+        "label_opsi": "A",
+        "teks_opsi": "gohan desu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17867,
+        "label_opsi": "B",
+        "teks_opsi": "utau koto desu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17868,
+        "label_opsi": "C",
+        "teks_opsi": "sensei desu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17869,
+        "label_opsi": "D",
+        "teks_opsi": "genki desu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17870,
+        "label_opsi": "E",
+        "teks_opsi": "gakusei desu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4591,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kata sifat <strong>しずか (shizuka)</strong> termasuk ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17871,
+        "label_opsi": "A",
+        "teks_opsi": "Kata kerja",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17872,
+        "label_opsi": "B",
+        "teks_opsi": "Kata benda",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17873,
+        "label_opsi": "C",
+        "teks_opsi": "Kata sifat-i",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17874,
+        "label_opsi": "D",
+        "teks_opsi": "Kata sifat-na",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17875,
+        "label_opsi": "E",
+        "teks_opsi": "Kata tanya",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4592,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kalimat negatif yang tepat dari:<br><br>かのじょは しんせつです。(kanojo wa shinsetsu desu)<br><br>adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17876,
+        "label_opsi": "A",
+        "teks_opsi": "かのじょは しんせつくないです。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17877,
+        "label_opsi": "B",
+        "teks_opsi": "かのじょは しんせつじゃないです。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17878,
+        "label_opsi": "C",
+        "teks_opsi": "かのじょは しんせつありません。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17879,
+        "label_opsi": "D",
+        "teks_opsi": "かのじょは しんせつないです。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17880,
+        "label_opsi": "E",
+        "teks_opsi": "かのじょは しんせつではくないです。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4593,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Arti kalimat berikut adalah ....<br><br>ジャカルタは あつくないです。",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17881,
+        "label_opsi": "A",
+        "teks_opsi": "Jakarta sangat panas.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17882,
+        "label_opsi": "B",
+        "teks_opsi": "Jakarta tidak panas",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17883,
+        "label_opsi": "C",
+        "teks_opsi": "Jakarta sangat dingin",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17884,
+        "label_opsi": "D",
+        "teks_opsi": "Jakarta tidak dingin",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17885,
+        "label_opsi": "E",
+        "teks_opsi": "Jakarta ramai",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4594,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Bentuk negatif dari <strong>おいしいです (oishii desu)</strong> adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17886,
+        "label_opsi": "A",
+        "teks_opsi": "おいしくないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17887,
+        "label_opsi": "B",
+        "teks_opsi": "おいしいじゃないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17888,
+        "label_opsi": "C",
+        "teks_opsi": "おいしくじゃないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17889,
+        "label_opsi": "D",
+        "teks_opsi": "おいしないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17890,
+        "label_opsi": "E",
+        "teks_opsi": "おいしいありません",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4595,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Manakah kalimat yang benar?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17891,
+        "label_opsi": "A",
+        "teks_opsi": "わたしは ほんを のみます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17892,
+        "label_opsi": "B",
+        "teks_opsi": "わたしは おちゃを たべます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17893,
+        "label_opsi": "C",
+        "teks_opsi": "わたしは てがみを かきます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17894,
+        "label_opsi": "D",
+        "teks_opsi": "わたしは ラジオを たべます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17895,
+        "label_opsi": "E",
+        "teks_opsi": "わたしは ふくを のみます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4596,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan percakapan berikut!<br><br>A: バクソは おいしいですか。<br>B: いいえ、________。<br><br>Jawaban yang paling tepat adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17896,
+        "label_opsi": "A",
+        "teks_opsi": "おいしいです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17897,
+        "label_opsi": "B",
+        "teks_opsi": "おいしくないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17898,
+        "label_opsi": "C",
+        "teks_opsi": "おいしいじゃないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17899,
+        "label_opsi": "D",
+        "teks_opsi": "おいしじゃないです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17900,
+        "label_opsi": "E",
+        "teks_opsi": "おいしくありませんです",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4597,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan kalimat berikut!<br><br>かれは ハンサムじゃないです。<br><br>Pernyataan yang sesuai dengan kalimat tersebut adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17901,
+        "label_opsi": "A",
+        "teks_opsi": "Dia perempuan dan cantik.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17902,
+        "label_opsi": "B",
+        "teks_opsi": "Dia laki-laki dan tidak tampan.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17903,
+        "label_opsi": "C",
+        "teks_opsi": "Dia laki-laki dan tampan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17904,
+        "label_opsi": "D",
+        "teks_opsi": "Dia perempuan dan tidak cantik.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17905,
+        "label_opsi": "E",
+        "teks_opsi": "Dia laki-laki dan tidak sehat.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4598,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Gilang ingin mengatakan bahwa hobinya adalah membaca buku. Kalimat bahasa Jepang yang paling tepat adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17906,
+        "label_opsi": "A",
+        "teks_opsi": "わたしの しゅみは ほんを よみます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17907,
+        "label_opsi": "B",
+        "teks_opsi": "わたしの しゅみは ほんを よむことです。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17908,
+        "label_opsi": "C",
+        "teks_opsi": "わたしの しゅみは ほんを たべます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17909,
+        "label_opsi": "D",
+        "teks_opsi": "わたしの しゅみは ほんを ききます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17910,
+        "label_opsi": "E",
+        "teks_opsi": "わたしの しゅみは ほんを のみます。",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4599,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan situasi berikut!<br><br>Ghaisan sedang berada di rumah. Ia membuka pintu, kemudian menutup pintu setelah keluar. Kata kerja yang tepat untuk kegiatan tersebut adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17911,
+        "label_opsi": "A",
+        "teks_opsi": "あけます → しめます",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17912,
+        "label_opsi": "B",
+        "teks_opsi": "しめます → あけます",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17913,
+        "label_opsi": "C",
+        "teks_opsi": "みます → ききます",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17914,
+        "label_opsi": "D",
+        "teks_opsi": "よみます → かきます",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17915,
+        "label_opsi": "E",
+        "teks_opsi": "たべます → のみます",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4600,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan percakapan berikut!<br><br>A: アルヂさんは なにを しますか。<br>B: ほんを よみます。<br><br>Berdasarkan percakapan tersebut, kegiatan Ardi adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17916,
+        "label_opsi": "A",
+        "teks_opsi": "Menulis buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17917,
+        "label_opsi": "B",
+        "teks_opsi": "Membeli buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17918,
+        "label_opsi": "C",
+        "teks_opsi": "Membaca buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17919,
+        "label_opsi": "D",
+        "teks_opsi": "Menonton buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17920,
+        "label_opsi": "E",
+        "teks_opsi": "Mendengar buku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4601,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan beberapa kalimat berikut!<br><br>わたしは おちゃを のみます。<br>わたしは えいがを みます。<br>わたしは てがみを たべます。<br>わたしは うたを うたいます。<br>わたしは ほんを よみます。<br><br>Kalimat yang tidak sesuai antara kata benda dan kata kerjanya adalah ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 17921,
+        "label_opsi": "A",
+        "teks_opsi": "1",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17922,
+        "label_opsi": "B",
+        "teks_opsi": "2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17923,
+        "label_opsi": "C",
+        "teks_opsi": "3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 17924,
+        "label_opsi": "D",
+        "teks_opsi": "4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 17925,
+        "label_opsi": "E",
+        "teks_opsi": "5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4602,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Tuliskan <strong>5 kosakata kata kerja dalam bahasa Jepang</strong> beserta arti bahasa Indonesianya!",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4603,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Buatlah 3 kalimat bahasa Jepang menggunakan pola:<br><br>Subjek は Kata Benda を Kata Kerja ます。<br><br>Gunakan kata kerja yang berbeda pada setiap kalimat.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4604,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Ubahlah kalimat berikut menjadi bentuk negatif!<br><br>a. ジャカルタは あついです。<br>b. バクソは おいしいです。<br>c. せんばんは あたらしいです。",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4605,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Perhatikan situasi berikut!<br><br>Suhel mempunyai hobi membaca buku dan menonton film. Ia juga suka belajar bahasa Jepang.<br><br>Buatlah 3 kalimat bahasa Jepang untuk menggambarkan kegiatan Suhel  tersebut!",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4606,
+    "id_ujian": 329,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Perhatikan percakapan berikut!<br><br>A: しゅみは なんですか。<br>B: わたしの しゅみは ＿＿＿＿です。<br>A: ＿＿＿＿を しますか。<br>B: はい、＿＿＿＿。<br><br>Lengkapilah percakapan tersebut dengan kosakata yang tepat sehingga menjadi percakapan yang logis tentang hobi. Kemudian tuliskan arti percakapan tersebut dalam bahasa Indonesia.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:32:34.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]

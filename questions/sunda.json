@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 4658,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Virus Covid-19 teh nyerangna kana ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18196,
+        "label_opsi": "A",
+        "teks_opsi": "panon",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18197,
+        "label_opsi": "B",
+        "teks_opsi": "ambekan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18198,
+        "label_opsi": "C",
+        "teks_opsi": "sirah",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18199,
+        "label_opsi": "D",
+        "teks_opsi": "suku",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18200,
+        "label_opsi": "E",
+        "teks_opsi": "panangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4659,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatikan kagiatan dihandap ieu !(1) Make masker.(2) Ngurangan pa amprok jeung jalma loba.(3) Kudu rajin ngabersihkeun leungeun,(4)Anjangsana ka imah batur.(5)Ngariung karumpul babarengan.  Dumasar kagiatan dilihur, nu kaasup cara waspda tina panyakit. Covid-19 nyaeta nomer ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18201,
+        "label_opsi": "A",
+        "teks_opsi": "1 jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18202,
+        "label_opsi": "B",
+        "teks_opsi": "3 jeung 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18203,
+        "label_opsi": "C",
+        "teks_opsi": "1,2 jeung 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18204,
+        "label_opsi": "D",
+        "teks_opsi": "3,4, jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18205,
+        "label_opsi": "E",
+        "teks_opsi": "4 jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4660,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Bahasan Virus Covid-19 mibanda eusi ngenaan ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18206,
+        "label_opsi": "A",
+        "teks_opsi": "kesehatan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18207,
+        "label_opsi": "B",
+        "teks_opsi": "kaulinan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18208,
+        "label_opsi": "C",
+        "teks_opsi": "bisnis",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18209,
+        "label_opsi": "D",
+        "teks_opsi": "kadaharan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18210,
+        "label_opsi": "E",
+        "teks_opsi": "masker",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4661,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dihandap ieu mangrupakeun ciri-ciri jalma anu kajangkit virus Covid-19, iwal ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18211,
+        "label_opsi": "A",
+        "teks_opsi": "batuk",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18212,
+        "label_opsi": "B",
+        "teks_opsi": "salesma",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18213,
+        "label_opsi": "C",
+        "teks_opsi": "leuleus",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18214,
+        "label_opsi": "D",
+        "teks_opsi": "meriang",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18215,
+        "label_opsi": "E",
+        "teks_opsi": "pingsan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 4662,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dumasar kana bahasan di luhur, asal mula ayana Covid-19 teh ti nagara ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18216,
+        "label_opsi": "A",
+        "teks_opsi": "Korea",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18217,
+        "label_opsi": "B",
+        "teks_opsi": "China",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18218,
+        "label_opsi": "C",
+        "teks_opsi": "Jepang",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18219,
+        "label_opsi": "D",
+        "teks_opsi": "Indonesia",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18220,
+        "label_opsi": "E",
+        "teks_opsi": "Belanda",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4663,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dihandap ieu mangrupakeun sawatara hal anu kudu diperhatikeun dina nulis bahasan, iwal …",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18221,
+        "label_opsi": "A",
+        "teks_opsi": "nangtukeun tema",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18222,
+        "label_opsi": "B",
+        "teks_opsi": "ngumpulkeun bahan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18223,
+        "label_opsi": "C",
+        "teks_opsi": "nyieun rangkay karangan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18224,
+        "label_opsi": "D",
+        "teks_opsi": "nyiapkeun kadaharan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18225,
+        "label_opsi": "E",
+        "teks_opsi": "nangtukeun judul",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4664,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Sangkan gampang kahartina ka nu maca, basa dina bahasan teh kudu …",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18226,
+        "label_opsi": "A",
+        "teks_opsi": "merhatikeun sopan santun",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18227,
+        "label_opsi": "B",
+        "teks_opsi": "ditulis dina kalimah anu pondok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18228,
+        "label_opsi": "C",
+        "teks_opsi": "di susun sacara ilmiah",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18229,
+        "label_opsi": "D",
+        "teks_opsi": "komunikatif",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18230,
+        "label_opsi": "E",
+        "teks_opsi": "sakumaha karep",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4665,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Rarangken hareup teh kapasing kana ... bagean",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18231,
+        "label_opsi": "A",
+        "teks_opsi": "tilu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18232,
+        "label_opsi": "B",
+        "teks_opsi": "dua",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18233,
+        "label_opsi": "C",
+        "teks_opsi": "opat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18234,
+        "label_opsi": "D",
+        "teks_opsi": "genep",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18235,
+        "label_opsi": "E",
+        "teks_opsi": "lima",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4666,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Langit ceudeum pertanda rek hujan' Dumasar kana kalimah di luhur, ngandung rarangken hareup ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18236,
+        "label_opsi": "A",
+        "teks_opsi": "ba",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18237,
+        "label_opsi": "B",
+        "teks_opsi": "per-",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18238,
+        "label_opsi": "C",
+        "teks_opsi": "ting",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18239,
+        "label_opsi": "D",
+        "teks_opsi": "pating",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18240,
+        "label_opsi": "E",
+        "teks_opsi": "sang",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4667,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Kecap anu make awalan ba- nyaeta ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18241,
+        "label_opsi": "A",
+        "teks_opsi": "bagus",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18242,
+        "label_opsi": "B",
+        "teks_opsi": "batur",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18243,
+        "label_opsi": "C",
+        "teks_opsi": "budak",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18244,
+        "label_opsi": "D",
+        "teks_opsi": "bajigur",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18245,
+        "label_opsi": "E",
+        "teks_opsi": "baheula",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 4668,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Nilik kana eusina, bahasan teh kaasup kana karangan ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18246,
+        "label_opsi": "A",
+        "teks_opsi": "ilmiah",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18247,
+        "label_opsi": "B",
+        "teks_opsi": "non ilmiah",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18248,
+        "label_opsi": "C",
+        "teks_opsi": "sastra",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18249,
+        "label_opsi": "D",
+        "teks_opsi": "literasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18250,
+        "label_opsi": "E",
+        "teks_opsi": "eksposisi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      }
+    ]
+  },
+  {
+    "id_soal": 4669,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Dumasar kana cara ngawanguna, bahasan teh kapasing kawas di handap ieu, iwal ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18251,
+        "label_opsi": "A",
+        "teks_opsi": "deskripsi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18252,
+        "label_opsi": "B",
+        "teks_opsi": "argumentasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18253,
+        "label_opsi": "C",
+        "teks_opsi": "eksposisi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18254,
+        "label_opsi": "D",
+        "teks_opsi": "konotasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18255,
+        "label_opsi": "E",
+        "teks_opsi": "narasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4670,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatoskan pernyataan dihandap ieu ! (1)Bahasan deskripsi (2)Bahasan narasi(3)Bahasan ilmiah(4) Bahasan kasehatan (5) Bahasan bisnis. Dumasar pernyataan diluhur, bahasan anu ditilik dumasar kana eusina nyaeta nomer ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18256,
+        "label_opsi": "A",
+        "teks_opsi": "1 jeung 2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18257,
+        "label_opsi": "B",
+        "teks_opsi": "2 jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18258,
+        "label_opsi": "C",
+        "teks_opsi": "1, 2  jeung 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18259,
+        "label_opsi": "D",
+        "teks_opsi": "3,4  jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18260,
+        "label_opsi": "E",
+        "teks_opsi": "3 jeung 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4671,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Basa baheula mah hirup teh meuni pikabungaheun. Kalimah diluhur anu mibanda rarangken nyaeta kecap ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18261,
+        "label_opsi": "A",
+        "teks_opsi": "basa",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18262,
+        "label_opsi": "B",
+        "teks_opsi": "baheula",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18263,
+        "label_opsi": "C",
+        "teks_opsi": "meuni",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18264,
+        "label_opsi": "D",
+        "teks_opsi": "hirup",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18265,
+        "label_opsi": "E",
+        "teks_opsi": "mah",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4672,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Papais teh kapasing kana ... jeung ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18266,
+        "label_opsi": "A",
+        "teks_opsi": "gede jaung leutik",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18267,
+        "label_opsi": "B",
+        "teks_opsi": "amis jeung asin",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18268,
+        "label_opsi": "C",
+        "teks_opsi": "jauh jeung deukeut",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18269,
+        "label_opsi": "D",
+        "teks_opsi": "panjang jeung pondok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18270,
+        "label_opsi": "E",
+        "teks_opsi": "hade jaung goreng",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4673,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Perhatoskeun kaayaan dihandap ieu ! (1) Hajatan (2) Nyunatan (3) Muludan (4) Sakolaan (5) dagangan. Papais teh sok aya nalika kaayaan nyaeta dina nomer ....",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18271,
+        "label_opsi": "A",
+        "teks_opsi": "1 jeung 2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18272,
+        "label_opsi": "B",
+        "teks_opsi": "2 jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18273,
+        "label_opsi": "C",
+        "teks_opsi": "1, 2  jeung 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18274,
+        "label_opsi": "D",
+        "teks_opsi": "3,4  jeung 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18275,
+        "label_opsi": "E",
+        "teks_opsi": "3 jeung 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4674,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Ieu ngenaan hiji kadaharan nu dijieuna tina tipung beas. Aya nuasin jeung oge nu semu amis. Anu asin mah biasana tara aya eusian, yen nu amis, tapi teu amis teuing semua amis mah ditengah-tengahna sok aya potongan cau, biasana mah cau nangka atawa cau sejenna ge sok dianggo. Terus ditempelkeun daun pandan saeutik ditengahna, nu ngajadikan seungit. Kadaharan ieu teh sok disuguhkeun dina acara-acara raramean, sapertos hajat, nikah, nyunatan, tahlilan, muludan, rajaban, jeung sajabana. Tapi sok aya oge nu ngajual eta kadaharan teh utamana di pilemburan. Dumasar kana bahasan di luhur, ngenan kadaharan ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18276,
+        "label_opsi": "A",
+        "teks_opsi": "katupat",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18277,
+        "label_opsi": "B",
+        "teks_opsi": "papais",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18278,
+        "label_opsi": "C",
+        "teks_opsi": "dongkal",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18279,
+        "label_opsi": "D",
+        "teks_opsi": "cilok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18280,
+        "label_opsi": "E",
+        "teks_opsi": "karedok",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4675,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Bahasan diluhur teh kaasup kana bahasan ..... sunda",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18281,
+        "label_opsi": "A",
+        "teks_opsi": "prosa",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18282,
+        "label_opsi": "B",
+        "teks_opsi": "kawih",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18283,
+        "label_opsi": "C",
+        "teks_opsi": "guguritan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18284,
+        "label_opsi": "D",
+        "teks_opsi": "tradisi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18285,
+        "label_opsi": "E",
+        "teks_opsi": "artikel",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4676,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Supaya papais teh kaambeu seungit sok ditambahan ku daun ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18286,
+        "label_opsi": "A",
+        "teks_opsi": "jahe",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18287,
+        "label_opsi": "B",
+        "teks_opsi": "pandan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18288,
+        "label_opsi": "C",
+        "teks_opsi": "sampeu",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18289,
+        "label_opsi": "D",
+        "teks_opsi": "taleus",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18290,
+        "label_opsi": "E",
+        "teks_opsi": "cau",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4677,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Eusi bahasan mah kacida pisan bedana eusi karya sastra lianna, sabab eusi bahasan kudu ...",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 18291,
+        "label_opsi": "A",
+        "teks_opsi": "luyu jeung judul",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18292,
+        "label_opsi": "B",
+        "teks_opsi": "bisa dipertanggung jawabkeun",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 18293,
+        "label_opsi": "C",
+        "teks_opsi": "ngandung unsur kaendahan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18294,
+        "label_opsi": "D",
+        "teks_opsi": "mangrupa kritik",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 18295,
+        "label_opsi": "E",
+        "teks_opsi": "kedalam emosi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 4678,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Jentrekeun ngenaan bahasan !",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4679,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Sebutkeun rupa-rupa bahasan ditilik dina eusina !",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4680,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Tuliskan sawatara hal dina nyungsi bahasan !",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4681,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Kumaha cara nangtukeun judul dina nyungsi bahasan !",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 4682,
+    "id_ujian": 330,
+    "id_guru_pembuat": 55,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Naon anu dimaksud bahasan narasi ?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-06T01:37:02.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]
