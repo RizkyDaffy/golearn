@@ -1,0 +1,1167 @@
+[
+  {
+    "id_soal": 1530,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Rina is carrying books and laptop. She is walking toward the teacher's room when one of her books falls to the floor. Dina : \"You seem to have a lot of things to carry. __________?\" Rina : \"That would be very helpful. Thank you.\"",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5458,
+        "label_opsi": "A",
+        "teks_opsi": "Do you carry your books?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5459,
+        "label_opsi": "B",
+        "teks_opsi": "Can you carry everything yourself?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5460,
+        "label_opsi": "C",
+        "teks_opsi": "Would you mine if I help you carry some of them?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5461,
+        "label_opsi": "D",
+        "teks_opsi": "why do you bring so many books?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5462,
+        "label_opsi": "E",
+        "teks_opsi": "Did you carry the book yesterday?",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1531,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Read the dialogue. Teacher: “The classroom is still dirty after the school event.” Andi: “I can help clean the windows, Sir.” Teacher: “Thank you, Andi. That would be great.” Based on the dialogue, what can be inferred about Andi?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5463,
+        "label_opsi": "A",
+        "teks_opsi": "He wants to leave the classroom.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5464,
+        "label_opsi": "B",
+        "teks_opsi": "He notices a problem and voluntarily offers assistance",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5465,
+        "label_opsi": "C",
+        "teks_opsi": "He is responsible for cleaning the entire school.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5466,
+        "label_opsi": "D",
+        "teks_opsi": "He refuses to help the teacher.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5467,
+        "label_opsi": "E",
+        "teks_opsi": "He asks the teacher to clean the windows.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1532,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Your friend has to submit a group presentation tomorrow, but the slides are not finished. She looks worried. Which response shows the <strong>most appropriate</strong> way to offer help?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5468,
+        "label_opsi": "A",
+        "teks_opsi": "“Why didn't you finish it earlier?”",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5469,
+        "label_opsi": "B",
+        "teks_opsi": "“You should do everything by yourself.”",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5470,
+        "label_opsi": "C",
+        "teks_opsi": "“Would you like me to help you check the slides?”",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5471,
+        "label_opsi": "D",
+        "teks_opsi": "“Your presentation is probably going to fail.”",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5472,
+        "label_opsi": "E",
+        "teks_opsi": "“You must ask the teacher to do it.”",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1533,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Read the situation. Budi: “I can't find the file for our English project.” Sinta: “If you want, I can help you look for it on the computer.” Budi: “Thanks. I really appreciate it.” Why does Sinta offer help?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5473,
+        "label_opsi": "A",
+        "teks_opsi": "She wants to use Budi's computer.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5474,
+        "label_opsi": "B",
+        "teks_opsi": "She wants to finish the project alone.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5475,
+        "label_opsi": "C",
+        "teks_opsi": "She recognizes Budi's difficulty and offers a solution",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5476,
+        "label_opsi": "D",
+        "teks_opsi": "She wants Budi to stop working",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5477,
+        "label_opsi": "E",
+        "teks_opsi": "She does not understand the project.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1534,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Read the sentence. “Every morning, the school librarian ______ the returned books according to their categories before putting them back on the shelves. ”Which word  correctly completes the sentence?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5478,
+        "label_opsi": "A",
+        "teks_opsi": "organize",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5479,
+        "label_opsi": "B",
+        "teks_opsi": "organizing",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5480,
+        "label_opsi": "C",
+        "teks_opsi": "organized",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5481,
+        "label_opsi": "D",
+        "teks_opsi": "organizes",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5482,
+        "label_opsi": "E",
+        "teks_opsi": "is organize",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1535,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "A student writes: “My brother don't like reading novels because he thinks they are boring.” If you were asked to correct the sentence without changing its meaning, which revision is best?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5483,
+        "label_opsi": "A",
+        "teks_opsi": "My brother doesn't likes reading novels because he thinks they are boring",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5484,
+        "label_opsi": "B",
+        "teks_opsi": "My brother doesn't like reading novels because he thinks they are boring",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5485,
+        "label_opsi": "C",
+        "teks_opsi": "My brother don't likes reading novels because he thinks they are boring.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5486,
+        "label_opsi": "D",
+        "teks_opsi": "My brother isn't like reading novels because he thinks they are boring.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5487,
+        "label_opsi": "E",
+        "teks_opsi": "My brother didn't like reading novels because he thinks they are boring.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1536,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Read the information. The school recycling program operates every Friday. Students bring used bottles from home. The environmental club collects the bottles and separates them according to their materials. After that, the bottles go to a recycling center. Why does the writer mainly use the Simple Present Tense?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5488,
+        "label_opsi": "A",
+        "teks_opsi": "To describe an activity that happened last Friday.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5489,
+        "label_opsi": "B",
+        "teks_opsi": "To describe a program that regularly takes place",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5490,
+        "label_opsi": "C",
+        "teks_opsi": "To tell a story about the environmental club.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5491,
+        "label_opsi": "D",
+        "teks_opsi": "To describe an activity that will happen only once",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5492,
+        "label_opsi": "E",
+        "teks_opsi": "To explain what students did during their holiday.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1537,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "Look at the following sentences.1. The students clean the classroom every morning. 2. The students cleaned the classroom yesterday.  3. The students will clean the classroom tomorrow.  4. The students usually bring their own bottles. 5. The students are cleaning the classroom now.  Which two sentences best show <strong>regular habits</strong>?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5493,
+        "label_opsi": "A",
+        "teks_opsi": "1 and 2",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5494,
+        "label_opsi": "B",
+        "teks_opsi": "1 and 4",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5495,
+        "label_opsi": "C",
+        "teks_opsi": "2 and 3",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5496,
+        "label_opsi": "D",
+        "teks_opsi": "3 and 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5497,
+        "label_opsi": "E",
+        "teks_opsi": "4 and 5",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1538,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "The Honest Woodcutter Once, a poor woodcutter lived near a river. Every day, he collected wood from the forest and sold it in the village. One afternoon, while he was cutting a tree near the river, his axe accidentally fell into the water. The woodcutter became very worried because the axe was his only tool for earning money. Suddenly, a mysterious man appeared and asked why he looked sad. After hearing the story, the man jumped into the river and returned with a golden axe. “Is this your axe?” he asked. “No,” replied the woodcutter honestly. The man then brought a silver axe, but the woodcutter gave the same answer. Finally, the man brought the old iron axe. The woodcutter happily said that it was his. Because of his honesty, the man rewarded him with all three axes. What is the main conflict in the story?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5498,
+        "label_opsi": "A",
+        "teks_opsi": "The woodcutter cannot find his village.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5499,
+        "label_opsi": "B",
+        "teks_opsi": "The woodcutter loses the only tool he uses to earn money.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5500,
+        "label_opsi": "C",
+        "teks_opsi": "The mysterious man wants to take the woodcutter's axe.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5501,
+        "label_opsi": "D",
+        "teks_opsi": "The woodcutter wants to sell a golden axe.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5502,
+        "label_opsi": "E",
+        "teks_opsi": "The villagers refuse to buy his wood.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1539,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "The Honest Woodcutter Once, a poor woodcutter lived near a river. Every day, he collected wood from the forest and sold it in the village. One afternoon, while he was cutting a tree near the river, his axe accidentally fell into the water. The woodcutter became very worried because the axe was his only tool for earning money. Suddenly, a mysterious man appeared and asked why he looked sad. After hearing the story, the man jumped into the river and returned with a golden axe. “Is this your axe?” he asked. “No,” replied the woodcutter honestly. The man then brought a silver axe, but the woodcutter gave the same answer. Finally, the man brought the old iron axe. The woodcutter happily said that it was his. Because of his honesty, the man rewarded him with all three axes. Why does the woodcutter refuse the golden and silver axes?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5503,
+        "label_opsi": "A",
+        "teks_opsi": "He thinks they are too expensive.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5504,
+        "label_opsi": "B",
+        "teks_opsi": "He wants to receive all three axes.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5505,
+        "label_opsi": "C",
+        "teks_opsi": "He does not recognize their value.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5506,
+        "label_opsi": "D",
+        "teks_opsi": "He honestly knows that neither belongs to him",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5507,
+        "label_opsi": "E",
+        "teks_opsi": "He wants the mysterious man to give him money instead.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1540,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "The Honest Woodcutter Once, a poor woodcutter lived near a river. Every day, he collected wood from the forest and sold it in the village. One afternoon, while he was cutting a tree near the river, his axe accidentally fell into the water. The woodcutter became very worried because the axe was his only tool for earning money. Suddenly, a mysterious man appeared and asked why he looked sad. After hearing the story, the man jumped into the river and returned with a golden axe. “Is this your axe?” he asked. “No,” replied the woodcutter honestly. The man then brought a silver axe, but the woodcutter gave the same answer. Finally, the man brought the old iron axe. The woodcutter happily said that it was his. Because of his honesty, the man rewarded him with all three axes. Which part of the story represents the <strong>resolution</strong>?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5508,
+        "label_opsi": "A",
+        "teks_opsi": "The woodcutter works in the forest every day.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5509,
+        "label_opsi": "B",
+        "teks_opsi": "The axe falls into the river.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5510,
+        "label_opsi": "C",
+        "teks_opsi": "The mysterious man asks why the woodcutter is sad.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5511,
+        "label_opsi": "D",
+        "teks_opsi": "The woodcutter receives the three axes as a reward for his honesty.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5512,
+        "label_opsi": "E",
+        "teks_opsi": "The woodcutter becomes worried about losing his axe.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1541,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "The Honest Woodcutter Once, a poor woodcutter lived near a river. Every day, he collected wood from the forest and sold it in the village. One afternoon, while he was cutting a tree near the river, his axe accidentally fell into the water. The woodcutter became very worried because the axe was his only tool for earning money. Suddenly, a mysterious man appeared and asked why he looked sad. After hearing the story, the man jumped into the river and returned with a golden axe. “Is this your axe?” he asked. “No,” replied the woodcutter honestly. The man then brought a silver axe, but the woodcutter gave the same answer. Finally, the man brought the old iron axe. The woodcutter happily said that it was his. Because of his honesty, the man rewarded him with all three axes. What can readers learn from the woodcutter's decision?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5513,
+        "label_opsi": "A",
+        "teks_opsi": "Expensive things are always better than ordinary ones.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5514,
+        "label_opsi": "B",
+        "teks_opsi": "People should hide their problems from others.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5515,
+        "label_opsi": "C",
+        "teks_opsi": "Honesty can lead to positive consequences",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5516,
+        "label_opsi": "D",
+        "teks_opsi": "Working in a forest is more profitable than other jobs.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5517,
+        "label_opsi": "E",
+        "teks_opsi": "People should accept everything that is offered to them.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1542,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "The Honest Woodcutter Once, a poor woodcutter lived near a river. Every day, he collected wood from the forest and sold it in the village. One afternoon, while he was cutting a tree near the river, his axe accidentally fell into the water. The woodcutter became very worried because the axe was his only tool for earning money. Suddenly, a mysterious man appeared and asked why he looked sad. After hearing the story, the man jumped into the river and returned with a golden axe. “Is this your axe?” he asked. “No,” replied the woodcutter honestly. The man then brought a silver axe, but the woodcutter gave the same answer. Finally, the man brought the old iron axe. The woodcutter happily said that it was his. Because of his honesty, the man rewarded him with all three axes. Suppose the woodcutter had claimed that the golden axe was his. What would most likely happen based on the moral of the story?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5518,
+        "label_opsi": "A",
+        "teks_opsi": "He would probably receive the golden axe immediately.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5519,
+        "label_opsi": "B",
+        "teks_opsi": "His dishonesty could prevent him from receiving the reward.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5520,
+        "label_opsi": "C",
+        "teks_opsi": "The mysterious man would give him all the axes anyway.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5521,
+        "label_opsi": "D",
+        "teks_opsi": "He would become richer because he lied.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5522,
+        "label_opsi": "E",
+        "teks_opsi": "The mysterious man would ask him to sell the axe.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1543,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. What is the main purpose of the text?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5523,
+        "label_opsi": "A",
+        "teks_opsi": "To explain the nutritional benefits of fruit.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5524,
+        "label_opsi": "B",
+        "teks_opsi": "To describe different kinds of fruit.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5525,
+        "label_opsi": "C",
+        "teks_opsi": "To tell a story about preparing fruit.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5526,
+        "label_opsi": "D",
+        "teks_opsi": "To explain how to make a simple fruit salad.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5527,
+        "label_opsi": "E",
+        "teks_opsi": "To compare apples, bananas, and oranges.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1544,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. What is the most likely problem?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5528,
+        "label_opsi": "A",
+        "teks_opsi": "The fruit will automatically become sweeter.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5529,
+        "label_opsi": "B",
+        "teks_opsi": "The procedure may become less practical because the ingredients are mixed too early.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5530,
+        "label_opsi": "C",
+        "teks_opsi": "The yogurt will turn into honey.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5531,
+        "label_opsi": "D",
+        "teks_opsi": "The fruit cannot be washed anymore.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5532,
+        "label_opsi": "E",
+        "teks_opsi": "The salad will become a different kind of food.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1545,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. Which action is most important to do before cutting the fruits?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5533,
+        "label_opsi": "A",
+        "teks_opsi": "Add honey.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5534,
+        "label_opsi": "B",
+        "teks_opsi": "Mix the ingredients",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5535,
+        "label_opsi": "C",
+        "teks_opsi": "Wash the fruits thoroughly.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5536,
+        "label_opsi": "D",
+        "teks_opsi": "Add the yogurt",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5537,
+        "label_opsi": "E",
+        "teks_opsi": "Serve the salad.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1546,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. Suppose someone does not have honey. Which action would best maintain the basic procedure?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5538,
+        "label_opsi": "A",
+        "teks_opsi": "Skip washing the fruit.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5539,
+        "label_opsi": "B",
+        "teks_opsi": "Replace honey with another sweet ingredient if available",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5540,
+        "label_opsi": "C",
+        "teks_opsi": "Cook the fruit before cutting it.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5541,
+        "label_opsi": "D",
+        "teks_opsi": "Remove the yogurt and all fruit.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5542,
+        "label_opsi": "E",
+        "teks_opsi": "Mix the fruit with water only.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1547,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately.Why does the writer use imperative verbs such as “Wash,” “Peel,” “Cut,” “Put,” and “Add”?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5543,
+        "label_opsi": "A",
+        "teks_opsi": "To tell a story about the writer's experience",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5544,
+        "label_opsi": "B",
+        "teks_opsi": "To describe someone's personality",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5545,
+        "label_opsi": "C",
+        "teks_opsi": "To give clear instructions to the reader.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5546,
+        "label_opsi": "D",
+        "teks_opsi": "To explain a past event.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5547,
+        "label_opsi": "E",
+        "teks_opsi": "To express the writer's feelings.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1548,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. If a reader wants to make a larger portion for six people, which change is the most logical?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5548,
+        "label_opsi": "A",
+        "teks_opsi": "Use exactly the same ingredients without adjustment",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5549,
+        "label_opsi": "B",
+        "teks_opsi": "Reduce all ingredients by half.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5550,
+        "label_opsi": "C",
+        "teks_opsi": "Increase the ingredients proportionally.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5551,
+        "label_opsi": "D",
+        "teks_opsi": "Use only apples and bananas.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5552,
+        "label_opsi": "E",
+        "teks_opsi": "Remove the yogurt and honey.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1549,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "PILGAN",
+    "teks_soal": "How to Make a Simple Fruit Salad <strong>Ingredients:</strong> 1 apple, 1 banana, 1 orange, 2 tablespoons of yogurt, 1 tablespoon of honey <strong>Steps:</strong> 1. Wash all the fruits thoroughly. 2. Peel the banana and orange. 3. Cut the fruits into small pieces. 4. Put all the fruit pieces into a bowl. 6. Add yogurt and honey. 7. Mix everything gently and serve immediately. The procedure says, “Mix everything gently and serve immediately.” Why is serving immediately most appropriate?",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "2.50",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null,
+    "options": [
+      {
+        "id_opsi": 5553,
+        "label_opsi": "A",
+        "teks_opsi": "The bowl will disappear if it is left too long.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5554,
+        "label_opsi": "B",
+        "teks_opsi": "The fruit salad is intended to be served fresh after preparation.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 5555,
+        "label_opsi": "C",
+        "teks_opsi": "The ingredients cannot be mixed twice.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5556,
+        "label_opsi": "D",
+        "teks_opsi": "The honey will become solid immediately.",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 5557,
+        "label_opsi": "E",
+        "teks_opsi": "The fruit must always be eaten in the kitchen",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      }
+    ]
+  },
+  {
+    "id_soal": 1550,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Your classmate has to prepare a presentation, but she has difficulty designing the PowerPoint slides. Write a <strong>short dialogue of 4–6 lines</strong> between you and your classmate. The dialogue must contain: an expression of offering help, an appropriate response, and a reason for accepting or refusing the offer.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "5.00",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 1551,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Read the following situation: The English club meets every Wednesday. Its members practice speaking English, discuss different topics, and prepare activities for other students. Write <strong>three sentences</strong> about the English club using Simple Present Tense: one affirmative sentence, one negative sentence, and one interrogative sentence.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 1552,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Read the situation: A student finds a wallet in the school corridor. Inside it, there is money and an identity card. The student wants to keep the money, but finally decides to return the wallet to its owner. Based on the situation, explain: the <strong>orientation</strong>, the <strong>complication</strong>, the <strong>resolution</strong>, and the <strong>moral value</strong> of the story.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 1553,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "Your friend does not know how to make a cup of hot chocolate. Write a <strong>procedure text</strong> containing: the goal, at least 3 ingredients/materials, and at least 5 steps.  Use appropriate <strong>imperative verbs</strong>.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "10.00",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  },
+  {
+    "id_soal": 1554,
+    "id_ujian": 198,
+    "id_guru_pembuat": 71,
+    "tipe_soal": "ESSAY",
+    "teks_soal": "A student wants to make a fruit salad using the procedure below: Wash the fruits → Cut the fruits → Put them into a bowl → Add yogurt → Mix gently → Serve. However, the student forgets to wash the fruits before cutting them. Explain <strong>why this mistake can affect the quality or safety of the final product</strong>, and suggest <strong>what the student should do differently next time</strong>.",
+    "gambar_soal": null,
+    "audio_soal": null,
+    "bobot_nilai": "15.00",
+    "created_at": "2026-10-05T05:22:48.000Z",
+    "id_grup": null,
+    "urutan_dalam_grup": null,
+    "nama_grup": null,
+    "teks_konteks": null,
+    "gambar_konteks": null,
+    "audio_konteks": null
+  }
+]
