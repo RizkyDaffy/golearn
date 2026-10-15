@@ -21,6 +21,10 @@ function tokenFrom(req) {
     const header = req.get('authorization') || '';
     if (header.toLowerCase().startsWith('bearer ')) return header.slice(7).trim();
     if (typeof req.query.token === 'string') return req.query.token.trim();
+    if (req.headers.cookie) {
+        const match = req.headers.cookie.match(/(?:^|;\s*)welearn_pin_token=([^;]+)/);
+        if (match) return decodeURIComponent(match[1]).trim();
+    }
     return '';
 }
 
@@ -84,8 +88,8 @@ function pinGuard(req, res, next) {
     next();
 }
 
-async function asyncHandler(fn) {
-    return (req, res) => {
+function asyncHandler(fn) {
+    return async (req, res) => {
         try {
             await fn(req, res);
         } catch (err) {
@@ -127,6 +131,37 @@ function registerPinRoutes(app) {
             username: pin.username,
             role: pin.role,
         });
+    }));
+
+    // Self-registration for user role accounts
+    app.post('/api/auth/register', asyncHandler(async (req, res) => {
+        const body = req.body || {};
+        const username = String(body.username || '').trim();
+        const pin = String(body.pin || '').trim() || randomPin(6);
+        if (!username) return res.status(400).json({ error: 'Username is required' });
+        if (!/^[0-9]{4,10}$/.test(pin)) return res.status(400).json({ error: 'PIN must be 4 to 10 digits' });
+
+        try {
+            const created = await createPin({
+                username,
+                pin,
+                role: 'user',
+                note: 'Self-registered user',
+            });
+            const token = await signToken(created);
+            res.status(201).json({
+                token,
+                expiresIn: TOKEN_TTL_MS,
+                username: created.username,
+                role: created.role,
+                pin: created.pin,
+            });
+        } catch (err) {
+            if (isUniqueViolation(err)) {
+                return res.status(409).json({ error: `Username "${username}" already exists` });
+            }
+            throw err;
+        }
     }));
 
     // Validate a stored token on boot
