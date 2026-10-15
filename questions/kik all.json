@@ -1,14 +1,14 @@
 [
   {
-    "id_soal": 5334,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6801,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Tingkat kepuasaan pelanggan terhadap produk merupakan tujuan dari perencanaan. semakin besar tingkat kepuasaan pelanggan terhadap produk, maka semakin mudah bagi perusahaan untuk mendapatkan keuntungan, sebaliknya semakin pelanggan tidak puas terhadap produk, maka akan semakin sulit bagi perusahaan. Jika dicermati hal tersebut termasuk ke dalam....",
+    "teks_soal": "Perangkat keras (hardware) yang dibutuhkan untuk membangun sebuah jaringan, kecuali...",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -17,52 +17,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20881,
+        "id_opsi": 26911,
         "label_opsi": "A",
-        "teks_opsi": "Ruang lingkup perencanaan produksi",
+        "teks_opsi": "switch",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20882,
+        "id_opsi": 26912,
         "label_opsi": "B",
-        "teks_opsi": "Unsur perencanaan produksi",
+        "teks_opsi": "hub",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20883,
+        "id_opsi": 26913,
         "label_opsi": "C",
-        "teks_opsi": "Pengukuran standar produksi",
+        "teks_opsi": "router",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20884,
+        "id_opsi": 26914,
         "label_opsi": "D",
-        "teks_opsi": "Tujuan dan fungsi perencanaan produksi",
+        "teks_opsi": "gateway",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26915,
+        "label_opsi": "E",
+        "teks_opsi": "crimping",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
-      },
-      {
-        "id_opsi": 20885,
-        "label_opsi": "E",
-        "teks_opsi": "Tujuan produksi",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5335,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6802,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Pak Bambang merupakan seorang yang hanya lulusan SD. Dia ingin membangun usaha karena sadar dengan ijazah seperti itu, tidak akan ada perusahaan yang mau menerima dia sebagai pegawai. Hal ini motivasi usaha yang berasal dari ….",
+    "teks_soal": "Apa yang dimaksud dengan IP Address",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -71,52 +71,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20886,
+        "id_opsi": 26916,
         "label_opsi": "A",
-        "teks_opsi": "Lingkungan",
+        "teks_opsi": "IP Address adalah gambaran / rangkain jaringan",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20887,
+        "id_opsi": 26917,
         "label_opsi": "B",
-        "teks_opsi": "Prasangka terhadap seseorang",
+        "teks_opsi": "IP Address adalah alamat dari server",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20888,
+        "id_opsi": 26918,
         "label_opsi": "C",
-        "teks_opsi": "Situasi",
+        "teks_opsi": "IP Address adalah jaringan LAN nirkabel",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20889,
+        "id_opsi": 26919,
         "label_opsi": "D",
-        "teks_opsi": "Kondisi Ekonomi",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20890,
-        "label_opsi": "E",
-        "teks_opsi": "Diri sendiri",
+        "teks_opsi": "IP Address adalah alamat / address global yang menggunakan protocol tcp/ip",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 26920,
+        "label_opsi": "E",
+        "teks_opsi": "ip address untuk lokal",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5336,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6803,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Technopreneur adalah seseorang yang mengelola usaha yang memanfaatkan perkembangan teknologi mutakhir untuk dioptimalkan sebagai basis dalam mengembangkan pengembangan usaha. Peran Technopreneurship dalam menghadapi tantangan global adalah sebagai berikut, Kecuali...",
+    "teks_soal": "Apa urutan warna ke –tiga dikedua sisi pada pengkabelan",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -125,52 +125,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20891,
+        "id_opsi": 26921,
         "label_opsi": "A",
-        "teks_opsi": "Ikut serta dalam menggerakkan perekonomian di Indonesia, baik ekonomi makro, mikro dan skala yang lebih besar.",
+        "teks_opsi": "Biru – Biru",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20892,
+        "id_opsi": 26922,
         "label_opsi": "B",
-        "teks_opsi": "Memiliki wawasan global mengembangkan sayap bisnis berorientasi internasional, memiliki daya saing global yang berdampak pada jalannya roda perekonomian di Indonesia.",
+        "teks_opsi": "Putih Orange",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26923,
+        "label_opsi": "C",
+        "teks_opsi": "Putih - Hijau",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20893,
-        "label_opsi": "C",
-        "teks_opsi": "Mengembangkan penerapan teknologi dalam bidang ekonomi, sehingga tercipta inovasi-inovasi yang out of the box.",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20894,
+        "id_opsi": 26924,
         "label_opsi": "D",
-        "teks_opsi": "Melatih para pengusaha untuk tidak terlalu tergantung dengan teknologi.",
+        "teks_opsi": "Cokelat – Cokelat",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20895,
+        "id_opsi": 26925,
         "label_opsi": "E",
-        "teks_opsi": "Tidak terpaku pada lapangan kerja yang ada, sehingga berani untuk membuka lapangan kerja baru.",
+        "teks_opsi": "Hitam-putih",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5337,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6804,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Perusahaan bakpia memproduksi 60.000 bakpia setiap tahunnya. Rincian bahan pembuatannya perharinya adalah sebagai berikut :<br><br>Gandum Rp. 20.000<br><br>Gula Pasir Rp 20.000<br><br>Mentega Rp. 30.000<br><br>Telur Rp 10.000<br><br>Kacang hijau Rp 30.000<br><br>Susu Bubuk 30.000<br><br>Upah pegawai 2 orang Rp.4.500.000/bulan<br><br>Biaya kardus Rp.800.000/bulan<br><br>Biaya listrik dan gas Rp.700.000/bulan<br><br>Biaya air Rp.350.000/bulan<br><br>Biaya perawatan mesin produksi Rp.450.000/bulan<br><br>Maka harga pokok produksi per satuan produk adalah....",
+    "teks_soal": "Topologi jaringan komputer yang sangat mudah digunakan",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -179,52 +179,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20896,
+        "id_opsi": 26926,
         "label_opsi": "A",
-        "teks_opsi": "Rp. 2.200",
+        "teks_opsi": "star",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26927,
+        "label_opsi": "B",
+        "teks_opsi": "mesh",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26928,
+        "label_opsi": "C",
+        "teks_opsi": "tree",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26929,
+        "label_opsi": "D",
+        "teks_opsi": "ring",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20897,
-        "label_opsi": "B",
-        "teks_opsi": "Rp. 183,3",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20898,
-        "label_opsi": "C",
-        "teks_opsi": "Rp. 2.040",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20899,
-        "label_opsi": "D",
-        "teks_opsi": "Rp. 170",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20900,
+        "id_opsi": 26930,
         "label_opsi": "E",
-        "teks_opsi": "Rp. 115,7",
+        "teks_opsi": "star",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5338,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6805,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Job profesi yang bertugas untuk merancang software aplikasi komputer, dan kemudian akan melakukan pengujian dari software yang sudah selesai. Setelah itu juga akan melakukan maintenance. merupakan pengertian dari job Profil TJKT di bidang…",
+    "teks_soal": "Komponen jaringan computer yang berfungsi memperkuat sinyal disebut",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -233,52 +233,45 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20901,
+        "id_opsi": 26931,
         "label_opsi": "A",
-        "teks_opsi": "Developer software",
+        "teks_opsi": "Repeater",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20902,
+        "id_opsi": 26932,
         "label_opsi": "B",
-        "teks_opsi": "Data Scientist",
+        "teks_opsi": "Bridge",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20903,
-        "label_opsi": "C",
-        "teks_opsi": "Database Administrator",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20904,
+        "id_opsi": 26933,
         "label_opsi": "D",
-        "teks_opsi": "Analisis keamanan informasi",
+        "teks_opsi": "switch",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20905,
+        "id_opsi": 26934,
         "label_opsi": "E",
-        "teks_opsi": "Ananlisis sistem komputer",
+        "teks_opsi": "hub",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5339,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6806,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Pengusaha asal Amerika Serikat yang merupakan CEO SpaceX, PayPal, Tesla dan baru-baru ini menghebohkan berita IT karena membeli saham Twitter dan bersiteru dengan CEO facebook dan Instagram, Siapakah teknopreneur tersebut…",
+    "teks_soal": "Alat yang berfungsi untuk menghubungkan 2 jaringan beda segmen",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -287,52 +280,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20906,
+        "id_opsi": 26935,
         "label_opsi": "A",
-        "teks_opsi": "Larry Page dan Sergey Brin",
+        "teks_opsi": "switch",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20907,
+        "id_opsi": 26936,
         "label_opsi": "B",
-        "teks_opsi": "Elon Musk",
+        "teks_opsi": "router",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20908,
+        "id_opsi": 26937,
         "label_opsi": "C",
-        "teks_opsi": "Mark Zuckerberg",
+        "teks_opsi": "mikrotik",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20909,
+        "id_opsi": 26938,
         "label_opsi": "D",
-        "teks_opsi": "Bill Gates",
+        "teks_opsi": "hub",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20910,
+        "id_opsi": 26939,
         "label_opsi": "E",
-        "teks_opsi": "Steve Jobs",
+        "teks_opsi": "coaxial",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5340,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6807,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Harga yang harus dikeluarkan oleh para penjual untuk bisa mengolah bahan mentah menjadi produk yang bisa dijual baik itu produksi barang maupun jasa adalah pengertian dari.....",
+    "teks_soal": "Seiring berkembangnya zaman, maka jaringan local disebut sebagai",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -341,52 +334,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20911,
+        "id_opsi": 26940,
         "label_opsi": "A",
-        "teks_opsi": "Harga pokok",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20912,
-        "label_opsi": "B",
-        "teks_opsi": "Harga pokok produksi",
+        "teks_opsi": "LAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20913,
+        "id_opsi": 26941,
+        "label_opsi": "B",
+        "teks_opsi": "WAN",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26942,
         "label_opsi": "C",
-        "teks_opsi": "Harga pokok penjualan",
+        "teks_opsi": "MAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20914,
+        "id_opsi": 26943,
         "label_opsi": "D",
-        "teks_opsi": "Biaya",
+        "teks_opsi": "MPLS",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20915,
+        "id_opsi": 26944,
         "label_opsi": "E",
-        "teks_opsi": "Biaya tenaga kerja",
+        "teks_opsi": "Intercity",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5341,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6808,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Jumlah dari pengeluaran dan beban yang diizinkan, baik secara langsung maupun tidak langsung sehingga menghasilkan barang produksi maupun barang jasa yang bisa dijual kembali merupakan pengertian dari.....",
+    "teks_soal": "Jaringan yang terbentuk dari beberapa jaringan local disebut",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -395,52 +388,45 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20916,
+        "id_opsi": 26945,
         "label_opsi": "A",
-        "teks_opsi": "Harga pokok",
+        "teks_opsi": "LAN",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26946,
+        "label_opsi": "B",
+        "teks_opsi": "WAN",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26947,
+        "label_opsi": "D",
+        "teks_opsi": "MAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20917,
-        "label_opsi": "B",
-        "teks_opsi": "Harga pokok produksi",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20918,
-        "label_opsi": "C",
-        "teks_opsi": "Harga pokok penjualan",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20919,
-        "label_opsi": "D",
-        "teks_opsi": "Biaya",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20920,
+        "id_opsi": 26948,
         "label_opsi": "E",
-        "teks_opsi": "Biaya tenaga kerja",
+        "teks_opsi": "TCP/IP",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5342,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6809,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Laporan yang berisi ringkasan transaksi - transaksi keuangan yang terjadi selama periode akuntansi yang bersangkutan disebut juga .....",
+    "teks_soal": "Agar 3 atau lebih komputer bisa membentuk suatu jaringan dibutuhkan",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -449,52 +435,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20921,
+        "id_opsi": 26949,
         "label_opsi": "A",
-        "teks_opsi": "Laporan transaksi",
+        "teks_opsi": "kabel",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20922,
+        "id_opsi": 26950,
         "label_opsi": "B",
-        "teks_opsi": "Laporan kerja",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20923,
-        "label_opsi": "C",
-        "teks_opsi": "Jurnal keuangan",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20924,
-        "label_opsi": "D",
-        "teks_opsi": "Rencana anggaran biaya (RAB)",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20925,
-        "label_opsi": "E",
-        "teks_opsi": "Laporan keuangan",
+        "teks_opsi": "switch",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 26951,
+        "label_opsi": "C",
+        "teks_opsi": "reapeater",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26952,
+        "label_opsi": "D",
+        "teks_opsi": "catalyst",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26953,
+        "label_opsi": "E",
+        "teks_opsi": "cisco",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5343,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6810,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Laporan yang dibuat atau disusun dalam pelaksanaan proyek bisnis untuk membantu dalam perencanaan keuangan, pengendalian biaya, dan pengambilan keputusan yang lebih baik, disebut dengan…",
+    "teks_soal": "Agar jaringan bisa berfungsi pada kecepatan full 1gb/s, maka dibutuhkan perangkat",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -503,52 +489,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20926,
+        "id_opsi": 26954,
         "label_opsi": "A",
-        "teks_opsi": "Laporan transaksi",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20927,
-        "label_opsi": "B",
-        "teks_opsi": "Laporan kerja",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20928,
-        "label_opsi": "C",
-        "teks_opsi": "Jurnal keuangan",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20929,
-        "label_opsi": "D",
-        "teks_opsi": "Rencana anggaran biaya (RAB)",
+        "teks_opsi": "switch gigabit",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20930,
+        "id_opsi": 26955,
+        "label_opsi": "B",
+        "teks_opsi": "access point 5G",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26956,
+        "label_opsi": "C",
+        "teks_opsi": "router 5G",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26957,
+        "label_opsi": "D",
+        "teks_opsi": "repeater Gigabit",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26958,
         "label_opsi": "E",
-        "teks_opsi": "Laporan keuangan",
+        "teks_opsi": "kabel UTP",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5344,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6811,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Promosi produk adalah proses menjelaskan nilai suatu produk kepada calon pelanggan dan pelanggan lama untuk mengedukasi, membangkitkan minat, dan memacu pembelian. Promosi produk yang menggunakan website disebut…",
+    "teks_soal": "pada suatu vlan, untuk menghubungkan antar vlan menggunakan metode",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -557,52 +543,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20931,
+        "id_opsi": 26959,
         "label_opsi": "A",
-        "teks_opsi": "Media elektronik",
+        "teks_opsi": "sambung vlan",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20932,
+        "id_opsi": 26960,
         "label_opsi": "B",
-        "teks_opsi": "Media internet",
+        "teks_opsi": "intervlan routing",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20933,
+        "id_opsi": 26961,
         "label_opsi": "C",
-        "teks_opsi": "Media digital",
+        "teks_opsi": "ospf",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20934,
+        "id_opsi": 26962,
         "label_opsi": "D",
-        "teks_opsi": "Media cetak",
+        "teks_opsi": "bgp",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20935,
+        "id_opsi": 26963,
         "label_opsi": "E",
-        "teks_opsi": "Media produk",
+        "teks_opsi": "next hop",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5345,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6812,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Media promosi sebagai plakat yang dicetak pada kertas yang biasanya berukuran besar, berisi pengumuman atau iklan dalam bentuk gambar ataupun tulisan dan ditempelkan di dinding maupun tembok yang berada di tempat-tempat umum adalah…",
+    "teks_soal": "crossover kabel utp berfungsi menghubungkan",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -611,52 +597,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20936,
+        "id_opsi": 26964,
         "label_opsi": "A",
-        "teks_opsi": "Pamphlet",
+        "teks_opsi": "client ke server",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20937,
+        "id_opsi": 26965,
         "label_opsi": "B",
-        "teks_opsi": "Flyer",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20938,
-        "label_opsi": "C",
-        "teks_opsi": "Banner",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20939,
-        "label_opsi": "D",
-        "teks_opsi": "Brosur",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20940,
-        "label_opsi": "E",
-        "teks_opsi": "Poster",
+        "teks_opsi": "client ke client",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 26966,
+        "label_opsi": "C",
+        "teks_opsi": "server ke client",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26967,
+        "label_opsi": "D",
+        "teks_opsi": "hub ke server",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26968,
+        "label_opsi": "E",
+        "teks_opsi": "server ke server",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5346,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6813,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Wirausaha adalah kegiatan usaha atau bisnis mandiri di mana segala sumber daya dan upaya dibebankan kepada pelaku usaha. Di bawah ini yang bukan ciri seorang wirausaha adalah…",
+    "teks_soal": "teknologi jaringan tanpa kabel disebut",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -665,52 +651,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20941,
+        "id_opsi": 26969,
         "label_opsi": "A",
-        "teks_opsi": "Orang yang menciptakan barang baru",
+        "teks_opsi": "star",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20942,
+        "id_opsi": 26970,
         "label_opsi": "B",
-        "teks_opsi": "Orang yang kreatif terhadap keseimbangan yang terjadi dipasar",
+        "teks_opsi": "bus",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20943,
+        "id_opsi": 26971,
         "label_opsi": "C",
-        "teks_opsi": "Orang yang selalu melihat peluang",
+        "teks_opsi": "mesh",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26972,
+        "label_opsi": "D",
+        "teks_opsi": "wireless",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20944,
-        "label_opsi": "D",
-        "teks_opsi": "Orang yang siap menanggung resiko",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20945,
+        "id_opsi": 26973,
         "label_opsi": "E",
-        "teks_opsi": "Orang yang selalu pesimis",
+        "teks_opsi": "point to point",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5347,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6814,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Berikut ini merupakan kebiasaan mental jelek yang dapat menghambat kreativitas wirausahaan yaitu kecuali…",
+    "teks_soal": "Agar IP lokal bisa mengakses internet kita menggunakan teknik",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -719,52 +705,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20946,
+        "id_opsi": 26974,
         "label_opsi": "A",
-        "teks_opsi": "Pemikiran kemungkinan",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20947,
-        "label_opsi": "B",
-        "teks_opsi": "Pemikiran lain",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20948,
-        "label_opsi": "C",
-        "teks_opsi": "Mencari",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20949,
-        "label_opsi": "D",
-        "teks_opsi": "Sterotype",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20950,
-        "label_opsi": "E",
-        "teks_opsi": "Percaya diri",
+        "teks_opsi": "NAT",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
+      },
+      {
+        "id_opsi": 26975,
+        "label_opsi": "B",
+        "teks_opsi": "enkapsulasi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26976,
+        "label_opsi": "C",
+        "teks_opsi": "ssl",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26977,
+        "label_opsi": "D",
+        "teks_opsi": "enkripsi",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26978,
+        "label_opsi": "E",
+        "teks_opsi": "vlan",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5348,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6815,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Kegagalan adalah konsep sosial yang tidak memenuhi tujuan yang diinginkan atau dimaksudkan, dan biasanya dipandang sebagai kebalikan dari kesuksesan. Kegagalan dan keberhasilan seseorang tidak ditentukan dari pengetahuan saja, tetapi juga ditentukan dari...",
+    "teks_soal": "pemberi ip secara otomatis adalah tanggung jawab",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -773,52 +759,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20951,
+        "id_opsi": 26979,
         "label_opsi": "A",
-        "teks_opsi": "Kemampuan motivasi diri",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20952,
-        "label_opsi": "B",
-        "teks_opsi": "Kemampuan berinovasi",
+        "teks_opsi": "dhcp server",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20953,
+        "id_opsi": 26980,
+        "label_opsi": "B",
+        "teks_opsi": "smtp server",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26981,
         "label_opsi": "C",
-        "teks_opsi": "Karakter (sikap, perilaku, dan mental) yang lebih maju",
+        "teks_opsi": "ftpserver",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20954,
+        "id_opsi": 26982,
         "label_opsi": "D",
-        "teks_opsi": "Kemampuan mengatur waktu kerja",
+        "teks_opsi": "samba",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20955,
+        "id_opsi": 26983,
         "label_opsi": "E",
-        "teks_opsi": "Kemampuan menerik sisi positif",
+        "teks_opsi": "telnet",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5349,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6816,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Setiap perusahaan yang sudah mendapatkan ijin operasional kerja harus menerapkan SMK3. Yang dimaksud dengan SMK3 adalah…",
+    "teks_soal": "Dalam konfigurasi firewall, istilah Whitelist merujuk pada",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -827,52 +813,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20956,
+        "id_opsi": 26984,
         "label_opsi": "A",
-        "teks_opsi": "Standar Manajemen Kecakapan Ketrampilan Komunikasi",
+        "teks_opsi": "Daftar alamat IP yang diblokir oleh sistem",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20957,
+        "id_opsi": 26985,
         "label_opsi": "B",
-        "teks_opsi": "Sistem Manajemen Ketrampilan Komunikasi dalam Kerja",
+        "teks_opsi": "Daftar aplikasi yang dilarang mengakses jaringan",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20958,
+        "id_opsi": 26986,
         "label_opsi": "C",
-        "teks_opsi": "Sistem Manajemen Kesehatan dan Keselamatan Kerja",
+        "teks_opsi": "Daftar pengguna yang tidak memiliki hak akses",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26987,
+        "label_opsi": "D",
+        "teks_opsi": "Daftar alamat IP atau domain yang diizinkan melewati firewall",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20959,
-        "label_opsi": "D",
-        "teks_opsi": "Sekolah Menengah Kejuruan Tiga",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20960,
+        "id_opsi": 26988,
         "label_opsi": "E",
-        "teks_opsi": "Standar Menengah Kejuruan Ketrampilan Kerja",
+        "teks_opsi": "Daftar file sistem yang diamankan",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5350,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6817,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Dalam pembuatan proposal PKK perlu diperhatikan 4 aspek berikut. Salah satu aspek yang sangat penting adalah Rancangan Produk, yang meliputi : <br>1) Alat dan bahan <br>2) Langkah kerja <br>3) Rencana anggaran <br>4) Strategi pesaing<br><br>Dari 4 pernyataan diatas yang paling tepat dalam aspek Rancangan Produk adalah .....",
+    "teks_soal": "perintah untuk melihat ip address adalah",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -881,52 +867,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20961,
+        "id_opsi": 26989,
         "label_opsi": "A",
-        "teks_opsi": "1, 3, dan 4",
+        "teks_opsi": "nslookup",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20962,
+        "id_opsi": 26990,
         "label_opsi": "B",
-        "teks_opsi": "2, 3, dan 4",
+        "teks_opsi": "tracert",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20963,
+        "id_opsi": 26991,
         "label_opsi": "C",
-        "teks_opsi": "1, 2, dan 4",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20964,
-        "label_opsi": "D",
-        "teks_opsi": "1, 2, dan 3",
+        "teks_opsi": "ipconfig",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20965,
+        "id_opsi": 26992,
+        "label_opsi": "D",
+        "teks_opsi": "ping",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26993,
         "label_opsi": "E",
-        "teks_opsi": "Semua jawaban benar",
+        "teks_opsi": "whois",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5351,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6818,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Berikut adalah jenis sumber daya dalam usaha ! <br>1) Man<br>2) Money <br>3) Material <br>4) Machine <br>5) Methode <br>6) Market<br><br>Untuk menghasilkan produk yang berkualitas dan optimal dibutuhkan sumberdaya yang professional dan ahli dibidangnya, selain itu juga harus didukung bahan dasar pilihan berkualitas, maka sumber daya yang dibutuhkan adalah ......",
+    "teks_soal": "jika suatu host mati ketika di cek maka menghasilkan informasi",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -935,52 +921,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20966,
+        "id_opsi": 26994,
         "label_opsi": "A",
-        "teks_opsi": "1 dan 2",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20967,
-        "label_opsi": "B",
-        "teks_opsi": "1 dan 3",
+        "teks_opsi": "TTL Live timeout",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20968,
+        "id_opsi": 26995,
+        "label_opsi": "B",
+        "teks_opsi": "Timeout",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 26996,
         "label_opsi": "C",
-        "teks_opsi": "2 dan 3",
+        "teks_opsi": "time to live",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20969,
+        "id_opsi": 26997,
         "label_opsi": "D",
-        "teks_opsi": "3 dan 4",
+        "teks_opsi": "unknown host",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20970,
+        "id_opsi": 26998,
         "label_opsi": "E",
-        "teks_opsi": "5 dan 6",
+        "teks_opsi": "reply",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5352,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6819,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Star up adalah perusahaan rintisan yang belum lama beroperasi, dengan kata lain perusahaan yang baru masuk atau masih berada pada fase pengembangan atau penelitian untuk terus menemukan pasar maupun mengembangkan produknya. Star up biasanya mengacu pada perusahaan-perusahaan yang layanannya atau produknya berbasis teknologi. Salah satu pelaku model usaha star up di bidang TKJ yang telah mendulang kesuksesan di Indonesia adalah...",
+    "teks_soal": "Setiap computer yang terhubung ke jaringan dapat bertindak baik sebagai workstation maupun server disebut…",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -989,52 +975,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20971,
+        "id_opsi": 26999,
         "label_opsi": "A",
-        "teks_opsi": "Paypal",
+        "teks_opsi": "peer to peer",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20972,
+        "id_opsi": 27000,
         "label_opsi": "B",
-        "teks_opsi": "Gojek",
+        "teks_opsi": "client-server",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20973,
+        "id_opsi": 27001,
         "label_opsi": "C",
-        "teks_opsi": "Quora",
+        "teks_opsi": "LAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20974,
+        "id_opsi": 27002,
         "label_opsi": "D",
-        "teks_opsi": "Uber",
+        "teks_opsi": "Bus",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20975,
+        "id_opsi": 27003,
         "label_opsi": "E",
-        "teks_opsi": "Prezi",
+        "teks_opsi": "data pending",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5353,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6820,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "PILGAN",
-    "teks_soal": "Seiring dengan perkembangan teknologi, lapangan pekerjaan pun kian berkembang. Muncul profesiprofesi Baru yang beberapa tahun kebelakang belum popular, Atau bahkan Belum ada. Salah satu contoh profesi Technopreneurship di bidang TKJ adalah Game Developer. Berikut ini merupakan pengertian dari Game developer yang tepat adalah....",
+    "teks_soal": "Jaringan yang dirancang untuk broperasi di wilayah yang sangat luas disebut",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "2.50",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -1043,52 +1029,52 @@
     "audio_konteks": null,
     "options": [
       {
-        "id_opsi": 20976,
+        "id_opsi": 27004,
         "label_opsi": "A",
-        "teks_opsi": "Seseorang yang bertugas merancang, menguji dan memperbaiki software aplikasi komputer.",
+        "teks_opsi": "LAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20977,
+        "id_opsi": 27005,
         "label_opsi": "B",
-        "teks_opsi": "Seseorang yang bertugas bagaimana membuat, merawat, dan mengembangkan beragam program komputer.",
+        "teks_opsi": "LAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       },
       {
-        "id_opsi": 20978,
+        "id_opsi": 27006,
         "label_opsi": "C",
-        "teks_opsi": "Seorang yang tugasnya sebagai pengembang software yang mempunyai keahlian pada bidang pembuatan game dan video games baik di smartphone, website maupun komputer.",
+        "teks_opsi": "MAN",
+        "gambar_opsi": null,
+        "is_jawaban_benar": 0
+      },
+      {
+        "id_opsi": 27007,
+        "label_opsi": "D",
+        "teks_opsi": "WAN",
         "gambar_opsi": null,
         "is_jawaban_benar": 1
       },
       {
-        "id_opsi": 20979,
-        "label_opsi": "D",
-        "teks_opsi": "Seseorang yang bertugas dalam menganalisis,memberikan Analisa dan rekomendasi perbaikan system, merancang, menerapkan, serta mengevaluasi system software, hardware, maupun system informasi, agar sesuai dengan kebutuhan bisnis perusahaan atau klien.",
-        "gambar_opsi": null,
-        "is_jawaban_benar": 0
-      },
-      {
-        "id_opsi": 20980,
+        "id_opsi": 27008,
         "label_opsi": "E",
-        "teks_opsi": "Seseorang yang bertugas dalam membuat dan mengelola suatu situs web.",
+        "teks_opsi": "Mesh",
         "gambar_opsi": null,
         "is_jawaban_benar": 0
       }
     ]
   },
   {
-    "id_soal": 5354,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6822,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "ESSAY",
-    "teks_soal": "Jelaskan mengapa validasi ide produk sangat penting dalam fase awal pengembangan bisnis di bidang TKJ…",
+    "teks_soal": "Jelaskan manfaat dari NAT",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "10.00",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -1097,15 +1083,15 @@
     "audio_konteks": null
   },
   {
-    "id_soal": 5355,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6823,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "ESSAY",
-    "teks_soal": "Mengapa analisis SWOT penting dilakukan sebelum memasarkan suatu produk? Jelaskan masing-masing komponen SWOT dan berikan contoh penerapannya pada produk teknologi sederhana…",
+    "teks_soal": "dalam sistem NAT ada juga PAT. Jelaskan",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "10.00",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -1114,15 +1100,15 @@
     "audio_konteks": null
   },
   {
-    "id_soal": 5356,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6824,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "ESSAY",
-    "teks_soal": "Jelaskan bagaimana sebuah produk kreatif dapat memiliki nilai tambah (value added), dan berikan contoh bagaimana siswa SMK TKJ bisa menciptakan nilai tambah pada produk teknologi yang sederhana…",
+    "teks_soal": "salah satu fungsi VLAN adalah melakukan segmentasi jaringan, jelaskan fungsi lain",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "10.00",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -1131,15 +1117,15 @@
     "audio_konteks": null
   },
   {
-    "id_soal": 5357,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 6825,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "ESSAY",
-    "teks_soal": "Apa saja faktor yang harus dipertimbangkan dalam menentukan segmentasi pasar (market segmentation) untuk sebuah produk? Berikan 3 contoh segmentasi pasar untuk produk smart device sederhana…",
+    "teks_soal": "Sebutkan perbedaan antara VLAN dengan LAN",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "10.00",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-09T11:37:43.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
@@ -1148,15 +1134,15 @@
     "audio_konteks": null
   },
   {
-    "id_soal": 5358,
-    "id_ujian": 359,
-    "id_guru_pembuat": 68,
+    "id_soal": 7852,
+    "id_ujian": 288,
+    "id_guru_pembuat": 58,
     "tipe_soal": "ESSAY",
-    "teks_soal": "Sebutkan minimal 5 masing-masing peluang usaha apa saja dalam bidang jasa dan produk yang bisa dijadikan bisnis oleh siswa lulusan TKJ….",
+    "teks_soal": "Dalam kondisi apakah kita harus memanfaatkan teknologi VLAN ini. Jelaskan detail",
     "gambar_soal": null,
     "audio_soal": null,
     "bobot_nilai": "10.00",
-    "created_at": "2026-10-06T02:38:55.000Z",
+    "created_at": "2026-10-13T13:49:34.000Z",
     "id_grup": null,
     "urutan_dalam_grup": null,
     "nama_grup": null,
